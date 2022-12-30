@@ -15,9 +15,9 @@ Adicionar o texto que está no ficheiro ***headerParaProjeto.txt*** no novo fich
 No ficheiro *index.html*, procura por "Projects:".
 Abaixo, está a lista com todos os links para todos os projetos.
 Adiciona o novo projeto com o formato
-`
+```
 <li class="list-group-item"><a href="./projects/-> NOME DO FICHEIRO<-"> -> TÍTULO DO PROJETO <- </a></li>
-`
+```
 
 entre as tags <ul></ul>
 
