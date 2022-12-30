@@ -31,7 +31,7 @@ Meter o pdf na pasta */papers*. Ir ao ficheiro *index.html* e procurar "PAPERS P
 
 Entre as tags <ul></ul> adicionar a entrada com o formato
 ```
-<li class="list-group-item link-not-blue"><a href="https://rodrigonalmeida.github.io/papers/->FICHEIRO AQUI<-">TÍTULO DO FICHEIRO AQUI</a></li>
+<li class="list-group-item"><a class="link-not-blue" href="https://rodrigonalmeida.github.io/papers/->FICHEIRO AQUI<-">TÍTULO DO FICHEIRO AQUI</a></li>
 ```
 
 ## Dar upload ao ficheiro editado *index.html*
