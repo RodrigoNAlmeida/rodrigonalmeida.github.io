@@ -53,6 +53,9 @@
                 <a id="teaching-link" class="nav-link">Teaching</a>
             </li>
             <li class="nav-item">
+                <a id="papers-link" class="nav-link">Papers</a>
+            </li>
+            <li class="nav-item">
                 <a id="contacts-link" class="nav-link">Contacts</a>
             </li>
         </ul>
@@ -157,6 +160,17 @@ Science Park 107
                         </ul>
                     </div>
                 </div>
+
+                <!-- PAPERS PAGE -->
+                <div id="papers-page" class="card d-none">
+                    <div class="card-header text-bg-dark">
+                        <h3>List of papers I've worked on:</h3>
+                    </div>
+                    
+                    <ul  class="list-group list-group-flush">
+                        <li class="list-group-item"><a class="link-not-blue" href="https://rodrigonalmeida.github.io/papers/">EXAMPLE PAPER</a></li>
+                    </ul>
+                </div>
         </main>
     </div>
 
@@ -183,26 +197,39 @@ Science Park 107
                         $("#about-page").addClass("d-none");
                         $("#teaching-page").addClass("d-none");
                         $("#contacts-page").addClass("d-none");
+                        $("#papers-page").addClass("d-none");
                         return;
                     case "about-link":
                         $("#home-page").addClass("d-none");
                         $("#about-page").removeClass("d-none");
                         $("#about-page").addClass("d-inline-block");
                         $("#teaching-page").addClass("d-none");
-                        $("#contacts-page").addClass("d-none"); return;
+                        $("#contacts-page").addClass("d-none"); 
+                        $("#papers-page").addClass("d-none");
+                        return;
                     case "contacts-link":
                         $("#home-page").addClass("d-none");
                         $("#about-page").addClass("d-none");
                         $("#teaching-page").addClass("d-none");
                         $("#contacts-page").removeClass("d-none");
-                        $("#contacts-page").addClass("d-inline-block"); return;
+                        $("#contacts-page").addClass("d-inline-block"); 
+                        $("#papers-page").addClass("d-none");
+                        return;
                     case "teaching-link":
                         $("#home-page").addClass("d-none");
                         $("#about-page").addClass("d-none");
                         $("#teaching-page").addClass("d-block");
                         $("#teaching-page").removeClass("d-none");
-                        $("#contacts-page").addClass("d-none"); return;
-
+                        $("#contacts-page").addClass("d-none"); 
+                        $("#papers-page").addClass("d-none");
+                        return;
+                    case "papers-link":
+                        $("#home-page").addClass("d-none");
+                        $("#about-page").addClass("d-none");
+                        $("#papers-page").addClass("d-block");
+                        $("#papers-page").removeClass("d-none");
+                        $("#contacts-page").addClass("d-none"); 
+                        $("#teaching-page").addClass("d-none");
                     default: return;
                 }
 
