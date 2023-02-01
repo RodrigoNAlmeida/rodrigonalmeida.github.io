@@ -35,11 +35,13 @@
             </div>
     </header>
 
-    <div id="header-background" style=" max-height:40vh; width: 100%; background-color: #ffffffd8; ">
+    <div id="header-background" style=" max-height:5vh; width: 100%; background-color: #ffffffd8; ">
         <img src="./img/Wallpaper.png" style="visibility: hidden; width: inherit; max-height: inherit; display: block;">
     </div>
 
-    <!-- NAVBAR-->
+    <!------------------------------------------------------------------------------------------------------------------------------------------------------------->
+    <!--------------------------------------------------------------------------- NAV BAR ----------------------------------------------------------------------->
+    <!------------------------------------------------------------------------------------------------------------------------------------------------------------->
     <div class="container mt-3 mb-3 fade-in-image" style="position: relative; ">
 
         <ul class="nav nav-tabs sticky-top shadow bg-light rounded">
@@ -59,9 +61,11 @@
                 <a id="contacts-link" class="nav-link">Contacts</a>
             </li>
         </ul>
+        <!------------------------------------------------------------------------------------------------------------------------------------------------------------->
+        <!--------------------------------------------------------------------------- MAIN BODY ----------------------------------------------------------------------->
+        <!------------------------------------------------------------------------------------------------------------------------------------------------------------->
 
         <main class=" align-items-center w-100 mt-1 p-3 bg-light shadow fade-in-image">
-            <!-- MAIN BODY -->
 
             <!-- DIFFERENT PAGES-->
             <div class="container m-3 p-5 align-items-center">
@@ -71,8 +75,10 @@
                     <img src="./img/Profile.jpeg" class="border w-50 shadow-sm" alt="Profile Picture">
                     <div class="text-center mt-5">
                         <h1 class="text-center display-1"><b>Welcome!</b></h1>
-                        <p class="mt-5"> My name is Rodrigo Nicolau Almeida and this is my webpage dedicated to
-                            research and academics.</p>
+                        <div class="mt-5">
+                            <p style="margin-left: 20%;margin-right: 20%; font-size: 18px">My name is Rodrigo Nicolau Almeida and this is my webpage dedicated to
+                                research and academics.</p>
+                        </div>
                     </div>
                 </div>
 
@@ -109,7 +115,7 @@
                 </div>
 
                 <!-- CONTACTS PAGE -->
-                <div id="contacts-page" class="d-none">
+                <div id="contacts-page" class="d-none" style="word-break:break-all;">
                     <address>
                         <h3>Address:</h3>
                         <!-- THIS NEEDS TO NOT BE INDENTED DUE TO THE PRE TAG-->
@@ -162,7 +168,7 @@ Science Park 107
                 </div>
 
                 <!-- PAPERS PAGE -->
-                <div id="papers-page" class="card d-none">
+                <div id="papers-page" class="d-none">
                     <div class="card">
                         <div class="card-header text-bg-dark">
                             <h3>Submitted Articles:</h3>
@@ -228,7 +234,7 @@ Science Park 107
                         $("#about-page").addClass("d-none");
                         $("#teaching-page").addClass("d-none");
                         $("#contacts-page").removeClass("d-none");
-                        $("#contacts-page").addClass("d-inline-block");
+                        $("#contacts-page").addClass("d-block");
                         $("#papers-page").addClass("d-none");
                         return;
                     case "teaching-link":
