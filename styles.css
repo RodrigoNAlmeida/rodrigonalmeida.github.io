@@ -18,6 +18,11 @@ p {
     overflow-wrap: anywhere;
 }
 
+h1{
+    border-bottom: 2px solid black;
+    text-align: center;
+}
+
 a:hover {
     font-weight: bold;
 }
@@ -48,9 +53,62 @@ a:hover {
     margin-left: auto;
 }
 
+/*CUSTOM IDS */
+
+#outer-container{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#inner-container{
+    padding: 3rem !important;
+}
+
+#bottom-divider{
+     display: block; 
+     height: 75px; 
+}
+
+@media (max-width: 775px) {
+    #home-page {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    #inner-container{
+        padding: 0;
+    }
+
+    #outer-container{
+        width: 90% !important;
+    }
+}
+
+@media (max-height: 900px){
+    footer{
+        transform: translateY(36px);
+        transition: transform 0.5s, opacity 0.5s;
+    }
+
+    footer:hover {
+        transform: translateY(0px);
+    }
+}
+
+
+
 /*CUSTOM CLASSES*/
 .mt-5 {
     margin-top: 5rem !important;
+}
+
+.card a{
+    color: black;
+}
+
+.card:hover{
+    border: 2px solid darkslateblue;
 }
 
 
@@ -62,12 +120,35 @@ a:hover {
     -ms-animation: fadeIn 1s;
 }
 
-.link-not-blue {
-    color: black;
+.slide-down {
+    animation: slideDown 0.5s;
+}
+
+.slide-right{
+    animation: slideRight 1.5s;
 }
 
 
+
 /*ANIMATIONS */
+
+@keyframes slideDown{
+    0%{
+        transform: translateY(-100px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
+
+@keyframes slideRight{
+    0%{
+        transform: translateX(-100px);
+    }
+    100%{
+        transform: translateX(0px);
+    }
+}
 
 @keyframes fadeIn {
     0% {
@@ -76,52 +157,5 @@ a:hover {
 
     100% {
         opacity: 1;
-    }
-}
-
-@-moz-keyframes fadeIn {
-    0% {
-        opacity: 0;
-    }
-
-    100% {
-        opacity: 1;
-    }
-}
-
-@-webkit-keyframes fadeIn {
-    0% {
-        opacity: 0;
-    }
-
-    100% {
-        opacity: 1;
-    }
-}
-
-@-o-keyframes fadeIn {
-    0% {
-        opacity: 0;
-    }
-
-    100% {
-        opacity: 1;
-    }
-}
-
-@-ms-keyframes fadeIn {
-    0% {
-        opacity: 0;
-    }
-
-    100% {
-        opacity: 1;
-    }
-}
-
-@media (max-width: 775px) {
-    #home-page {
-        flex-wrap: wrap;
-        justify-content: space-evenly;
     }
 }
