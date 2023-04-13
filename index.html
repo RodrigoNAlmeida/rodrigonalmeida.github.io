@@ -28,7 +28,7 @@
 
 <body>
     <header class="p-3 text-bg-dark">
-        <div class="container">
+        <div class="container slide-right">
             <div class="align-items-center justify-content-center justify-content-lg-start">
                 <h3><b>Rodrigo Nicolau Almeida</b></h3>
 
@@ -42,7 +42,7 @@
     <!------------------------------------------------------------------------------------------------------------------------------------------------------------->
     <!--------------------------------------------------------------------------- NAV BAR ----------------------------------------------------------------------->
     <!------------------------------------------------------------------------------------------------------------------------------------------------------------->
-    <div class="container mt-3 mb-3 fade-in-image" style="position: relative; ">
+    <div id="outer-container" class="mt-3 mb-3 fade-in-image" style="position: relative; ">
 
         <ul class="nav nav-tabs sticky-top shadow bg-light rounded">
             <li class="nav-item">
@@ -65,25 +65,23 @@
         <!--------------------------------------------------------------------------- MAIN BODY ----------------------------------------------------------------------->
         <!------------------------------------------------------------------------------------------------------------------------------------------------------------->
 
-        <main class=" align-items-center w-100 mt-1 p-3 bg-light shadow fade-in-image">
+        <main id="inner-container" class="align-items-center w-100 mt-1 p-3 bg-light shadow slide-down">
 
-            <!-- DIFFERENT PAGES-->
-            <div class="container m-3 p-5 align-items-center">
-
+            
                 <!-- HOME PAGE -->
-                <div id="home-page" class="d-flex">
-                    <img src="./img/Profile.jpeg" class="border w-50 shadow-sm" alt="Profile Picture">
-                    <div class="text-center mt-5">
+                <div id="home-page" class="d-flex p-3 slide-down">
+                    <img src="./img/Profile.jpeg" class="border d-inline w-100 shadow-sm" alt="Profile Picture">
+                    <div style="width: 5rem !important;"> </div>
+                    <div class="p-3">
                         <h1 class="text-center display-1"><b>Welcome!</b></h1>
-                        <div class="mt-5">
-                            <p style="margin-left: 20%;margin-right: 20%; font-size: 18px">My name is Rodrigo Nicolau Almeida and this is my webpage dedicated to
+                        <p style="text-align: center; font-size: 18px">My name is Rodrigo Nicolau Almeida and this is my webpage dedicated to
                                 research and academics.</p>
-                        </div>
+                        
                     </div>
                 </div>
 
                 <!-- ABOUT PAGE -->
-                <div id="about-page" class="d-none">
+                <div id="about-page" class="d-none slide-down">
                     <p>I am a PhD student at the <a href="https://www.illc.uva.nl/" class="link-dark">Institute for
                             Logic, Language and
                             Computation of the University of Amsterdam </a>, working under the supervision of <a
@@ -115,7 +113,7 @@
                 </div>
 
                 <!-- CONTACTS PAGE -->
-                <div id="contacts-page" class="d-none" style="word-break:break-all;">
+                <div id="contacts-page" class="d-none slide-down" style="word-break:break-all;">
                     <address>
                         <h3>Address:</h3>
                         <!-- THIS NEEDS TO NOT BE INDENTED DUE TO THE PRE TAG-->
@@ -143,7 +141,7 @@ Science Park 107
                 </div>
 
                 <!-- TEACHING PAGE -->
-                <div id="teaching-page" class="d-none">
+                <div id="teaching-page" class="d-none slide-down">
                     <div class="card">
                         <div class="card-header text-bg-dark">
                             <h2>Teaching:</h2>
@@ -170,14 +168,14 @@ Science Park 107
                 </div>
 
                 <!-- PAPERS PAGE -->
-                <div id="papers-page" class="d-none">
+                <div id="papers-page" class="d-none slide-down">
                     <div class="card">
                         <div class="card-header text-bg-dark">
                             <h3>Submitted Articles:</h3>
                         </div>
 
                         <ul class="list-group list-group-flush">
-                            <li class="list-group-item"><a class="link-not-blue"
+                            <li class="list-group-item"><a
                                     href="https://arxiv.org/abs/2212.14663">Polyatomic Logic and Generalized Blok-Esakia
                                     Theory</a></li>
                         </ul>
@@ -188,7 +186,7 @@ Science Park 107
                             <h3>Seminar Presentations:</h3>
                         </div>
                         <ul class="list-group list-group-flush">
-                            <li class="list-group-item"><a class="link-not-blue"
+                            <li class="list-group-item"><a
                                     href="https://rodrigonalmeida.github.io/papers/Infinitary_Completeness_Theorems__Representation_and_Intuitionistic_Logic.pdf">Infinitary
                                     Completeness Theorems and Rasiowa-Sikorski Lemmas</a></li>
 							<li class="list-group-item"><a class="link-not-blue"
@@ -197,14 +195,15 @@ Science Park 107
                         </ul>
                     </div>
                 </div>
-            </div>
         </main>
+        <div id="bottom-divider" class="text-bg-dark">
+        </div>
     </div>
 
 
     <!-- FOOTER -->
     <footer class="footer border-top border-dark py-3 bg-light">
-        <div class="container">
+        <div id="footer-content" class="container">
             <span class="text-muted"> &copy; 2022</span>
         </div>
     </footer>
