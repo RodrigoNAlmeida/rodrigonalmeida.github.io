@@ -72,8 +72,9 @@ a:hover {
 
 @media (max-width: 775px) {
     #home-page {
-        flex-wrap: wrap;
         justify-content: center;
+        align-items: center;
+        flex-direction: column;
     }
 
     #inner-container{
