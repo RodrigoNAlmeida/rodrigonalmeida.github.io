@@ -58,6 +58,9 @@
                 <a id="papers-link" class="nav-link">Research</a>
             </li>
             <li class="nav-item">
+                <a id="hobbies-link" class="nav-link">Hobbies</a>
+            </li>
+            <li class="nav-item">
                 <a id="contacts-link" class="nav-link">Contacts</a>
             </li>
         </ul>
@@ -256,6 +259,43 @@ Science Park 107
 	                   </ul>
                     </div>
                 </div>
+
+                <!-- HOBBIES PAGE -->
+                <div id="hobbies-page" class="d-none slide-down">
+                    <div class="card">
+                        <div class="card-header text-white" style="background-color: rgb(142 167 205);">
+                            <h3>Sports:</h3>
+                        </div>
+						<ul class="list-group list-group-flush">
+                            <li class="list-group-item"> Running </li>
+                        </ul>
+					
+                    </div>
+
+                    <br>  
+
+                    <div class="card">
+                        <div class="card-header text-white" style="background-color: rgb(172 227 202);">
+                            <h3>Creative Writing:</h3>
+                        </div>
+						<ul class="list-group list-group-flush">
+                            <li class="list-group-item"> Poetry </li>
+                        </ul>
+						
+                    </div>
+
+                    <br>  
+
+                    <div class="card">
+                        <div class="card-header text-white" style="background-color: rgb(216 182 211);">
+                            <h3>Culture:</h3>
+                        </div>
+						<ul class="list-group list-group-flush">
+                            <li class="list-group-item"> Book </li>
+                        </ul>
+						
+                    </div>
+                </div>
         </main>
         <div id="bottom-divider" class="text-bg-dark">
         </div>
@@ -273,55 +313,33 @@ Science Park 107
 
     <script>
         $(document).ready(function () {
+            const pageDisplayMap = {
+                home: "d-flex",
+                about: "d-inline-block",
+                teaching: "d-block",
+                contacts: "d-block",
+                papers: "d-block",
+                hobbies: "d-block"
+            };
+
             $('.nav-link').click(function () {
+                const selectedPage = $(this).attr("id").replace("-link", "");
+
                 $('.nav-link').removeClass("active");
                 $(this).addClass("active");
 
-                switch ($(this).attr("id")) {
-                    case "home-link":
-                        $("#home-page").removeClass("d-none");
-                        $("#home-page").addClass("d-flex");
-                        $("#about-page").addClass("d-none");
-                        $("#teaching-page").addClass("d-none");
-                        $("#contacts-page").addClass("d-none");
-                        $("#papers-page").addClass("d-none");
-                        return;
-                    case "about-link":
-                        $("#home-page").addClass("d-none");
-                        $("#about-page").removeClass("d-none");
-                        $("#about-page").addClass("d-inline-block");
-                        $("#teaching-page").addClass("d-none");
-                        $("#contacts-page").addClass("d-none");
-                        $("#papers-page").addClass("d-none");
-                        return;
-                    case "contacts-link":
-                        $("#home-page").addClass("d-none");
-                        $("#about-page").addClass("d-none");
-                        $("#teaching-page").addClass("d-none");
-                        $("#contacts-page").removeClass("d-none");
-                        $("#contacts-page").addClass("d-block");
-                        $("#papers-page").addClass("d-none");
-                        return;
-                    case "teaching-link":
-                        $("#home-page").addClass("d-none");
-                        $("#about-page").addClass("d-none");
-                        $("#teaching-page").addClass("d-block");
-                        $("#teaching-page").removeClass("d-none");
-                        $("#contacts-page").addClass("d-none");
-                        $("#papers-page").addClass("d-none");
-                        return;
-                    case "papers-link":
-                        $("#home-page").addClass("d-none");
-                        $("#about-page").addClass("d-none");
-                        $("#papers-page").addClass("d-block");
-                        $("#papers-page").removeClass("d-none");
-                        $("#contacts-page").addClass("d-none");
-                        $("#teaching-page").addClass("d-none");
-                    default: return;
-                }
-
+                Object.keys(pageDisplayMap).forEach(page => {
+                    const displayClass = pageDisplayMap[page];
+                    if (page === selectedPage) {
+                        $(`#${page}-page`).removeClass("d-none").addClass(displayClass);
+                    } else {
+                        $(`#${page}-page`).removeClass("d-flex d-inline-block d-block").addClass("d-none");
+                    }
+                });
             });
         });
+
+
 
     </script>
 
