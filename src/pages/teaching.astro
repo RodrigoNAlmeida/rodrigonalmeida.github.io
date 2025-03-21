@@ -1,0 +1,36 @@
+---
+import Layout from "@/layouts/Layout.astro";
+
+import {
+  teaching,
+  thesis_supervision,
+  notes
+} from "@/data/cv";
+
+import CardList from "@/components/ui/CardList.astro";
+import TeachingList from "@/components/ui/TeachingList.astro";
+import ThesisList from "@/components/ui/ThesisList.astro";
+---
+
+<Layout title="Hobbies | Rodrigo Nicolau Almeida">
+  <div class="prose max-w-none space-y-9">
+    <h1 class="text-3xl font-bold mb-8">Teaching</h1>
+    <p class='mt-4'></p>I am a member of the <a class="hover:text-accent font-semibold" href ="https://phdprogramme.illc.uva.nl/people/Committees/PhD-Council/"> ILLC PhD Council </a>. For PhD council matters please contact me <a class="hover:text-accent font-semibold" href = "phdcouncil-illc@uva.nl"> here </a>.</p>
+
+    {
+        teaching.length > 0 &&
+        <TeachingList listTitle="Teaching" listItems={teaching} ></TeachingList>
+    }
+
+    {
+        thesis_supervision.length > 0 &&
+        <ThesisList listTitle="Thesis Supervision" listItems={thesis_supervision} ></TeachingList>
+    }
+
+    {
+        notes.length > 0  && 
+        <CardList listTitle="Lecture Notes & Documents" listItems={notes}></CardList>
+    }
+    
+  </div>
+</Layout>

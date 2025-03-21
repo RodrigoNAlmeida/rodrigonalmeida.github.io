@@ -1,0 +1,29 @@
+---
+interface Props {
+    listTitle: string;
+    listItems: {
+        title: string;
+        link: string;
+    }[];
+}
+const { listTitle, listItems } = Astro.props;
+---
+
+<div
+    class="card border border-gray-200 rounded-lg bg-base-200"
+>
+    <div class="p-4 flex items-center justify-between">
+        <h1 class="text-3xl font-bold">{listTitle}</h1>
+    </div>
+    <div class="flow-root bg-white">
+        {
+            listItems.map((item) => (
+                <ul class="text-base-content border p-2 m-0">
+                    <a href={item.link} class="hover:text-accent">
+                        <h3 class="text-xl font-semibold hover:text-accent">{item.title}</h3>
+                    </a>
+                </ul>
+            ))
+        }
+    </div>
+</div>

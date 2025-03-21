@@ -1,0 +1,29 @@
+---
+import { type News } from "@/types/cv.tsx";
+import { template } from "@/settings";
+
+interface Props {
+    listTitle: string;
+    listItems: News[];
+}
+const { listTitle, listItems } = Astro.props;
+const shortList = listItems.slice(0, 3).reverse();
+---
+
+<h2 class="text-3xl font-bold mb-8">{listTitle}</h2>
+<div class="space-y-4">
+    {
+        shortList.map((item) => (
+            <div class="p-3 text-base-content bg-base-100 border">
+                <p class="font-semibold mb-2">{item.time}</p>
+                <p>{item.content}</p>
+            </div>
+        ))
+    }
+    <p class="text-right">
+        <a
+            href=`${template.base}/news`
+            class="text-lg text-accent font-semibold hover:font-bold"
+            >...see All News</a>
+    </p>
+</div>

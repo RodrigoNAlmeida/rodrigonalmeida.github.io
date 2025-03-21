@@ -1,0 +1,34 @@
+---
+import { Image } from 'astro:assets'
+
+import SocialIcons from './SocialIcons.astro'
+
+
+const {fullName, title, institute, profilePicture} = Astro.props
+---
+<div class='flex-1'>
+  <h1 class='text-4xl font-bold mb-4'>
+    <span class='text-secondary'>{fullName}</span>
+  </h1>
+  <p class='text-xl text-gray-600 mb-4'>{title}{institute ? ` at ${institute}` : ''}</p>
+  <p class="text-lg mb-6">I am a PhD student at the <a href="https://www.illc.uva.nl/" class="font-semibold hover:text-accent">Institute for
+    Logic, Language and
+    Computation of the University of Amsterdam </a>, working under the supervision of <a
+    href="https://staff.fnwi.uva.nl/n.bezhanishvili/" class="font-semibold hover:text-accent">Nick
+    Bezhanishvili</a> and <a href="https://rmi.tsu.ge/~jib/" class="font-semibold hover:text-accent"> Mamuka Jibladze </a>. Before that I completed my <a
+    href="https://eprints.illc.uva.nl/id/eprint/2219/1/MoL-2022-19.text.pdf"
+    class="font-semibold hover:text-accent">
+    masters thesis</a> under the supervision of Nick and <a href="https://moraschini.github.io/" class="font-semibold hover:text-accent"> Tommaso Moraschini</a>. </p>
+
+  <div class='flex gap-4'>
+    <SocialIcons />
+  </div>
+</div>
+<div class='size-72 lg:block hidden'>
+  <!-- Add your profile image -->
+  <Image
+    src={profilePicture}
+    alt={fullName}
+    class='object-scale-down'
+  />
+</div>

@@ -1,0 +1,24 @@
+---
+import { profile } from '../../settings'
+
+const { fullName } = profile
+---
+
+<footer class='footer footer-center bg-base-100 text-base-content px-4 py-8 grid'>
+	<aside class="grid-cols-2">
+		<p>
+			Copyright © {new Date().getFullYear()} - All right reserved by {fullName} <br>
+			Built with <a
+			href='https://github.com/maiobarbero/astro_academia'
+			class='font-bold'
+			target='_blank'>Astro Academia</a
+		> 🎓
+		</p>
+		<p>
+			<b>Contact:</b> Institute for Logic, Language and Computation
+University of Amsterdam
+Science Park 107
+1098 XG Amsterdam
+		</p>
+	</aside>
+</footer>

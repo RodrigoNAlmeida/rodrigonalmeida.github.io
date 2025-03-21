@@ -1,0 +1,20 @@
+---
+import Layout from "@/layouts/Layout.astro";
+import { news } from "@/data/news";
+
+const orderedList = news.reverse()
+---
+
+<Layout title="News | Rodrigo Nicolau Almeida">
+    <div class="max-w-none space-y-2">
+        <h1 class="text-3xl font-bold mb-8">News</h1>
+        {
+            orderedList.map((item) => (
+                <div class="p-2 text-base-content bg-base-100 border">
+                    <p>{item.time}</p>
+                    <p><i>{item.content}</i></p>
+                </div>
+            ))
+        }
+    </div>
+</Layout>

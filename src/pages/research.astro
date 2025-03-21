@@ -1,0 +1,148 @@
+---
+import Layout from "@/layouts/Layout.astro";
+import { profile } from "@/settings";
+import BetterIcon from "@/components/ui/BetterIcon.astro";
+import List from "@/components/ui/List.astro";
+import { RESEARCH_ICONS } from "@/data/researchIcons";
+
+import {
+  publications,
+  accepted_articles,
+  submitted_articles,
+  seminars,
+} from "@/data/cv";
+import { highlightAuthor } from "@/lib/utils";
+import { template } from "@/settings";
+import PaperCard from "@/components/ui/PaperCard.astro";
+import CardList from "@/components/ui/CardList.astro";
+
+const ALL_PAPERS = publications; // This will be replaced with dynamic data later
+
+const { research_areas } = profile;
+---
+
+<Layout title="Research | Rodrigo Nicolau Almeida">
+  <div class="prose max-w-none">
+    <h1 class="text-3xl font-bold mb-8">Research Statement</h1>
+
+    <div class="mb-12">
+      <p class="text-lg mb-6">
+        My current research focuses broadly on Heyting algebras and closely
+        related structures. In them I am particularly interested in the study of
+        technical questions on the structure of the category of Heyting
+        algebras, such as providing descriptions of ordered compactifications of
+        ordered topological spaces, or describing free objects in these and
+        associated categories; and properties of classes of Heyting algebras,
+        such as the study of lattices of varieties and quasivarieties, the
+        distribution of properties like structural completeness, interpolation
+        or tabularity; as well as the study non-standard rules, such as
+        Pi-2-rules, in their universal-algebraic aspects and their computational
+        properties; .
+      </p>
+
+      <p class="text-lg mb-6">
+        I am broadly interested in universal algebra, model theory and category
+        theory, and especially their interaction.
+      </p>
+
+      <p class="text-lg mb-6">
+        In a previous academic life I was a researcher in sociology of culture.
+        I worked on policy analysis and briefly on agent-based modelling. You
+        can find most of my work related to that in this <a
+          href="https://ciencia.iscte-iul.pt/authors/rodrigo-nicolau-almeida/cv"
+          class="link-dark">link</a
+        >.
+      </p>
+    </div>
+
+    {
+      research_areas.length > 0 && (
+        <h2 class="text-2xl font-bold mb-6">Research Areas</h2>
+      )
+    }
+    <div class="grid gap-8 mb-12">
+      {
+        research_areas.map((area) => (
+          <div class="flex gap-6 items-start">
+            <BetterIcon>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke-width="2"
+                class="size-6 stroke-accent"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d={
+                    RESEARCH_ICONS[area.field as keyof typeof RESEARCH_ICONS]
+                      ?.path || RESEARCH_ICONS["computer-science"].path
+                  }
+                />
+              </svg>
+            </BetterIcon>
+            <div>
+              <h3 class="text-xl font-semibold mb-2">{area.title}</h3>
+              <p class="text-base">{area.description}</p>
+            </div>
+          </div>
+        ))
+      }
+    </div>
+
+    <h1 class="text-3xl font-bold mb-8">Published Articles</h1>
+
+    <div class="space-y-8 mb-8">
+      {
+        ALL_PAPERS.map((paper) => (
+          <PaperCard
+            title={paper.title}
+            authors={paper.authors}
+            link={paper.link}
+            journal={paper.journal}
+            abstract={paper.abstract}
+            time={paper.time}
+          />
+        ))
+      }
+    </div>
+
+    <h1 class="text-3xl font-bold mb-8">Accepted Articles</h1>
+
+    <div class="space-y-8 mb-8">
+      {
+        accepted_articles.map((paper) => (
+          <PaperCard
+            title={paper.title}
+            authors={paper.authors}
+            link={paper.link}
+            journal={paper.journal}
+            abstract={paper.abstract}
+            time={paper.time}
+          />
+        ))
+      }
+    </div>
+
+    <h1 class="text-3xl font-bold mb-8">Submitted Articles</h1>
+
+    <div class="space-y-8 mb-8">
+      {
+        submitted_articles.map((paper) => (
+          <PaperCard
+            title={paper.title}
+            authors={paper.authors}
+            link={paper.link}
+            journal={paper.journal}
+            abstract={paper.abstract}
+            time={paper.time}
+          />
+        ))
+      }
+    </div>
+
+    <CardList listTitle="Seminar Presentations" listItems={seminars}></CardList>
+    
+  </div>
+</Layout>

@@ -1,0 +1,52 @@
+---
+import { Image } from 'astro:assets'
+import {profile} from '../../settings'
+import SocialIcons from './SocialIcons.astro'
+import ProfilePictures from '@/assets/Profile.jpg'
+import { getCollection } from 'astro:content'
+import { template } from '@/settings'
+
+const isBlogPopulated = await getCollection('blog').then(collection => collection.length > 0)
+
+const {fullName} = profile
+---
+<aside
+	class='px-4 pt-4 h-screen w-[20rem] bg-base-200 text-base-content flex flex-col'
+>
+	<div class='flex flex-col my-8 justify-between h-full'>
+		<div>
+			<div class='flex justify-center items-center flex-col'>
+				<Image
+					class='size-44 object-scale-down'
+					src={ProfilePictures}
+					alt={`Profile picture of ${fullName}`}
+				/>
+				<h1 class="text-lg font-black mt-8 hidden lg:block"><span>{fullName}</span></h1>
+			</div>
+			<div class='mx-4 mt-16'>
+				<ul class='space-y-4 menu grow shrink menu-md overflow-y-auto'>
+					<li>
+                        <a href=`${template.base}/` class='text-lg'>Home</a>
+					</li>
+					<li>
+                        <a href=`${template.base}/teaching` class='text-lg'>Teaching</a>
+					</li>
+					<li>
+                        <a href=`${template.base}/research` class='text-lg'>Research</a>
+					</li>
+					{isBlogPopulated &&
+						<li>
+							<a href=`${template.base}/blog/1` class='text-lg'>Projects</a>
+	</li>
+						}
+					<li>
+                        <a href=`${template.base}/hobbies` class='text-lg'>Hobbies</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class='mx-4'>
+			<SocialIcons/>
+		</div>
+	</div>
+</aside>

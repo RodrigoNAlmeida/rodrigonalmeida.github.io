@@ -1,0 +1,38 @@
+---
+interface Props {
+    title: string;
+    authors: string;
+    journal: string;
+    time: string;
+    link: string;
+    abstract: string;
+}
+
+import { highlightAuthor } from "@/lib/utils";
+import {template} from "@/settings";
+
+const {title, authors, journal, time, link, abstract} = Astro.props
+---
+
+<div class="card bg-base-200">
+    <div class="card-body">
+      <h2 class="card-title text-xl">
+        <a href={template.base + link} class="hover:text-accent">
+          {title}
+        </a>
+      </h2>
+      <p class="text-base mb-2">
+        <span class="font-medium">Authors:</span>{" "}
+        <span set:html={highlightAuthor(authors)} />
+      </p>
+      <p class="text-sm mb-3">
+        <span class="italic">{journal}</span> • {time}
+      </p>
+      <p class="text-sm text-base-content/80">{abstract}</p>
+      <div class="card-actions justify-end mt-4">
+        <a href={link} class="btn btn-sm btn-secondary text-secondary-content">
+          Read Paper
+        </a>
+      </div>
+    </div>
+  </div>
