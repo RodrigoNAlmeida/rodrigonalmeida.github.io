@@ -69,7 +69,7 @@ export const accepted_articles = [
 		abstract: "We develop a method to recognize admissibility of Π2-rules, relating this problem to a specific instance of the unification problem with linear constants restriction, called here unification with simple variable restriction. It is shown that for logical systems enjoying an appropriate algebraic semantics and a finite approximation of left uniform interpolation, this unification with simple variable restriction can be reduced to standard unification. As a corollary, we obtain the decidability of admissibility of Π2-rules for many logical systems.",
 		time: "Accepted at AIML 2024 Proceedings",
 		journal: " ",
-		link: "https://github.com/RodrigoNAlmeida/rodrigonalmeida.github.io/tree/main/papers/Unification_with_Simple_Variable_Restrictions_and_Admissibility_of__2.pdf"
+		link: "https://github.com/RodrigoNAlmeida/rodrigonalmeida.github.io/papers/papers/Unification_with_Simple_Variable_Restrictions_and_Admissibility_of__2.pdf"
 	},
 	{
 		title: "A Coalgebraic Semantics for Intuitionistic Modal Logic",
