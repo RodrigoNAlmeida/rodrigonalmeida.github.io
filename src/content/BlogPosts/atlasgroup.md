@@ -1,6 +1,6 @@
 ---
 title: "ATLAS Group"
-date: "2023-02-06"
+date: "2024-02-06"
 tags: ["Seminars and Reading Groups"]
 excerpt: "Algebra, Topology and Logic Advances."
 ---
