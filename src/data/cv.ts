@@ -187,14 +187,14 @@ export const notes = [
 
 {
 title: "Introduction to Topology in and Via Logic",
-link: "https://github.com/RodrigoNAlmeida/rodrigonalmeida.github.io/tree/main/papers/papers/Introduction_to_Topology_in_and_via_Logic.pdf"
+link: "https://github.com/RodrigoNAlmeida/rodrigonalmeida.github.io/tree/main/papers/papers/Introduction_to_Topology_in_and_via_Logic.pdf",
 collaboration: "(with Amity Aharoni and Soeren Knudstorp)",
 time: "2024"
-}
+},
 
 {
 title: "Mathematical Structures in Logic",
-link: "https://github.com/RodrigoNAlmeida/rodrigonalmeida.github.io/tree/main/papers/papers/Mathematical_Structures_in_Logic.pdf"
+link: "https://github.com/RodrigoNAlmeida/rodrigonalmeida.github.io/tree/main/papers/papers/Mathematical_Structures_in_Logic.pdf",
  collaboration: "(with Nick Bezhanishvili)",
  time: "2025"
 }

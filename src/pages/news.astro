@@ -1,8 +1,12 @@
 ---
 import Layout from "@/layouts/Layout.astro";
 import { news } from "@/data/news";
+import { marked } from 'marked';
 
 const orderedList = news.reverse()
+const renderMarkdown = (content: string) => {
+    return marked.parse(content);
+};
 ---
 
 <Layout title="News | Rodrigo Nicolau Almeida">
@@ -12,7 +16,7 @@ const orderedList = news.reverse()
             orderedList.map((item) => (
                 <div class="p-2 text-base-content bg-base-100 border">
                     <p>{item.time}</p>
-                    <p><i>{item.content}</i></p>
+                    <i><Fragment set:html={renderMarkdown(item.content)} /></i>
                 </div>
             ))
         }
