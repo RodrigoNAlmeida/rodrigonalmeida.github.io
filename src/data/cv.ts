@@ -69,7 +69,7 @@ export const accepted_articles = [
 		abstract: "We develop a method to recognize admissibility of Π2-rules, relating this problem to a specific instance of the unification problem with linear constants restriction, called here unification with simple variable restriction. It is shown that for logical systems enjoying an appropriate algebraic semantics and a finite approximation of left uniform interpolation, this unification with simple variable restriction can be reduced to standard unification. As a corollary, we obtain the decidability of admissibility of Π2-rules for many logical systems.",
 		time: "Accepted at AIML 2024 Proceedings",
 		journal: " ",
-		link: "https://github.com/RodrigoNAlmeida/rodrigonalmeida.github.io/papers/papers/Unification_with_Simple_Variable_Restrictions_and_Admissibility_of__2.pdf"
+		link: "https://github.com/RodrigoNAlmeida/rodrigonalmeida.github.io/tree/main/papers/papers/Unification_with_Simple_Variable_Restrictions_and_Admissibility_of__2.pdf"
 	},
 	{
 		title: "A Coalgebraic Semantics for Intuitionistic Modal Logic",
@@ -77,7 +77,7 @@ export const accepted_articles = [
 		abstract: "We give a new coalgebraic semantics for intuitionistic modal logic. In particular, we provide a coalgebraic representation of intuitionistic descriptive modal frames and of intuitonistic modal Kripke frames based on image-finite posets.",
 		time: "Accepted at AIML 2024 Proceedings",
 		journal: " ",
-		link: "https://github.com/RodrigoNAlmeida/rodrigonalmeida.github.io/tree/main/papers/A_Coalgebraic_Semantics_for_Intuitionistic_Modal_Logic.pdf"
+		link: "https://github.com/RodrigoNAlmeida/rodrigonalmeida.github.io/tree/main/papers/papers/A_Coalgebraic_Semantics_for_Intuitionistic_Modal_Logic.pdf"
 	}
 ]
 
@@ -103,35 +103,35 @@ export const submitted_articles = [
 export const seminars = [
 	{
 		title: "LLAMA (06/11/2024) Colimits and Free Constructions of Heyting Algebras Through Esakia Duality",
-		link: "https://github.com/RodrigoNAlmeida/rodrigonalmeida.github.io/tree/main/papers/LLAMA___Colimits_and_Free_Constructions_of_Heyting_Algebras.pdf"
+		link: "https://github.com/RodrigoNAlmeida/rodrigonalmeida.github.io/tree/main/papers/slides/LLAMA___Colimits_and_Free_Constructions_of_Heyting_Algebras.pdf"
 	},
 	{
 		title: "AIML (19/08/2024) Coalgebraic Semantics for Intuitionistic Modal Logic",
-		link: "https://github.com/RodrigoNAlmeida/rodrigonalmeida.github.io/tree/main/papers/AIML___Coalgebraic_Semantics_for_Intuitionistic_Modal_Logic.pdf"
+		link: "https://github.com/RodrigoNAlmeida/rodrigonalmeida.github.io/tree/main/papers/slides/AIML___Coalgebraic_Semantics_for_Intuitionistic_Modal_Logic.pdf"
 	},
 	{
 		title: "AIML (19/08/2024) Unification with Simple Variable Restrictions and Admissibility of Pi2 Rules",
-		link: "https://github.com/RodrigoNAlmeida/rodrigonalmeida.github.io/tree/main/papers/AIML___Unification_with_Simple_Variable_Restrictions_and_Admissibility_of___Pi2_rules.pdf"
+		link: "https://github.com/RodrigoNAlmeida/rodrigonalmeida.github.io/tree/main/papers/slides/AIML___Unification_with_Simple_Variable_Restrictions_and_Admissibility_of___Pi2_rules.pdf"
 	},
 	{
 		title: "TACL (04/07/2024) Colimits of Heyting Algebras Through Esakia Duality",
-		link: "https://github.com/RodrigoNAlmeida/rodrigonalmeida.github.io/tree/main/papers/TACL___Colimits_of_Heyting_Algebras_Through_Esakia_Duality.pdf"
+		link: "https://github.com/RodrigoNAlmeida/rodrigonalmeida.github.io/tree/main/papers/slides/TACL___Colimits_of_Heyting_Algebras_Through_Esakia_Duality.pdf"
 	},
 	{
 		title: "LATD (11/12/2023) Inductive Rule Classes of Goedel Algebras",
-		link: "https://github.com/RodrigoNAlmeida/rodrigonalmeida.github.io/tree/main/papers/LATD___Inductive_Rule_Classes_of_Godel_Algebras.pdf"
+		link: "https://github.com/RodrigoNAlmeida/rodrigonalmeida.github.io/tree/main/papers/slides/LATD___Inductive_Rule_Classes_of_Godel_Algebras.pdf"
 	},
 	{
 		title: "LLAMA (13/04/23) Goldblatt-Translation Revisited",
-		link: "https://github.com/RodrigoNAlmeida/rodrigonalmeida.github.io/tree/main/papers/LLAMA_Presentation___Goldblatt_Translation_Revisited.pdf"
+		link: "https://github.com/RodrigoNAlmeida/rodrigonalmeida.github.io/tree/main/papers/slides/LLAMA_Presentation___Goldblatt_Translation_Revisited.pdf"
 	},
 	{
 		title: "PhD Logic Day (23/06/23) Structural Completeness and bi-IPC",
-		link: "https://github.com/RodrigoNAlmeida/rodrigonalmeida.github.io/tree/main/papers/PhD_Logic_Day___Structural_Completeness_and_bi_IPC.pdf"
+		link: "https://github.com/RodrigoNAlmeida/rodrigonalmeida.github.io/tree/main/papers/slides/PhD_Logic_Day___Structural_Completeness_and_bi_IPC.pdf"
 	},
 	{
 		title: "Infinitary Completeness Theorems and Rasiowa-Sikorski Lemmas",
-		link: "https://github.com/RodrigoNAlmeida/rodrigonalmeida.github.io/tree/main/papers/Infinitary_Completeness_Theorems__Representation_and_Intuitionistic_Logic.pdf"
+		link: "https://github.com/RodrigoNAlmeida/rodrigonalmeida.github.io/tree/main/papers/slides/Infinitary_Completeness_Theorems__Representation_and_Intuitionistic_Logic.pdf"
 	}
 ]
 
@@ -185,6 +185,19 @@ export const thesis_supervision = [
 
 export const notes = [
 
+{
+title: "Introduction to Topology in and Via Logic",
+link: "https://github.com/RodrigoNAlmeida/rodrigonalmeida.github.io/tree/main/papers/papers/Introduction_to_Topology_in_and_via_Logic.pdf"
+collaboration: "(with Amity Aharoni and Soeren Knudstorp)",
+time: "2024"
+}
+
+{
+title: "Mathematical Structures in Logic",
+link: "https://github.com/RodrigoNAlmeida/rodrigonalmeida.github.io/tree/main/papers/papers/Mathematical_Structures_in_Logic.pdf"
+ collaboration: "(with Nick Bezhanishvili)",
+ time: "2025"
+}
 ] 
 //example to add
 // {
