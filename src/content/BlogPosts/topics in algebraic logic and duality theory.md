@@ -5,7 +5,7 @@ tags: ["Supervised Project"]
 excerpt: "This project is aimed at students with an interest in algebraic logic and duality theory, seeking to further their knowledge in the field and gain some research experience. This year the focus will be on a classical topic of research which is still quite active: amalgamation, and its interconnections with interpolation properties, as well as other related interpolation style properties (e.g. uniform interpolation)."
 ---
 
-# **Topics in Algebraic Logic and Duality Theory**
+**Topics in Algebraic Logic and Duality Theory**
 
 Coordinated project, June 2025, ILLC.
 Coordination: [Rodrigo N. Almeida](https://rodrigonalmeida.github.io/), [Simon Lemal](https://github.com/slemal).
