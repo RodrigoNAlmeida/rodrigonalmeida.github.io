@@ -70,11 +70,11 @@ There will be four lectures and four seminars. These will take place in the foll
 | 03/06/2025 | Seminar 1 | Room TBA | 14h00-16h00 |
 | 05/06/2025 | Lecture 2: Beth properties and epimorphism surjectivity. | Room TBA | 14h00-16h00 |
 | 06/06/2025 | Seminar 2 | Room TBA | 14h00-16h00 |
-| 09/06/2025  | Lecture 3: Maksimova style characterizations of logics with interpolation.  | Room TBA  | 14h00-16h00 |
+| 10/06/2025  | Lecture 3: Maksimova style characterizations of logics with interpolation.  | Room TBA  | 14h00-16h00 |
 | 11/06/2025  | Seminar 3 | Room TBA | 14h00-16h00 |
 | 12/06/2025  | Lecture 4: Uniform interpolation. | Room TBA | 14h00-16h00 |
 | 18/06/2025 | Consultation Seminar | Room TBA | 14h00 - 16h00|
 | 25/06/2025 | Consultation Seminar | Room TBA | 14h00 - 16h00|
 | TBC  | Guest Lecture  | Room TBA | 13h00-15h00 |
-| TBC  | Final Presentations  | Room TBA   | 14h00-16h00 |
+| 27/06/2025  | Final Presentations  | Room TBA   | 14h00-16h00 |
 ***
