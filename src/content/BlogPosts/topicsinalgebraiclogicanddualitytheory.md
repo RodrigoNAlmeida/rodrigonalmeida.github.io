@@ -30,6 +30,7 @@ In this project we will study interpolation properties as well as their algebrai
 ### **Participants**
 
 The following people participated in the project:
+- Christopher van Altena.
 - Qian Chen.
 - Tristan Hewitt.
 - Zhaorui Hu. 
@@ -55,7 +56,7 @@ Albert Visser. (1996). *Uniform Interpolation and Layered Bisimulation*.
 ### **Seminar Sheets**
 
 There are four seminar sheets prepared for the four seminars interleaved with the lectures. These are the following:
-- [Seminar 1](https://rodrigonalmeida.github.io/tree/main/projects/Amalgamation_Project/Topics_in_Algebraic_Logic___Seminar_1).
+- [Seminar 1](https://github.com/RodrigoNAlmeida/rodrigonalmeida.github.io/blob/main/projects/Amalgamation_Project/Topics_in_Algebraic_Logic___Seminar_1.pdf).
 - Seminar 2.
 - Seminar 3.
 - Seminar 4.
@@ -66,7 +67,7 @@ There will be four lectures and four seminars. These will take place in the foll
 
 | Date| Topic  | Location | Time  |
 |-----|----|-----------------|-------------|
-| 02/06/2025 | Lecture 1: Basics of Interpolation and Amalgamation. | Room TBA ([slides](https://rodrigonalmeida.github.io/tree/main/projects/Amalgamation_Project/Topics_in_Algebraic_Logic_and_Duality_Theory__Lecture_1_.pdf)) | 09h30-12h00  |
+| 02/06/2025 | Lecture 1: Basics of Interpolation and Amalgamation. | Room TBA ([slides](https://github.com/RodrigoNAlmeida/rodrigonalmeida.github.io/blob/main/projects/Amalgamation_Project/Topics_in_Algebraic_Logic_and_Duality_Theory__Lecture_1_.pdf)) | 09h30-12h00  |
 | 03/06/2025 | Seminar 1 | Room TBA | 14h00-16h00 |
 | 05/06/2025 | Lecture 2: Beth properties and epimorphism surjectivity. | Room TBA | 14h00-16h00 |
 | 06/06/2025 | Seminar 2 | Room TBA | 14h00-16h00 |
