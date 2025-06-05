@@ -64,6 +64,8 @@ There are four seminar sheets prepared for the four seminars interleaved with th
 - Seminar 3.
 - Seminar 4.
 
+You can find some project presentation ideas [here](https://github.com/RodrigoNAlmeida/rodrigonalmeida.github.io/blob/main/projects/Amalgamation_Project/TADT_2024___Project_Ideas.pdf). Given the number of people involved, it is allowed to work in pairs (both for the presentation and the reports). If you have interest on a topic, feel free to approach the instructors about it.
+
 ### **Lecture Schedule**
 
 There will be four lectures and four seminars. These will take place in the following schedule; slides of the lectures will be added as lectures take place:
