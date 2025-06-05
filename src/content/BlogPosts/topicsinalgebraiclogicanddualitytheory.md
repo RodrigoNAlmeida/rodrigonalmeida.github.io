@@ -46,13 +46,13 @@ The following people participated in the project:
 
 ### **References**
 
-Alexander Chagrov, Michael Zacharyaschev. (2007) *Modal Logic*.
-Dov Gabbay, Larisa Maksimova. (2007) *Interpolation and Definability in Modal and Intuitionistic Logic*.
-Silvio Ghilardi, Marek Zawadowski. (2002). *Sheaves, Games and Model Completions*.
-Sam van Gool, George Metcalfe, Constantine Tsinakis. (2017). *Uniform interpolation and Compact Congruences*.
-Sam van Gool, Luca Reggio. (2017). *An open mapping theorem for finitely copresented Esakia spaces*.
-Eva Hoogland. (2001). *Definability and Interpolation: Model-theoretic investigations*.
-Albert Visser. (1996). *Uniform Interpolation and Layered Bisimulation*.
+- Alexander Chagrov, Michael Zacharyaschev. (2007) *Modal Logic*.
+- Dov Gabbay, Larisa Maksimova. (2007) *Interpolation and Definability in Modal and Intuitionistic Logic*.
+- Silvio Ghilardi, Marek Zawadowski. (2002). *Sheaves, Games and Model Completions*.
+- Sam van Gool, George Metcalfe, Constantine Tsinakis. (2017). *Uniform interpolation and Compact Congruences*.
+- Sam van Gool, Luca Reggio. (2017). *An open mapping theorem for finitely copresented Esakia spaces*.
+- Eva Hoogland. (2001). *Definability and Interpolation: Model-theoretic investigations*.
+- Albert Visser. (1996). *Uniform Interpolation and Layered Bisimulation*.
 
 ***
 
