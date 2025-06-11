@@ -38,6 +38,7 @@ The following people participated in the project:
 - Zhaorui Hu. 
 - Estel Koole.
 - Bardo Maienborn.
+- Joel Maxson.
 - Edoardo Menorello.
 - Tenyo Takahashi.
 - Minxin Wang.
