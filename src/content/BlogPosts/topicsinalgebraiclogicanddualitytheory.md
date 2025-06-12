@@ -63,7 +63,7 @@ There are four seminar sheets prepared for the four seminars interleaved with th
 - [Seminar 1](https://github.com/RodrigoNAlmeida/rodrigonalmeida.github.io/blob/main/projects/Amalgamation_Project/Topics_in_Algebraic_Logic___Seminar_1.pdf).
 - [Seminar 2](https://github.com/RodrigoNAlmeida/rodrigonalmeida.github.io/blob/main/projects/Amalgamation_Project/Topics_in_Algebraic_Logic___Seminar_2.pdf).
 - [Seminar 3](https://github.com/RodrigoNAlmeida/rodrigonalmeida.github.io/blob/main/projects/Amalgamation_Project/Topics_in_Algebraic_Logic___Seminar_3.pdf).
-- Seminar 4.
+- [Seminar 4](https://github.com/RodrigoNAlmeida/rodrigonalmeida.github.io/blob/main/projects/Amalgamation_Project/Topics_in_Algebraic_Logic___Seminar_4.pdf).
 
 You can find some project presentation ideas [here](https://github.com/RodrigoNAlmeida/rodrigonalmeida.github.io/blob/main/projects/Amalgamation_Project/TADT_2024___Project_Ideas.pdf). Given the number of people involved, it is allowed to work in pairs (both for the presentation and the reports). If you have interest on a topic, feel free to approach the instructors about it.
 
@@ -79,7 +79,7 @@ There will be four lectures and four seminars. These will take place in the foll
 | 06/06/2025 | Seminar 2 | F1.15 | 14h00-16h00 |
 | 10/06/2025  | Lecture 3: Uniform interpolation. ([notes](https://github.com/RodrigoNAlmeida/rodrigonalmeida.github.io/blob/main/projects/Amalgamation_Project/A_Note_on_Uniform_Interpolation_of_Modal_Logics.pdf))  | L2.06 ([slides](https://github.com/RodrigoNAlmeida/rodrigonalmeida.github.io/blob/main/projects/Amalgamation_Project/Topics_in_Algebraic_Logic_and_Duality_Theory__Lecture_3_.pdf))  | 14h00-16h00 |
 | 11/06/2025  | Seminar 3 | L2.07 | 14h00-16h00 |
-| 12/06/2025  | Lecture 4: Maksimova-style characterizations of logics with interpolation. | F1.15 | 14h00-16h00 |
+| 12/06/2025  | Lecture 4: Maksimova-style characterizations of logics with interpolation. | F1.15 ([slides](https://github.com/RodrigoNAlmeida/rodrigonalmeida.github.io/blob/main/projects/Amalgamation_Project/Topics_in_Algebraic_Logic_and_Duality_Theory__Lecture_4_.pdf)) | 14h00-16h00 |
 | 13/06/2025 | Seminar 4 | F1.15 | 14h00-16h00 |
 | 18/06/2025 | Consultation Seminar | A1.22 | 14h00 - 16h00|
 | 25/06/2025 | Consultation Seminar | L2.07 | 14h00 - 16h00|
