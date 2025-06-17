@@ -81,7 +81,7 @@ There will be four lectures and four seminars. These will take place in the foll
 | 11/06/2025  | Seminar 3 | L2.07 | 14h00-16h00 |
 | 12/06/2025  | Lecture 4: Maksimova-style characterizations of logics with interpolation. | F1.15 ([slides](https://github.com/RodrigoNAlmeida/rodrigonalmeida.github.io/blob/main/projects/Amalgamation_Project/Topics_in_Algebraic_Logic_and_Duality_Theory__Lecture_4_.pdf)) | 14h00-16h00 |
 | 13/06/2025 | Seminar 4 | F1.15 | 14h00-16h00 |
-| 18/06/2025 | Consultation Seminar | A1.22 | 14h00 - 16h00|
+| 18/06/2025 | Consultation Seminar | B0.201 | 13h00 - 15h00|
 | 25/06/2025 | Consultation Seminar | L2.07 | 14h00 - 16h00|
 | TBC  | Guest Lecture  | Room TBA | 13h00-15h00 |
 | 27/06/2025  | Final Presentations  | A1.28   | 14h00-16h00 |
