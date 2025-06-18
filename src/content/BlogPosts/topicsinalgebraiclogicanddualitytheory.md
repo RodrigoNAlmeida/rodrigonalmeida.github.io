@@ -84,6 +84,6 @@ There will be four lectures and four seminars. These will take place in the foll
 | 18/06/2025 | Consultation Seminar | B0.201 | 13h00 - 15h00|
 | 25/06/2025 | Consultation Seminar | L2.07 | 14h00 - 16h00|
 | TBC  | Guest Lecture  | Room TBA | 13h00-15h00 |
-| 27/06/2025  | Final Presentations  | A1.28   | 14h00-16h00 |
+| 26/06/2025  | Final Presentations  | F2.30   | 15h00-17h00 |
 
 ***
