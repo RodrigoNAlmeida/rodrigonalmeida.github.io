@@ -198,6 +198,13 @@ link: "https://github.com/RodrigoNAlmeida/rodrigonalmeida.github.io/tree/main/pa
  collaboration: "(with Nick Bezhanishvili)",
  time: "2025"
 }
+
+{title: "Structural Completeness in bi-IPC",
+link: "https://github.com/RodrigoNAlmeida/rodrigonalmeida.github.io/tree/main/papers/papers/Structural_Completeness_in_bi_IPC.pdf",
+collaboration: "(with Nick Bezhanishvili)",
+time: "2023"
+
+}
 ] 
 //example to add
 // {
