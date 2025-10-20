@@ -45,6 +45,14 @@ export const skills = [
 
 export const publications = [
 	{
+		title: "Maximality Principles in Modal Logic and the Axiom of Choice",
+		authors: "Rodrigo Nicolau Almeida, Guram Bezhanishvili",
+		abstract: "We investigate the set-theoretic strength of several maximality principles that play an important role in the study of modal and intuitionistic logics.",
+		time: "2025",
+		journal: "Fundamenta Mathematicae",
+		link: "https://www.impan.pl/en/publishing-house/journals-and-series/fundamenta-mathematicae/online/115994/maximality-principles-in-modal-logic-and-the-axiom-of-choice"
+	},
+	{
 		title: 'Π2-rule systems and inductive classes of Gödel algebras',
 		authors: 'Rodrigo Nicolau Almeida',
 		journal: 'Annals of Pure and Applied Logic, Volume 176, Issue 4, April 2025',
@@ -82,14 +90,6 @@ export const accepted_articles = [
 ]
 
 export const submitted_articles = [
-	{
-		title: "Maximality Principles in Modal Logic and the Axiom of Choice",
-		authors: "Rodrigo Nicolau Almeida, Guram Bezhanishvili",
-		abstract: "We investigate the set-theoretic strength of several maximality principles that play an important role in the study of modal and intuitionistic logics. We focus on the well-known Fine and Esakia maximality principles, present two formulations of each, and show that the stronger formulations are equivalent to the Axiom of Choice (AC), while the weaker ones to the Boolean Prime Ideal Theorem (BPI). ",
-		time: "Submitted on 18 Dec 2024",
-		journal: " ",
-		link: "https://arxiv.org/abs/2412.13706"
-	},
 	{
 		title: "Colimits of Heyting Algebras through Esakia Duality",
 		authors: "Rodrigo Nicolau Almeida",
@@ -173,7 +173,7 @@ export const thesis_supervision = [
 		title: "Sarah Dukic",
 		student_link: "",
 		collaboration: "(co-supervised with Nick Bezhanishvili)",
-		time: "in progress"
+		time: "2025"
 	},
 	{
 		title: "David Quinn Alvarez",
