@@ -1,4 +1,13 @@
 export const news = [
+
+{
+	time: "27-31 July 2026",
+        content: "TACL 2026 - Krakow, Poland."
+    },
+{
+	time: "29 June - 3 July 2026",
+        content: "AIML 2026 - Amsterdam, Netherlands."
+    },
 	{
 	time: "8-12 September 2025",
         content: "TBILLC 2025 - Kutaisi, Georgia."

@@ -45,6 +45,29 @@ export const skills = [
 
 export const publications = [
 	{
+		title: "Maximality Principles in Modal Logic and the Axiom of Choice",
+		authors: "Rodrigo Nicolau Almeida, Guram Bezhanishvili",
+		abstract: "We investigate the set-theoretic strength of several maximality principles that play an important role in the study of modal and intuitionistic logics. We focus on the well-known Fine and Esakia maximality principles, present two formulations of each, and show that the stronger formulations are equivalent to the Axiom of Choice (AC), while the weaker ones to the Boolean Prime Ideal Theorem (BPI). ",
+		time: "2025",
+		journal: "Fundamenta Mathematicae, Volume 271, October 2025, Pages 173-193",
+		link: "https://www.impan.pl/en/publishing-house/journals-and-series/fundamenta-mathematicae/online/115994/maximality-principles-in-modal-logic-and-the-axiom-of-choice"
+	},
+	{
+		title: "A Coalgebraic Semantics for Intuitionistic Modal Logic",
+		authors: "Rodrigo Nicolau Almeida, Nick Bezhanishvili",
+		abstract: "We give a new coalgebraic semantics for intuitionistic modal logic. In particular, we provide a coalgebraic representation of intuitionistic descriptive modal frames and of intuitonistic modal Kripke frames based on image-finite posets.",
+		time: "2024",
+		journal: "Advances in Modal Logic, Volume 15, August 2024, Pages 59-77",
+		link: "http://www.aiml.net/volumes/volume15/03-AlmeidaBezhanishvili.pdf"
+	},
+	{
+		title: "Unification with Simple Variable Restrictions and Admissibility of Pi2-rules",
+		authors: "Rodrigo Nicolau Almeida, Silvio Ghilardi",
+		abstract: "We develop a method to recognize admissibility of Π2-rules, relating this problem to a specific instance of the unification problem with linear constants restriction, called here unification with simple variable restriction. It is shown that for logical systems enjoying an appropriate algebraic semantics and a finite approximation of left uniform interpolation, this unification with simple variable restriction can be reduced to standard unification. As a corollary, we obtain the decidability of admissibility of Π2-rules for many logical systems.",
+		time: "2024",
+		journal: "Advances in Modal Logic, Volume 15, August 2024, Pages 79-100",
+		link: "http://www.aiml.net/volumes/volume15/04-AlmeidaGhilardi.pdf"},
+	{
 		title: 'Π2-rule systems and inductive classes of Gödel algebras',
 		authors: 'Rodrigo Nicolau Almeida',
 		journal: 'Annals of Pure and Applied Logic, Volume 176, Issue 4, April 2025',
@@ -63,32 +86,31 @@ export const publications = [
 ];
 
 export const accepted_articles = [
-	{
-		title: "Unification with Simple Variable Restrictions and Admissibility of Pi2-rules",
-		authors: "Rodrigo Nicolau Almeida, Silvio Ghilardi",
-		abstract: "We develop a method to recognize admissibility of Π2-rules, relating this problem to a specific instance of the unification problem with linear constants restriction, called here unification with simple variable restriction. It is shown that for logical systems enjoying an appropriate algebraic semantics and a finite approximation of left uniform interpolation, this unification with simple variable restriction can be reduced to standard unification. As a corollary, we obtain the decidability of admissibility of Π2-rules for many logical systems.",
-		time: "Accepted at AIML 2024 Proceedings",
-		journal: " ",
-		link: "https://rodrigonalmeida.github.io/tree/main/papers/papers/Unification_with_Simple_Variable_Restrictions_and_Admissibility_of__2.pdf"	},
-	{
-		title: "A Coalgebraic Semantics for Intuitionistic Modal Logic",
-		authors: "Rodrigo Nicolau Almeida, Nick Bezhanishvili",
-		abstract: "We give a new coalgebraic semantics for intuitionistic modal logic. In particular, we provide a coalgebraic representation of intuitionistic descriptive modal frames and of intuitonistic modal Kripke frames based on image-finite posets.",
-		time: "Accepted at AIML 2024 Proceedings",
-		journal: " ",
-		link: "https://rodrigonalmeida.github.io/tree/main/papers/papers/A_Coalgebraic_Semantics_for_Intuitionistic_Modal_Logic.pdf"
-	}
-	{
-		title: "Maximality Principles in Modal Logic and the Axiom of Choice",
-		authors: "Rodrigo Nicolau Almeida, Guram Bezhanishvili",
-		abstract: "We investigate the set-theoretic strength of several maximality principles that play an important role in the study of modal and intuitionistic logics. We focus on the well-known Fine and Esakia maximality principles, present two formulations of each, and show that the stronger formulations are equivalent to the Axiom of Choice (AC), while the weaker ones to the Boolean Prime Ideal Theorem (BPI). ",
-		time: "Accepted at Fundamenta Mathematicae",
-		journal: " ",
-		link: "https://arxiv.org/abs/2412.13706"
-	},
+
 ]
 
+export const preprints_notes = [
+	{
+		title: "Structural Completeness in bi-IPC",
+		authors: "Rodrigo Nicolau Almeida and Nick Bezhanishvili",
+		time: "August 2025",
+		journal: " ",
+		link: "https://arxiv.org/abs/2508.05682"
+	},
+
+]
+
+
 export const submitted_articles = [
+{
+		title: "Esakia order-compactifications and locally Esakia spaces",
+		authors: "Rodrigo Nicolau Almeida, Guram Bezhanishvili and Nick Bezhanishvili",
+		abstract: "We study order-compactifications which are Esakia spaces. We introduce the notion of a locally Esakia space and study some of its basic categorical properties.",
+		time: "Submitted on 26 Dec 2025 (v1)",
+		journal: " ",
+		link: "https://arxiv.org/abs/2512.22042"
+	},
+
 		{
 		title: "Colimits of Heyting Algebras through Esakia Duality",
 		authors: "Rodrigo Nicolau Almeida",
@@ -100,14 +122,26 @@ export const submitted_articles = [
 ]
 
 export const seminars = [
+{
+	title: "TBILLC (23/07/2025): Regular Heyting algebras and Free Heyting extensions of Boolean algebras"
+	link: "https://rodrigonalmeida.github.io/papers/slides/Tbillc___Regular_Heyting_algebras_and_free_Heyting_extensions_of_Boolean_algebras.pdf"
+	},
+{
+	title: "LATD (22/07/2025): A Dual Proof of Blok's Lemma"
+	link: "https://rodrigonalmeida.github.io/papers/slides/LATD___A_Dual_Proof_of_Blok_s_Lemma.pdf"
+	},
+{
+	title: "LATD (22/07/2025): A Dual Proof of Blok's Lemma"
+	link: "https://rodrigonalmeida.github.io/papers/slides/LATD___A_Dual_Proof_of_Blok_s_Lemma.pdf"
+	},
 	{
 	title: "LAC Seminar Milan (08/05/2025): Pitts problem and Higher-Order Uniform Interpolation"
 	link: "https://rodrigonalmeida.github.io/papers/slides/Milan___Pitts_problem_and_Higher_Order_Uniform_Interpolation.pdf"
-	}
+	},
 	{
 	title: "Birmimgham (04/04/2025) Heyting algebras one step at a time"
 	link: "https://rodrigonalmeida.github.io/papers/slides/Birmimgham___Heyting_algebras_one_step_at_a_time.pdf"
-	}
+	},
 	{
 		title: "LLAMA (06/11/2024) Colimits and Free Constructions of Heyting Algebras Through Esakia Duality",
 		link: "https://rodrigonalmeida.github.io/papers/slides/LLAMA___Colimits_and_Free_Constructions_of_Heyting_Algebras.pdf"
@@ -143,6 +177,10 @@ export const seminars = [
 ]
 
 export const abstracts = [
+{
+		title: "TBILLC (2025) Regular Heyting algebras and free Heyting extensions of Boolean algebras",
+		link: "https://rodrigonalmeida.github.io/tree/main/papers/abstracts/Abstract___TbiLLC___Regular_Heyting_algebras_and_free_Heyting_extensions.pdf"
+	},
 	{
 		title: "LATD (2025) (with N. Bezhanishvili and A. Cleani) A Dual Proof of Blok's Lemma ",
 		link: "https://rodrigonalmeida.github.io/tree/main/papers/abstracts/LATD2025_paper_53.pdf"
