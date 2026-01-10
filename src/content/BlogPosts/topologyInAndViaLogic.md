@@ -28,7 +28,7 @@ Ryszard Engelking, (1968) General Topology.
 Steven Vickers, (1996) Topology via Logic.  
 Jorge Picado, Aleš Pultr, (2012) Frames and Locales: Topology without Points.
 
-Lecture notes for the project will be made available and updated throughout the project. You can find the most recent version [here](https://rodrigonalmeida.github.io/projects/Topology_Project/Introduction_to_Topology_in_and_via_Logic.pdf).
+Lecture notes for the project will be made available and updated throughout the project. You can find the most recent version [here](https://rodrigonalmeida.github.io/tree/main/projects/Topology_Project/Introduction_to_Topology_in_and_via_Logic.pdf).
 
 Special thanks to Amity Aharoni for contributing to these lecture notes.
 
@@ -38,8 +38,8 @@ Special thanks to Amity Aharoni for contributing to these lecture notes.
 
 There will be two Homework Assignments, which will be posted in this page. Solutions can be submitted until one week after the end of the block (i.e., 10th of February). You can submit your solutions [here](https://www.dropbox.com/request/uujumQ7zQNA1l8u76M0B). You can find the assignments here:
 
-*   [**Assignment 1**](https://rodrigonalmeida.github.io/projects/Topology_Project/TiviaL_HA1_2023.pdf)
-*   [**Assignment 2**](https://rodrigonalmeida.github.io/projects/Topology_Project/TiviaL_HA2_2023.pdf)
+*   [**Assignment 1**](https://rodrigonalmeida.github.io/tree/main/projects/Topology_Project/TiviaL_HA1_2023.pdf)
+*   [**Assignment 2**](https://rodrigonalmeida.github.io/tree/main/projects/Topology_Project/TiviaL_HA2_2023.pdf)
 
 There will be three small quizzes. Once available, you can find the link to the forms below. They will be made available after Lectures 1, 3 and 5:
 

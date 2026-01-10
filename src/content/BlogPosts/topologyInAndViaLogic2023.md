@@ -29,7 +29,7 @@ Steven Vickers, (1996) Topology via Logic.
 Jorge Picado, Aleš Pultr, (2012) Frames and Locales: Topology without Points.  
 Tai-Danae Bradley, Tyler Bryson, John Terilla, (2020) Topology: A Categorical Approach.
 
-Lecture notes for the project will be updated throughout the project. You can find the most recent version [here](https://rodrigonalmeida.github.io/projects/Topology_Project/Introduction_to_Topology_in_and_via_Logic.pdf). We thank you for any typos you might notice!
+Lecture notes for the project will be updated throughout the project. You can find the most recent version [here](https://rodrigonalmeida.github.io/tree/main/projects/Topology_Project/Introduction_to_Topology_in_and_via_Logic.pdf). We thank you for any typos you might notice!
 
 * * *
 
@@ -37,10 +37,10 @@ Lecture notes for the project will be updated throughout the project. You can fi
 
 There will be three tutorials. Amity Aharoni will be in charge of designing the tutorial sheets and running the tutorials. You can find the tutorials here:
 
-*   [**Tutorial 1**](https://rodrigonalmeida.github.io/projects/Topology_Project/Exercise_Sheet_1.pdf)
-*   [**Tutorial 2**](https://rodrigonalmeida.github.io/projects/Topology_Project/Exercise_Sheet_2.pdf)
-*   [**Tutorial 3**](https://rodrigonalmeida.github.io/projects/Topology_Project/Exercise_Sheet_3.pdf)
-*   [**Tutorial 4**](https://rodrigonalmeida.github.io/projects/Topology_Project/Exercise_Sheet_4.pdf)
+*   [**Tutorial 1**](https://rodrigonalmeida.github.io/tree/main/projects/Topology_Project/Exercise_Sheet_1.pdf)
+*   [**Tutorial 2**](https://rodrigonalmeida.github.io/tree/main/projects/Topology_Project/Exercise_Sheet_2.pdf)
+*   [**Tutorial 3**](https://rodrigonalmeida.github.io/tree/main/projects/Topology_Project/Exercise_Sheet_3.pdf)
+*   [**Tutorial 4**](https://rodrigonalmeida.github.io/tree/main/projects/Topology_Project/Exercise_Sheet_4.pdf)
 
 * * *
 
@@ -48,16 +48,16 @@ There will be three tutorials. Amity Aharoni will be in charge of designing the 
 
 There will be three Homework Assignments, which will be posted in this page. Solutions can be submitted until one week after the end of the block (i.e., 9th of February). You can submit your solutions [here](https://www.dropbox.com/request/uujumQ7zQNA1l8u76M0B). You can find the assignments here:
 
-*   [**Assignment 1**](https://rodrigonalmeida.github.io/projects/Topology_Project/TiviaL_HA1_2024.pdf)
-*   [**Assignment 2**](https://rodrigonalmeida.github.io/projects/Topology_Project/TiviaL_HA2_2024.pdf)
-*   [**Assignment 3**](https://rodrigonalmeida.github.io/projects/Topology_Project/TiviaL_HA3_2024.pdf)
+*   [**Assignment 1**](https://rodrigonalmeida.github.io/tree/main/projects/Topology_Project/TiviaL_HA1_2024.pdf)
+*   [**Assignment 2**](https://rodrigonalmeida.github.io/tree/main/projects/Topology_Project/TiviaL_HA2_2024.pdf)
+*   [**Assignment 3**](https://rodrigonalmeida.github.io/tree/main/projects/Topology_Project/TiviaL_HA3_2024.pdf)
 
 * * *
 
 ### **Registration and Presentations**
 
 Students are expected to form a team of between two and three students. Please indicate the team, and in due time, the topic, in this sheet: [Google Doc](https://docs.google.com/spreadsheets/d/1PXsdU7LBF_9aHgR6TeneQdX6KtENmZR7FygLX5cGGiM/edit?usp=sharing).  
-You can find some suggested topics for presentations [here](https://rodrigonalmeida.github.io/projects/Topology_Project/TiviaL_2024___Topic_Presentations.pdf).
+You can find some suggested topics for presentations [here](https://rodrigonalmeida.github.io/tree/main/projects/Topology_Project/TiviaL_2024___Topic_Presentations.pdf).
 
 * * *
 
