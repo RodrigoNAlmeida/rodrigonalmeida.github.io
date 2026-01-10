@@ -69,15 +69,14 @@ export const accepted_articles = [
 		abstract: "We develop a method to recognize admissibility of Π2-rules, relating this problem to a specific instance of the unification problem with linear constants restriction, called here unification with simple variable restriction. It is shown that for logical systems enjoying an appropriate algebraic semantics and a finite approximation of left uniform interpolation, this unification with simple variable restriction can be reduced to standard unification. As a corollary, we obtain the decidability of admissibility of Π2-rules for many logical systems.",
 		time: "Accepted at AIML 2024 Proceedings",
 		journal: " ",
-		link: "https://rodrigonalmeida.github.io/papers/papers/Unification_with_Simple_Variable_Restrictions_and_Admissibility_of__2.pdf"
-	},
+		link: "https://rodrigonalmeida.github.io/tree/main/papers/papers/Unification_with_Simple_Variable_Restrictions_and_Admissibility_of__2.pdf"	},
 	{
 		title: "A Coalgebraic Semantics for Intuitionistic Modal Logic",
 		authors: "Rodrigo Nicolau Almeida, Nick Bezhanishvili",
 		abstract: "We give a new coalgebraic semantics for intuitionistic modal logic. In particular, we provide a coalgebraic representation of intuitionistic descriptive modal frames and of intuitonistic modal Kripke frames based on image-finite posets.",
 		time: "Accepted at AIML 2024 Proceedings",
 		journal: " ",
-		link: "https://rodrigonalmeida.github.io/papers/papers/A_Coalgebraic_Semantics_for_Intuitionistic_Modal_Logic.pdf"
+		link: "https://rodrigonalmeida.github.io/tree/main/papers/papers/A_Coalgebraic_Semantics_for_Intuitionistic_Modal_Logic.pdf"
 	}
 	{
 		title: "Maximality Principles in Modal Logic and the Axiom of Choice",
@@ -146,19 +145,47 @@ export const seminars = [
 export const abstracts = [
 	{
 		title: "LATD (2025) (with N. Bezhanishvili and A. Cleani) A Dual Proof of Blok's Lemma ",
-		link: "https://rodrigonalmeida.github.io/papers/abstracts/LATD2025_paper_53.pdf"
+		link: "https://rodrigonalmeida.github.io/tree/main/papers/abstracts/LATD2025_paper_53.pdf"
 	},
 	{
 		title: "(TACL 2024) Colimits of Heyting algebras through Esakia duality",
-		link: "https://rodrigonalmeida.github.io/papers/abstracts/TACL_2024_paper_19.pdf"
+		link: "https://rodrigonalmeida.github.io/tree/main/papers/abstracts/TACL_2024_paper_19.pdf"
 	},
 	{
 		title: "(LATD 2023) Universal and Inductive Rule Classes of Godel Algebras",
-		link: "https://rodrigonalmeida.github.io/papers/abstracts/Abstract___LATD___Universal_and_Inductive_Classes_of_Godel_Algebras.pdf"
+		link: "https://rodrigonalmeida.github.io/tree/main/papers/abstracts/Abstract___LATD___Universal_and_Inductive_Classes_of_Godel_Algebras.pdf"
 	},
 	{
 		title: "(TBILLC 2023) The Goldblatt Translation Revisisted",
-		link: "https://rodrigonalmeida.github.io/papers/abstracts/Abstract___TbILLC___Goldblatt_Translation_Revisited.pdf"
+		link: "https://rodrigonalmeida.github.io/tree/main/papers/abstracts/Abstract___TbILLC___Goldblatt_Translation_Revisited.pdf"
+	},
+	{
+		title: "AIML (19/08/2024) Coalgebraic Semantics for Intuitionistic Modal Logic",
+		link: "https://github.com/RodrigoNAlmeida/rodrigonalmeida.github.io/tree/main/papers/slides/AIML___Coalgebraic_Semantics_for_Intuitionistic_Modal_Logic.pdf"
+	},
+	{
+		title: "AIML (19/08/2024) Unification with Simple Variable Restrictions and Admissibility of Pi2 Rules",
+		link: "https://github.com/RodrigoNAlmeida/rodrigonalmeida.github.io/tree/main/papers/slides/AIML___Unification_with_Simple_Variable_Restrictions_and_Admissibility_of___Pi2_rules.pdf"
+	},
+	{
+		title: "TACL (04/07/2024) Colimits of Heyting Algebras Through Esakia Duality",
+		link: "https://github.com/RodrigoNAlmeida/rodrigonalmeida.github.io/tree/main/papers/slides/TACL___Colimits_of_Heyting_Algebras_Through_Esakia_Duality.pdf"
+	},
+	{
+		title: "LATD (11/12/2023) Inductive Rule Classes of Goedel Algebras",
+		link: "https://github.com/RodrigoNAlmeida/rodrigonalmeida.github.io/tree/main/papers/slides/LATD___Inductive_Rule_Classes_of_Godel_Algebras.pdf"
+	},
+	{
+		title: "LLAMA (13/04/23) Goldblatt-Translation Revisited",
+		link: "https://github.com/RodrigoNAlmeida/rodrigonalmeida.github.io/tree/main/papers/slides/LLAMA_Presentation___Goldblatt_Translation_Revisited.pdf"
+	},
+	{
+		title: "PhD Logic Day (23/06/23) Structural Completeness and bi-IPC",
+		link: "https://github.com/RodrigoNAlmeida/rodrigonalmeida.github.io/tree/main/papers/slides/PhD_Logic_Day___Structural_Completeness_and_bi_IPC.pdf"
+	},
+	{
+		title: "Infinitary Completeness Theorems and Rasiowa-Sikorski Lemmas",
+		link: "https://github.com/RodrigoNAlmeida/rodrigonalmeida.github.io/tree/main/papers/slides/Infinitary_Completeness_Theorems__Representation_and_Intuitionistic_Logic.pdf"
 	}
 ]
 
@@ -198,9 +225,9 @@ export const teaching = [
 export const thesis_supervision = [
 	{
 		title: "Sarah Dukic",
-		student_link: "",
+		student_link: "https://www.universiteitleiden.nl/en/staffmembers/sarah-dukic#tab-1",
 		collaboration: "(co-supervised with Nick Bezhanishvili)",
-		time: "in progress"
+		time: "2025"
 	},
 	{
 		title: "David Quinn Alvarez",
