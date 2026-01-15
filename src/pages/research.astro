@@ -7,8 +7,9 @@ import { RESEARCH_ICONS } from "@/data/researchIcons";
 
 import {
   publications,
+  accepted_articles,
   submitted_articles,
-preprints_notes,
+  preprints_notes,
   seminars,
 } from "@/data/cv";
 import { highlightAuthor } from "@/lib/utils";
@@ -108,7 +109,7 @@ const { research_areas } = profile;
       }
     </div>
 
-    <h1 class="text-3xl font-bold mb-8">Accepted Articles</h1>
+    {accepted_articles.length > 0 &&  <h1 class="text-3xl font-bold mb-8">Accepted Articles</h1>
 
     <div class="space-y-8 mb-8">
       {
@@ -123,7 +124,24 @@ const { research_areas } = profile;
           />
         ))
       }
-    </div>
+    </div>}
+
+    {preprints_notes.length > 0 &&  <h1 class="text-3xl font-bold mb-8">Pre-Printed Notes</h1>
+
+    <div class="space-y-8 mb-8">
+      {
+        preprints_notes.map((paper) => (
+          <PaperCard
+            title={paper.title}
+            authors={paper.authors}
+            link={paper.link}
+            journal={paper.journal}
+            abstract={paper.abstract}
+            time={paper.time}
+          />
+        ))
+      }
+    </div>}
 
     <h1 class="text-3xl font-bold mb-8">Submitted Articles</h1>
 

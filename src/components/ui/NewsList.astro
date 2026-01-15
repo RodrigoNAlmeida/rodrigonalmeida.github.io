@@ -10,9 +10,30 @@ interface Props {
 
 const { listTitle, listItems } = Astro.props;
 const shortList = listItems.slice(0, 3).reverse();
-const renderMarkdown = (content: string) => {
-    return marked.parse(content);
+
+const renderer = new marked.Renderer();
+
+renderer.link = (href, title, text) => {
+  const titleAttr = title ? ` title="${title}"` : "";
+  return `
+    <a
+      href="${href}"
+      ${titleAttr}
+      class="font-semibold hover:text-accent "
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      ${text}
+    </a>
+  `;
 };
+
+marked.setOptions({ renderer });
+
+const renderMarkdown = (content: string) => {
+  return marked.parse(content);
+};
+
 ---
 
 <h2 class="text-3xl font-bold mb-8">{listTitle}</h2>
