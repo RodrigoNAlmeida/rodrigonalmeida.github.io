@@ -11,24 +11,24 @@ interface Props {
 const { listTitle, listItems } = Astro.props;
 const shortList = listItems.slice(0, 3).reverse();
 
-const renderer = new marked.Renderer();
+const renderer = {
+  link({href, title, text}) {
 
-renderer.link = (href, title, text) => {
-  const titleAttr = title ? ` title="${title}"` : "";
-  return `
-    <a
+    return `
+            <a
       href="${href}"
-      ${titleAttr}
-      class="font-semibold hover:text-accent "
+      ${title}
+      class="font-semibold hover:text-accent"
       target="_blank"
       rel="noopener noreferrer"
     >
       ${text}
-    </a>
-  `;
+    </a>`;
+  }
 };
 
-marked.setOptions({ renderer });
+
+marked.use({ renderer });
 
 const renderMarkdown = (content: string) => {
   return marked.parse(content);
