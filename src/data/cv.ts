@@ -47,7 +47,6 @@ export const publications = [
 	{
 		title: "Maximality Principles in Modal Logic and the Axiom of Choice",
 		authors: "Rodrigo Nicolau Almeida, Guram Bezhanishvili",
-		abstract: "We investigate the set-theoretic strength of several maximality principles that play an important role in the study of modal and intuitionistic logics. We focus on the well-known Fine and Esakia maximality principles, present two formulations of each, and show that the stronger formulations are equivalent to the Axiom of Choice (AC), while the weaker ones to the Boolean Prime Ideal Theorem (BPI). ",
 		time: "2025",
 		journal: "Fundamenta Mathematicae, Volume 271, October 2025, Pages 173-193",
 		link: "https://www.impan.pl/en/publishing-house/journals-and-series/fundamenta-mathematicae/online/115994/maximality-principles-in-modal-logic-and-the-axiom-of-choice"
