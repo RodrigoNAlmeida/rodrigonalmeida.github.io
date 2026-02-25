@@ -83,9 +83,16 @@ export const publications = [
 
 export const accepted_articles = [
 
-]
+];
 
 export const preprints_notes = [
+{
+		title: "Uniform local tabularity in intuitionistic logic",
+		authors: "Rodrigo Nicolau Almeida",
+		time: "January 2026",
+		journal: " ",
+		link: "https://arxiv.org/abs/2601.11208"
+	},
 	{
 		title: "Structural Completeness in bi-IPC",
 		authors: "Rodrigo Nicolau Almeida and Nick Bezhanishvili",
@@ -94,10 +101,18 @@ export const preprints_notes = [
 		link: "https://arxiv.org/abs/2508.05682"
 	},
 
-]
+];
 
 
 export const submitted_articles = [
+{
+		title: "Superamalgamation for modal lattices via non-distributive dualities",
+		authors: "Rodrigo Nicolau Almeida, Nick Bezhanishvili and Simon Lemal",
+		time: "Submitted on 25 Feb 2026 (v1)",
+		journal: " ",
+		link: "https://arxiv.org/abs/2602.20380"
+	},
+
 	{
 		title: "Esakia order-compactifications and locally Esakia spaces",
 		authors: "Rodrigo Nicolau Almeida, Guram Bezhanishvili and Nick Bezhanishvili",
@@ -113,7 +128,7 @@ export const submitted_articles = [
 		journal: " ",
 		link: "https://arxiv.org/abs/2402.08058"
 	}
-]
+];
 
 export const seminars = [
 	{
@@ -168,7 +183,7 @@ export const seminars = [
 		title: "Infinitary Completeness Theorems and Rasiowa-Sikorski Lemmas",
 		link: "https://rodrigonalmeida.github.io/papers/slides/Infinitary_Completeness_Theorems__Representation_and_Intuitionistic_Logic.pdf"
 	}
-]
+];
 
 export const abstracts = [
 	{
@@ -219,7 +234,7 @@ export const abstracts = [
 		title: "Infinitary Completeness Theorems and Rasiowa-Sikorski Lemmas",
 		link: "https://github.com/RodrigoNAlmeida/rodrigonalmeida.github.io/tree/main/papers/slides/Infinitary_Completeness_Theorems__Representation_and_Intuitionistic_Logic.pdf"
 	}
-]
+];
 
 export const teaching = [
 	{
@@ -252,7 +267,7 @@ export const teaching = [
 		position: "Teaching Assistant",
 		collaboration: ""
 	}
-]
+];
 
 export const thesis_supervision = [
 	{
@@ -267,7 +282,7 @@ export const thesis_supervision = [
 		collaboration: "(co-supervised with Nick Bezhanishvili)",
 		time: "2024"
 	}
-]
+];
 
 export const notes = [
 
