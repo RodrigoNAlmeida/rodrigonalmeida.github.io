@@ -82,6 +82,12 @@ export const publications = [
 ];
 
 export const accepted_articles = [
+{
+		title: "Coalgebraic Semantics for Fischer Servi Intuitionistic Modal Logic",
+		authors: "Rodrigo Nicolau Almeida, Nick Bezhanishvili and Sarah Dukic",
+		time: "February 2026",
+		journal: "Accepted at CMCS 2026",
+	},
 
 ];
 
