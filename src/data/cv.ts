@@ -88,17 +88,17 @@ export const accepted_articles = [
 		time: "February 2026",
 		journal: "Accepted at CMCS 2026",
 	},
+{
+		title: "Uniform local tabularity in intuitionistic logic",
+		authors: "Rodrigo Nicolau Almeida",
+		time: "April 2026",
+		journal: "Accepted at AIML 2026. Extended version available here.",
+		link: "https://rodrigonalmeida.github.io/papers/slides/Local_tabularity_and_uniform_local_tabularity.pdf"
+	},
 
 ];
 
 export const preprints_notes = [
-{
-		title: "Uniform local tabularity in intuitionistic logic",
-		authors: "Rodrigo Nicolau Almeida",
-		time: "January 2026",
-		journal: " ",
-		link: "https://arxiv.org/abs/2601.11208"
-	},
 	{
 		title: "Structural Completeness in bi-IPC",
 		authors: "Rodrigo Nicolau Almeida and Nick Bezhanishvili",
