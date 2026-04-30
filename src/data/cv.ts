@@ -93,9 +93,8 @@ export const accepted_articles = [
 		authors: "Rodrigo Nicolau Almeida",
 		time: "April 2026",
 		journal: "Accepted at AIML 2026. Extended version available here.",
-		link: "https://rodrigonalmeida.github.io/papers/slides/Local_tabularity_and_uniform_local_tabularity.pdf"
+		link: "https://rodrigonalmeida.github.io/tree/main/papers/papers/Local_tabularity_and_uniform_local_tabularity.pdf"
 	},
-
 ];
 
 export const preprints_notes = [
@@ -139,55 +138,55 @@ export const submitted_articles = [
 export const seminars = [
 	{
 		title: "TBILLC (23/07/2025): Regular Heyting algebras and Free Heyting extensions of Boolean algebras",
-	link: "https://rodrigonalmeida.github.io/papers/slides/Tbillc___Regular_Heyting_algebras_and_free_Heyting_extensions_of_Boolean_algebras.pdf"
+	link: "https://rodrigonalmeida.github.io/tree/main/papers/slides/Tbillc___Regular_Heyting_algebras_and_free_Heyting_extensions_of_Boolean_algebras.pdf"
 	},
 	{
 		title: "LATD (22/07/2025): A Dual Proof of Blok's Lemma",
-		link: "https://rodrigonalmeida.github.io/papers/slides/LATD___A_Dual_Proof_of_Blok_s_Lemma.pdf"
+		link: "https://rodrigonalmeida.github.io/tree/main/papers/slides/LATD___A_Dual_Proof_of_Blok_s_Lemma.pdf"
 	},
 	{
 		title: "LATD (22/07/2025): A Dual Proof of Blok's Lemma",
-		link: "https://rodrigonalmeida.github.io/papers/slides/LATD___A_Dual_Proof_of_Blok_s_Lemma.pdf"
+		link: "https://rodrigonalmeida.github.io/tree/main/papers/slides/LATD___A_Dual_Proof_of_Blok_s_Lemma.pdf"
 	},
 	{
 		title: "LAC Seminar Milan (08/05/2025): Pitts problem and Higher-Order Uniform Interpolation",
-		link: "https://rodrigonalmeida.github.io/papers/slides/Milan___Pitts_problem_and_Higher_Order_Uniform_Interpolation.pdf"
+		link: "https://rodrigonalmeida.github.io/tree/main/papers/slides/Milan___Pitts_problem_and_Higher_Order_Uniform_Interpolation.pdf"
 	},
 	{
 		title: "Birmimgham (04/04/2025) Heyting algebras one step at a time",
-		link: "https://rodrigonalmeida.github.io/papers/slides/Birmimgham___Heyting_algebras_one_step_at_a_time.pdf"
+		link: "https://rodrigonalmeida.github.io/tree/main/papers/slides/Birmimgham___Heyting_algebras_one_step_at_a_time.pdf"
 	},
 	{
 		title: "LLAMA (06/11/2024) Colimits and Free Constructions of Heyting Algebras Through Esakia Duality",
-		link: "https://rodrigonalmeida.github.io/papers/slides/LLAMA___Colimits_and_Free_Constructions_of_Heyting_Algebras.pdf"
+		link: "https://rodrigonalmeida.github.io/tree/main/papers/slides/LLAMA___Colimits_and_Free_Constructions_of_Heyting_Algebras.pdf"
 	},
 	{
 		title: "AIML (19/08/2024) Coalgebraic Semantics for Intuitionistic Modal Logic",
-		link: "https://rodrigonalmeida.github.io/papers/slides/AIML___Coalgebraic_Semantics_for_Intuitionistic_Modal_Logic.pdf"
+		link: "https://rodrigonalmeida.github.io/tree/main/papers/slides/AIML___Coalgebraic_Semantics_for_Intuitionistic_Modal_Logic.pdf"
 	},
 	{
 		title: "AIML (19/08/2024) Unification with Simple Variable Restrictions and Admissibility of Pi2 Rules",
-		link: "https://rodrigonalmeida.github.io/papers/slides/AIML___Unification_with_Simple_Variable_Restrictions_and_Admissibility_of___Pi2_rules.pdf"
+		link: "https://rodrigonalmeida.github.io/tree/main/papers/slides/AIML___Unification_with_Simple_Variable_Restrictions_and_Admissibility_of___Pi2_rules.pdf"
 	},
 	{
 		title: "TACL (04/07/2024) Colimits of Heyting Algebras Through Esakia Duality",
-		link: "https://rodrigonalmeida.github.io/papers/slides/TACL___Colimits_of_Heyting_Algebras_Through_Esakia_Duality.pdf"
+		link: "https://rodrigonalmeida.github.io/tree/main/papers/slides/TACL___Colimits_of_Heyting_Algebras_Through_Esakia_Duality.pdf"
 	},
 	{
 		title: "LATD (11/12/2023) Inductive Rule Classes of Goedel Algebras",
-		link: "https://rodrigonalmeida.github.io/papers/slides/LATD___Inductive_Rule_Classes_of_Godel_Algebras.pdf"
+		link: "https://rodrigonalmeida.github.io/tree/main/papers/slides/LATD___Inductive_Rule_Classes_of_Godel_Algebras.pdf"
 	},
 	{
 		title: "LLAMA (13/04/23) Goldblatt-Translation Revisited",
-		link: "https://rodrigonalmeida.github.io/papers/slides/LLAMA_Presentation___Goldblatt_Translation_Revisited.pdf"
+		link: "https://rodrigonalmeida.github.io/tree/main/papers/slides/LLAMA_Presentation___Goldblatt_Translation_Revisited.pdf"
 	},
 	{
 		title: "PhD Logic Day (23/06/23) Structural Completeness and bi-IPC",
-		link: "https://rodrigonalmeida.github.io/papers/slides/PhD_Logic_Day___Structural_Completeness_and_bi_IPC.pdf"
+		link: "https://rodrigonalmeida.github.io/tree/main/papers/slides/PhD_Logic_Day___Structural_Completeness_and_bi_IPC.pdf"
 	},
 	{
 		title: "Infinitary Completeness Theorems and Rasiowa-Sikorski Lemmas",
-		link: "https://rodrigonalmeida.github.io/papers/slides/Infinitary_Completeness_Theorems__Representation_and_Intuitionistic_Logic.pdf"
+		link: "https://rodrigonalmeida.github.io/tree/main/papers/slides/Infinitary_Completeness_Theorems__Representation_and_Intuitionistic_Logic.pdf"
 	}
 ];
 
