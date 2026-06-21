@@ -83,28 +83,43 @@ export const publications = [
 
 export const accepted_articles = [
 {
-		title: "Coalgebraic Semantics for Fischer Servi Intuitionistic Modal Logic",
-		authors: "Rodrigo Nicolau Almeida, Nick Bezhanishvili and Sarah Dukic",
-		time: "February 2026",
-		journal: "Accepted at CMCS 2026",
-		// No link yet: PDF not available
-	},
-{
 		title: "Uniform local tabularity in intuitionistic logic",
-		authors: "Rodrigo Nicolau Almeida",
+		authors: "R.N. Almeida",
 		time: "April 2026",
 		journal: "Accepted at AIML 2026. Extended version available here.",
 		link: "/papers/papers/Local_tabularity_and_uniform_local_tabularity.pdf"
+	},
+{
+		title: "Coequivalence relations and descent in modal logic",
+		authors: "R.N. Almeida and Matteo De Berardinis",
+		time: "April 2026",
+		journal: "Accepted at AIML 2026.",
+		link: "/papers/papers/Local_tabularity_and_uniform_local_tabularity.pdf"
+	},
+
+{
+		title: "Coalgebraic Semantics for Fischer Servi Intuitionistic Modal Logic",
+		authors: "R.N. Almeida, Nick Bezhanishvili and Sarah Dukic",
+		time: "February 2026",
+		journal: "Accepted at CMCS 2026",
+		link: "/paper/papers/CMCS_Fischer_Servi__camera_ready.pdf"
 	},
 ];
 
 export const preprints_notes = [
 	{
 		title: "Structural Completeness in bi-IPC",
-		authors: "Rodrigo Nicolau Almeida and Nick Bezhanishvili",
+		authors: "R.N. Almeida and Nick Bezhanishvili",
 		time: "August 2025",
 		journal: " ",
 		link: "https://arxiv.org/abs/2508.05682"
+	},
+	{
+		title: "Colimits of Heyting Algebras through Esakia Duality",
+		authors: "R.N. Almeida",
+		time: "Submitted on 12 Feb 2024 (v1), last revised 13 Nov 2024 (this version, v3)",
+		journal: " ",
+		link: "https://arxiv.org/abs/2402.08058"
 	},
 
 ];
@@ -112,8 +127,22 @@ export const preprints_notes = [
 
 export const submitted_articles = [
 {
+		title: "A topos for étale-finite Heyting algebras",
+		authors: "Marco Abbadini, R.N. Almeida and Igor Arrieta",
+		time: "Submitted on 2 Apr 2026 (v1)",
+		journal: " ",
+		link: "https://arxiv.org/abs/2606.03861"
+	},
+{
+		title: "Fischer-Servi logic does not have interpolation",
+		authors: "R.N. Almeida, Nick Bezhanishvili and Simon Lemal",
+		time: "Submitted on 2 Apr 2026 (v1)",
+		journal: " ",
+		link: "https://arxiv.org/abs/2604.02082"
+	},
+{
 		title: "Superamalgamation for modal lattices via non-distributive dualities",
-		authors: "Rodrigo Nicolau Almeida, Nick Bezhanishvili and Simon Lemal",
+		authors: "R.N. Almeida, Nick Bezhanishvili and Simon Lemal",
 		time: "Submitted on 25 Feb 2026 (v1)",
 		journal: " ",
 		link: "https://arxiv.org/abs/2602.20380"
@@ -121,19 +150,12 @@ export const submitted_articles = [
 
 	{
 		title: "Esakia order-compactifications and locally Esakia spaces",
-		authors: "Rodrigo Nicolau Almeida, Guram Bezhanishvili and Nick Bezhanishvili",
+		authors: "R.N. Almeida, Guram Bezhanishvili and Nick Bezhanishvili",
 		time: "Submitted on 26 Dec 2025 (v1)",
 		journal: " ",
 		link: "https://arxiv.org/abs/2512.22042"
 	},
 
-	{
-		title: "Colimits of Heyting Algebras through Esakia Duality",
-		authors: "Rodrigo Nicolau Almeida",
-		time: "Submitted on 12 Feb 2024 (v1), last revised 13 Nov 2024 (this version, v3)",
-		journal: " ",
-		link: "https://arxiv.org/abs/2402.08058"
-	}
 ];
 
 export const seminars = [
