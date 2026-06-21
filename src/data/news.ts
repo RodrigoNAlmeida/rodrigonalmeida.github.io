@@ -22,7 +22,7 @@ export const news = [
 
 {
 	time: "11-12 April 2026",
-        content: "CMCS 2026 - Turin, Italy: Sarah Dukic presented our joint work on  **[coalgebraic semantics for Fischer-Servi logic](https://github.com/RodrigoNAlmeida/rodrigonalmeida.github.io/tree/main/papers/slides/Tbillc___Regular_Heyting_algebras_and_free_Heyting_extensions_of_Boolean_algebras.pdf)**.
+        content: "CMCS 2026 - Turin, Italy: Sarah Dukic presented our joint work on  **[coalgebraic semantics for Fischer-Servi logic](https://github.com/RodrigoNAlmeida/rodrigonalmeida.github.io/tree/main/papers/slides/Tbillc___Regular_Heyting_algebras_and_free_Heyting_extensions_of_Boolean_algebras.pdf)**."
     },
 	
 
