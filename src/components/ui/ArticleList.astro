@@ -5,6 +5,7 @@ interface Props {
     title: string;
     journal: string;
     time: string;
+    link?: string;
   }[];
 }
 const {listTitle, listItems} = Astro.props
@@ -15,10 +16,21 @@ const {listTitle, listItems} = Astro.props
 			{
 				listItems.map(item => (
 					<div class='p-6 rounded-lg text-base-content bg-base-200'>
-						<h3 class='text-xl font-semibold mb-2'>{item.title}</h3>
-						<p >
+						<h3 class='text-xl font-semibold mb-2'>
+							{item.link ? (
+								<a href={item.link} class="hover:text-accent">{item.title}</a>
+							) : (
+								item.title
+							)}
+						</h3>
+						<p class="mb-3">
 							{item.journal} • {item.time}
 						</p>
+						{item.link && (
+							<a href={item.link} class="btn btn-sm btn-secondary text-secondary-content">
+								Read Paper
+							</a>
+						)}
 					</div>
 				))
 			}

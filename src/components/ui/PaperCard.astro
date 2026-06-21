@@ -4,12 +4,11 @@ interface Props {
     authors: string;
     journal: string;
     time: string;
-    link: string;
-    abstract: string;
+    link?: string;
+    abstract?: string;
 }
 
 import { highlightAuthor } from "@/lib/utils";
-import {template} from "@/settings";
 
 const {title, authors, journal, time, link, abstract} = Astro.props
 ---
@@ -17,20 +16,24 @@ const {title, authors, journal, time, link, abstract} = Astro.props
 <div class="card bg-base-200 min-h-[180px]">
     <div class="card-body p-4">
       <h2 class="card-title text-lg">
-        <a href={template.base + link} class="hover:text-accent">
-          {title}
-        </a>
+        {link ? (
+          <a href={link} class="hover:text-accent">
+            {title}
+          </a>
+        ) : (
+          <span>{title}</span>
+        )}
       </h2>
       <p class="text-sm mb-1">
-        <span class="font-small">Authors:</span>{" "}
+        <span class="font-medium">Authors:</span>{" "}
         <span set:html={highlightAuthor(authors)} />
       </p>
       <p class="text-xs mb-2">
         <span class="italic">{journal}</span> • {time}
       </p>
       {abstract && <p class="text-sm text-base-content/80">{abstract}</p>}
-     <div class="card-actions justify-end mt-2">
-       {link ? (
+      <div class="card-actions justify-end mt-2">
+        {link ? (
           <a href={link} class="btn btn-xs btn-secondary text-secondary-content">
             Read Paper
           </a>
@@ -39,6 +42,6 @@ const {title, authors, journal, time, link, abstract} = Astro.props
             PDF coming soon
           </span>
         )}
-       </div>
-     </div>
-   </div>
+      </div>
+    </div>
+  </div>

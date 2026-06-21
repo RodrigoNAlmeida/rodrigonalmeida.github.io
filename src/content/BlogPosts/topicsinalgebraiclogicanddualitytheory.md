@@ -60,12 +60,12 @@ The following people participated in the project:
 ### **Seminar Sheets**
 
 There are four seminar sheets prepared for the four seminars interleaved with the lectures. These are the following:
-- [Seminar 1](https://github.com/RodrigoNAlmeida/rodrigonalmeida.github.io/blob/main/projects/Amalgamation_Project/Topics_in_Algebraic_Logic___Seminar_1.pdf).
-- [Seminar 2](https://github.com/RodrigoNAlmeida/rodrigonalmeida.github.io/blob/main/projects/Amalgamation_Project/Topics_in_Algebraic_Logic___Seminar_2.pdf).
-- [Seminar 3](https://github.com/RodrigoNAlmeida/rodrigonalmeida.github.io/blob/main/projects/Amalgamation_Project/Topics_in_Algebraic_Logic___Seminar_3.pdf).
-- [Seminar 4](https://github.com/RodrigoNAlmeida/rodrigonalmeida.github.io/blob/main/projects/Amalgamation_Project/Topics_in_Algebraic_Logic___Seminar_4.pdf).
+- [Seminar 1](/projects/Amalgamation_Project/Topics_in_Algebraic_Logic___Seminar_1.pdf).
+- [Seminar 2](/projects/Amalgamation_Project/Topics_in_Algebraic_Logic___Seminar_2.pdf).
+- [Seminar 3](/projects/Amalgamation_Project/Topics_in_Algebraic_Logic___Seminar_3.pdf).
+- [Seminar 4](/projects/Amalgamation_Project/Topics_in_Algebraic_Logic___Seminar_4.pdf).
 
-You can find some project presentation ideas [here](https://github.com/RodrigoNAlmeida/rodrigonalmeida.github.io/blob/main/projects/Amalgamation_Project/TADT_2024___Project_Ideas.pdf). Given the number of people involved, it is allowed to work in pairs (both for the presentation and the reports). If you have interest on a topic, feel free to approach the instructors about it.
+You can find some project presentation ideas [here](/projects/Amalgamation_Project/TADT_2024___Project_Ideas.pdf). Given the number of people involved, it is allowed to work in pairs (both for the presentation and the reports). If you have interest on a topic, feel free to approach the instructors about it.
 
 ### **Lecture Schedule**
 
@@ -73,13 +73,13 @@ There will be four lectures and four seminars. These will take place in the foll
 
 | Date| Topic  | Location | Time  |
 |-----|----|-----------------|-------------|
-| 02/06/2025 | Lecture 1: Basics of Interpolation and Amalgamation. | F1.15 ([slides](https://github.com/RodrigoNAlmeida/rodrigonalmeida.github.io/blob/main/projects/Amalgamation_Project/Topics_in_Algebraic_Logic_and_Duality_Theory__Lecture_1_.pdf)) | 09h30-12h00  |
+| 02/06/2025 | Lecture 1: Basics of Interpolation and Amalgamation. | F1.15 ([slides](/projects/Amalgamation_Project/Topics_in_Algebraic_Logic_and_Duality_Theory__Lecture_1_.pdf)) | 09h30-12h00  |
 | 04/06/2025 | Seminar 1 | F1.15 | 14h00-16h00 |
-| 05/06/2025 | Lecture 2: Beth properties and epimorphism surjectivity. | L2.07 ([slides](https://github.com/RodrigoNAlmeida/rodrigonalmeida.github.io/blob/main/projects/Amalgamation_Project/Topics_in_Algebraic_Logic_and_Duality_Theory__Lecture_2_.pdf)) | 14h00-16h00 |
+| 05/06/2025 | Lecture 2: Beth properties and epimorphism surjectivity. | L2.07 ([slides](/projects/Amalgamation_Project/Topics_in_Algebraic_Logic_and_Duality_Theory__Lecture_2_.pdf)) | 14h00-16h00 |
 | 06/06/2025 | Seminar 2 | F1.15 | 14h00-16h00 |
-| 10/06/2025  | Lecture 3: Uniform interpolation. ([notes](https://github.com/RodrigoNAlmeida/rodrigonalmeida.github.io/blob/main/projects/Amalgamation_Project/A_Note_on_Uniform_Interpolation_of_Modal_Logics.pdf))  | L2.06 ([slides](https://github.com/RodrigoNAlmeida/rodrigonalmeida.github.io/blob/main/projects/Amalgamation_Project/Topics_in_Algebraic_Logic_and_Duality_Theory__Lecture_3_.pdf))  | 14h00-16h00 |
+| 10/06/2025  | Lecture 3: Uniform interpolation. ([notes](/projects/Amalgamation_Project/A_Note_on_Uniform_Interpolation_of_Modal_Logics.pdf))  | L2.06 ([slides](/projects/Amalgamation_Project/Topics_in_Algebraic_Logic_and_Duality_Theory__Lecture_3_.pdf))  | 14h00-16h00 |
 | 11/06/2025  | Seminar 3 | L2.07 | 14h00-16h00 |
-| 12/06/2025  | Lecture 4: Maksimova-style characterizations of logics with interpolation. | F1.15 ([slides](https://github.com/RodrigoNAlmeida/rodrigonalmeida.github.io/blob/main/projects/Amalgamation_Project/Topics_in_Algebraic_Logic_and_Duality_Theory__Lecture_4_.pdf)) | 14h00-16h00 |
+| 12/06/2025  | Lecture 4: Maksimova-style characterizations of logics with interpolation. | F1.15 ([slides](/projects/Amalgamation_Project/Topics_in_Algebraic_Logic_and_Duality_Theory__Lecture_4_.pdf)) | 14h00-16h00 |
 | 13/06/2025 | Seminar 4 | F1.15 | 14h00-16h00 |
 | 18/06/2025 | Consultation Seminar | B0.201 | 13h00 - 15h00|
 | 25/06/2025 | Consultation Seminar | L2.07 | 14h00 - 16h00|
