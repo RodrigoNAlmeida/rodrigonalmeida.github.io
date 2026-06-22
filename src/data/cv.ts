@@ -94,7 +94,7 @@ export const accepted_articles = [
 		authors: "R.N. Almeida and Matteo De Berardinis",
 		time: "April 2026",
 		journal: "Accepted at AIML 2026.",
-		link: "/papers/papers/Local_tabularity_and_uniform_local_tabularity.pdf"
+		link: "/papers/papers/Coequivalence_relations_and_descent_in_modal_logic___AIML_2026.pdf"
 	},
 
 {
