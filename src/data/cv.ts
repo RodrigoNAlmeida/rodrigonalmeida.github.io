@@ -108,8 +108,7 @@ export const accepted_articles = [
 		title: "Belief as an epistemic possibility of knowledge (and its limits)",
 		authors: "M. Tarnowski and R.N. Almeida",
 		time: "June 2026",
-		journal: "Accepted at BTSK 2026.",
-		link: "/papers/papers/inpreparation.pdf"
+		journal: "Accepted at BTSK 2026."
 },
 ];
 
