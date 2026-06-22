@@ -1,3 +1,37 @@
+export const experiences = [
+	{
+		company: '',
+		time: '',
+		title: '',
+		location: '',
+		description: '',
+	},
+	 {
+	  //    company: 'Radium Institute (Institut du Radium)',
+	 //	time: '1914 - 1934',
+	 //	title: 'Director',
+	 //	location: 'Paris, France',
+	 //	description: 'Led groundbreaking studies on radioactivity and mentored future Nobel Prize laureates.',
+	 },
+];
+
+export const education = [
+	{
+		school: '',
+		time: '',
+		degree: '',
+		location: '',
+		description: '',
+	},
+	 {
+	// 	school: 'University of Paris',
+	// 	time: '1891 - 1895',
+	// 	degree: 'Master’s in Physics and Mathematics',
+	// 	location: 'Paris, France',
+	// 	description: 'Graduated at the top of her class in physics and second in mathematics.',
+	// },
+];
+
 export const skills = [
 	{
 		title: '',
@@ -68,14 +102,14 @@ export const accepted_articles = [
 		authors: "R.N. Almeida, Nick Bezhanishvili and Sarah Dukic",
 		time: "February 2026",
 		journal: "Accepted at CMCS 2026",
-		link: "/paper/papers/CMCS_Fischer_Servi__camera_ready.pdf"
+		link: "/papers/papers/CMCS_Fischer_Servi__camera_ready.pdf"
 	},
 {
 		title: "Belief as an epistemic possibility of knowledge (and its limits)",
 		authors: "M. Tarnowski and R.N. Almeida",
 		time: "June 2026",
 		journal: "Accepted at BTSK 2026.",
-		link: "/paper/papers/inpreparation.pdf"
+		link: "/papers/papers/inpreparation.pdf"
 },
 ];
 
