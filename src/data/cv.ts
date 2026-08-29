@@ -29,7 +29,7 @@ export const education = [
 	// 	degree: 'Master’s in Physics and Mathematics',
 	// 	location: 'Paris, France',
 	// 	description: 'Graduated at the top of her class in physics and second in mathematics.',
-	// },
+ },
 ];
 
 export const skills = [
