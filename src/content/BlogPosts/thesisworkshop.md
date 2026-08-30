@@ -1,8 +1,8 @@
-\---
+---
 
 title: "Workshop on definability, algebra and duality in non-classical logic"
 date: "2026-10-29"
-tags: \["Seminars and Reading Groups"]
+tags: ["Seminars and Reading Groups"]
 excerpt: "DADL workshop."
 ---
 
@@ -12,7 +12,7 @@ excerpt: "DADL workshop."
 4. [Workshop dinner](#atlas-seminars)
 5. [Contact](#contact)
 
-\---
+---
 
 
 
@@ -20,7 +20,7 @@ The DADL workshop will take place on the 29th of October 2026 in Amsterdam. It a
 
 The workshop is co-located with the PhD defense of Rodrigo Almeida. The defense is public and will be held on the 30 of October at 14 am at the Aula of the University of Amsterdam (Singel 411, Amsterdam).
 
-\---
+---
 
 ### **Location and time**
 
@@ -28,7 +28,7 @@ The workshop will take place at F3.20, SP107, Science Park. Click [here](https:/
 
 
 
-\---
+---
 
 ### **Schedule**
 
@@ -49,7 +49,7 @@ The workshop will take place at F3.20, SP107, Science Park. Click [here](https:/
 
 
 
-\---
+---
 
 ### **Abstracts**
 
@@ -63,7 +63,7 @@ The workshop will take place at F3.20, SP107, Science Park. Click [here](https:/
 
 
 
-\---
+---
 
 ### **Workshop Dinner**
 
