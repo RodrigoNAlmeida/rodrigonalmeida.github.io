@@ -6,7 +6,7 @@ tags: ["Research project"]
 excerpt: "Undecidability of Med."
 ---
 
-We are presently trying to upload the files with all the prompts, the documents, and all research collected in the process of our working paper on the subject. Very soon they will be available here.
+You can find the basic files [here](https://rodrigonalmeida.github.io/projects/Undecidability_Documentation/Undecidability_of_Medvedev_documentation.zip); more will be updated.
 
 ### **Contact**
 
