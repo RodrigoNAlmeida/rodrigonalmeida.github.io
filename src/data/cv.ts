@@ -44,6 +44,20 @@ export const skills = [
 ];
 
 export const publications = [
+{
+		title: "Coequivalence relations and descent in modal logic",
+		authors: "R.N. Almeida and Matteo De Berardinis",
+		time: "April 2026",
+		journal: "Proceedings of AIML 2026.",
+		link: "https://arxiv.org/abs/2606.31854"
+	},
+{
+		title: "Uniform local tabularity in intuitionistic logic",
+		authors: "R.N. Almeida",
+		time: "April 2026",
+		journal: "Proceedings of AIML 2026. Extended version available here.",
+		link: "/papers/papers/Local_tabularity_and_uniform_local_tabularity.pdf"
+	},
 	{
 		title: "Maximality Principles in Modal Logic and the Axiom of Choice",
 		authors: "Rodrigo Nicolau Almeida, Guram Bezhanishvili",
@@ -82,21 +96,13 @@ export const publications = [
 ];
 
 export const accepted_articles = [
-{
-		title: "Uniform local tabularity in intuitionistic logic",
-		authors: "R.N. Almeida",
-		time: "April 2026",
-		journal: "Accepted at AIML 2026. Extended version available here.",
-		link: "/papers/papers/Local_tabularity_and_uniform_local_tabularity.pdf"
+	{
+		title: "Esakia order-compactifications and locally Esakia spaces",
+		authors: "R.N. Almeida, Guram Bezhanishvili and Nick Bezhanishvili",
+		time: "Submitted on 26 Dec 2025 (v1)",
+		journal: "To appear in an Outstanding Contributions",
+		link: "https://arxiv.org/abs/2512.22042"
 	},
-{
-		title: "Coequivalence relations and descent in modal logic",
-		authors: "R.N. Almeida and Matteo De Berardinis",
-		time: "April 2026",
-		journal: "Accepted at AIML 2026.",
-		link: "/papers/papers/Coequivalence_relations_and_descent_in_modal_logic___AIML_2026.pdf"
-	},
-
 {
 		title: "Coalgebraic Semantics for Fischer Servi Intuitionistic Modal Logic",
 		authors: "R.N. Almeida, Nick Bezhanishvili and Sarah Dukic",
@@ -114,6 +120,13 @@ export const accepted_articles = [
 
 export const preprints_notes = [
 	{
+		title: "Medvedev logic is undecidable",
+		authors: "R.N. Almeida and S. B. Knudstorp",
+		time: "Submitted on 11 September 2026 (v1)",
+		journal: " ",
+		link: "https://arxiv.org/abs/2609.13359"
+	},
+	{
 		title: "Structural Completeness in bi-IPC",
 		authors: "R.N. Almeida and Nick Bezhanishvili",
 		time: "August 2025",
@@ -123,11 +136,10 @@ export const preprints_notes = [
 	{
 		title: "Colimits of Heyting Algebras through Esakia Duality",
 		authors: "R.N. Almeida",
-		time: "Submitted on 12 Feb 2024 (v1), last revised 13 Nov 2024 (this version, v3)",
+		time: "Submitted on 11 September 2026 (v1); last revised 2 April 2026 (v6)",
 		journal: " ",
 		link: "https://arxiv.org/abs/2402.08058"
-	},
-
+	}
 ];
 
 
@@ -135,7 +147,7 @@ export const submitted_articles = [
 {
 		title: "A topos for étale-finite Heyting algebras",
 		authors: "Marco Abbadini, R.N. Almeida and Igor Arrieta",
-		time: "Submitted on 2 Apr 2026 (v1)",
+		time: "Submitted on 2 Apr 2026 (v1); last revised 26 June 2026 (v2)",
 		journal: " ",
 		link: "https://arxiv.org/abs/2606.03861"
 	},
@@ -152,19 +164,38 @@ export const submitted_articles = [
 		time: "Submitted on 25 Feb 2026 (v1)",
 		journal: " ",
 		link: "https://arxiv.org/abs/2602.20380"
-	},
-
-	{
-		title: "Esakia order-compactifications and locally Esakia spaces",
-		authors: "R.N. Almeida, Guram Bezhanishvili and Nick Bezhanishvili",
-		time: "Submitted on 26 Dec 2025 (v1)",
-		journal: " ",
-		link: "https://arxiv.org/abs/2512.22042"
-	},
-
+	}
 ];
 
 export const seminars = [
+	{
+		title: "LLAMA (16/09/2026): On the undecidability of Medvedev logic",
+	link: "/papers/slides/On_the_Undecidability_of_Medvedev_s_logic__slides.pdf"
+	},
+	{
+		title: "Workshop on Metalogic (26/08/2026): Interpolation in intuitionistic modal logics",
+	link: "/papers/slides/Workshop_on_Metalogic___Interpolation_and_Fixed_points_in_intuitionistic_modal_logic.pdf"
+	},
+	{
+		title: "TACL (30/07/2026): A topos for étale-finite Heyting algebras",
+	link: "/papers/slides/TACL___A_topos_for_étale_finite_Heyting_algebras___Presentation.pdf"
+	},
+	{
+		title: "TACL (27/07/2026): Interpolation in bi-intuitionistic logics",
+	link: "/papers/slides/TACL___Interpolation_in_bi_intuitionistic_logics___Presentation.pdf"
+	},
+	{
+		title: "AIML (01/07/2026): Uniform local tabularity in intuitionistic logic",
+	link: "/papers/slides/AIML___Uniform_local_tabularity___Presentation.pdf"
+	},
+	{
+		title: "AIML (01/07/2026): Uniform local tabularity in intuitionistic logic",
+	link: "/papers/slides/AIML___Uniform_local_tabularity___Presentation.pdf"
+	},
+	{
+		title: "AIML (29/06/2026): Coequivalence relations and descent in modal logic",
+	link: "/papers/slides/AiML_2026_Coequivalence.pdf"
+	},
 	{
 		title: "TBILLC (23/07/2025): Regular Heyting algebras and Free Heyting extensions of Boolean algebras",
 	link: "/papers/slides/Tbillc___Regular_Heyting_algebras_and_free_Heyting_extensions_of_Boolean_algebras.pdf"
@@ -315,10 +346,9 @@ export const thesis_supervision = [
 ];
 
 export const notes = [
-
+	{
+		title: "Mathematical Structures in Logic",
+		link: "/projects/MSL_Lecture_Notes/Mathematical_Structures_in_Logic.pdf",
+		time: "2025"
+	}
 ]
-//example to add
-// {
-// title: "Title of Note",
-// link: "url"
-// }
