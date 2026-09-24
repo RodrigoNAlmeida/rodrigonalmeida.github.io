@@ -1,8 +1,33 @@
 ---
 import Layout from "@/layouts/Layout.astro";
 import { news } from "@/data/news";
+import { marked } from 'marked';
 
 const orderedList = news.reverse()
+
+const renderer = {
+  link({href, title, text}) {
+
+    return `
+            <a
+      href="${href}"
+      ${title}
+      class="font-semibold hover:text-accent"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      ${text}
+    </a>`;
+  }
+};
+
+
+marked.use({ renderer });
+
+const renderMarkdown = (content: string) => {
+  return marked.parse(content);
+};
+
 ---
 
 <Layout title="News | Rodrigo Nicolau Almeida">
@@ -11,8 +36,8 @@ const orderedList = news.reverse()
         {
             orderedList.map((item) => (
                 <div class="p-2 text-base-content bg-base-100 border">
-                    <p>{item.time}</p>
-                    <p><i>{item.content}</i></p>
+                    <p class="font-semibold mb-2">{item.time}</p>
+                <Fragment set:html={renderMarkdown(item.content)} />
                 </div>
             ))
         }

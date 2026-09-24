@@ -11,7 +11,7 @@ Isto abrirá um url local onde se pode observar as edições.
 
 ## Como mudar os conteúdos do site?
 
-## Editar cabeçalho na página Home
+### Editar cabeçalho na página Home
 
 Os conteúdos que são gerados para o cabeçalho estão em `/src/settings.ts`. As descrições e títulos no cabeçalho estão na constante `profile` e os urls dos ícones das redes sociais estão em `social`.
 
@@ -43,12 +43,14 @@ O ficheiro pode ser escrito da mesma forma que eram posteriormente, mas sem a ne
 No entanto, é necessário adicionar um cabeçalho para serem adicionados à lista em Projects e serem visualizados corretamente. O cabeçalho tem de estar no início do ficheiro, sem quaisquer linhas vazias antes, e seguir esta estrutura:
 
 Exemplo:
+```
 ---
 title: "Exemple class"
 date: "2025-03-21"
 tags: ["Supervised Project"] 
 excerpt: "Descrição do projeto"
 ---
+```
 
 Para editar os projetos atualmente no site, basta abrir cada ficheiro em `/src/content/BlogPosts.ts` e editar o cabeçalho.
 

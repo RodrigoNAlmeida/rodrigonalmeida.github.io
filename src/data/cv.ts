@@ -6,13 +6,13 @@ export const experiences = [
 		location: '',
 		description: '',
 	},
-	// {
-	// 	company: 'Radium Institute (Institut du Radium)',
-	// 	time: '1914 - 1934',
-	// 	title: 'Director',
-	// 	location: 'Paris, France',
-	// 	description: 'Led groundbreaking studies on radioactivity and mentored future Nobel Prize laureates.',
-	// },
+	 {
+	  //    company: 'Radium Institute (Institut du Radium)',
+	 //	time: '1914 - 1934',
+	 //	title: 'Director',
+	 //	location: 'Paris, France',
+	 //	description: 'Led groundbreaking studies on radioactivity and mentored future Nobel Prize laureates.',
+	 },
 ];
 
 export const education = [
@@ -23,13 +23,13 @@ export const education = [
 		location: '',
 		description: '',
 	},
-	// {
+	 {
 	// 	school: 'University of Paris',
 	// 	time: '1891 - 1895',
 	// 	degree: 'Master’s in Physics and Mathematics',
 	// 	location: 'Paris, France',
 	// 	description: 'Graduated at the top of her class in physics and second in mathematics.',
-	// },
+ },
 ];
 
 export const skills = [
@@ -44,13 +44,47 @@ export const skills = [
 ];
 
 export const publications = [
+{
+		title: "Coequivalence relations and descent in modal logic",
+		authors: "R.N. Almeida and Matteo De Berardinis",
+		time: "April 2026",
+		journal: "Proceedings of AIML 2026.",
+		link: "https://arxiv.org/abs/2606.31854"
+	},
+{
+		title: "Uniform local tabularity in intuitionistic logic",
+		authors: "R.N. Almeida",
+		time: "April 2026",
+		journal: "Proceedings of AIML 2026. Extended version available here.",
+		link: "/papers/papers/Local_tabularity_and_uniform_local_tabularity.pdf"
+	},
+	{
+		title: "Maximality Principles in Modal Logic and the Axiom of Choice",
+		authors: "Rodrigo Nicolau Almeida, Guram Bezhanishvili",
+		time: "2025",
+		journal: "Fundamenta Mathematicae, Volume 271, October 2025, Pages 173-193",
+		link: "https://www.impan.pl/en/publishing-house/journals-and-series/fundamenta-mathematicae/online/115994/maximality-principles-in-modal-logic-and-the-axiom-of-choice"
+	},
+	{
+		title: "A Coalgebraic Semantics for Intuitionistic Modal Logic",
+		authors: "Rodrigo Nicolau Almeida, Nick Bezhanishvili",
+		time: "2024",
+		journal: "Advances in Modal Logic, Volume 15, August 2024, Pages 59-77",
+		link: "http://www.aiml.net/volumes/volume15/03-AlmeidaBezhanishvili.pdf"
+	},
+	{
+		title: "Unification with Simple Variable Restrictions and Admissibility of Pi2-rules",
+		authors: "Rodrigo Nicolau Almeida, Silvio Ghilardi",
+		time: "2024",
+		journal: "Advances in Modal Logic, Volume 15, August 2024, Pages 79-100",
+		link: "http://www.aiml.net/volumes/volume15/04-AlmeidaGhilardi.pdf"
+	},
 	{
 		title: 'Π2-rule systems and inductive classes of Gödel algebras',
 		authors: 'Rodrigo Nicolau Almeida',
 		journal: 'Annals of Pure and Applied Logic, Volume 176, Issue 4, April 2025',
 		time: '2025',
 		link: 'https://www.sciencedirect.com/science/article/pii/S0168007225000016?via%3Dihub',
-		abstract: 'In this paper we present a general theory of Π2-rules for systems of intuitionistic and modal logic. We introduce the notions of -rule system and of an inductive class, and provide model-theoretic and algebraic completeness theorems, which serve as our basic tools.',
 	},
 	{
 		title: 'Polyatomic logics and generalized Blok–Esakia theory',
@@ -58,109 +92,210 @@ export const publications = [
 		journal: 'Journal of Logic and Computation, Volume 34, Issue 5, July 2024, Pages 887–935',
 		time: '2023',
 		link: 'https://academic.oup.com/logcom/advance-article-abstract/doi/10.1093/logcom/exad043/7198104?redirectedFrom=fulltext',
-		abstract: 'This paper presents a novel concept of a polyatomic logic and initiates its systematic study. ',
 	},
 ];
 
 export const accepted_articles = [
 	{
-		title: "Unification with Simple Variable Restrictions and Admissibility of Pi2-rules",
-		authors: "Rodrigo Nicolau Almeida, Silvio Ghilardi",
-		abstract: "We develop a method to recognize admissibility of Π2-rules, relating this problem to a specific instance of the unification problem with linear constants restriction, called here unification with simple variable restriction. It is shown that for logical systems enjoying an appropriate algebraic semantics and a finite approximation of left uniform interpolation, this unification with simple variable restriction can be reduced to standard unification. As a corollary, we obtain the decidability of admissibility of Π2-rules for many logical systems.",
-		time: "Accepted at AIML 2024 Proceedings",
-		journal: " ",
-		link: "https://rodrigonalmeida.github.io/papers/papers/Unification_with_Simple_Variable_Restrictions_and_Admissibility_of__2.pdf"
+		title: "Esakia order-compactifications and locally Esakia spaces",
+		authors: "R.N. Almeida, Guram Bezhanishvili and Nick Bezhanishvili",
+		time: "Submitted on 26 Dec 2025 (v1)",
+		journal: "To appear in an Outstanding Contributions",
+		link: "https://arxiv.org/abs/2512.22042"
 	},
-	{
-		title: "A Coalgebraic Semantics for Intuitionistic Modal Logic",
-		authors: "Rodrigo Nicolau Almeida, Nick Bezhanishvili",
-		abstract: "We give a new coalgebraic semantics for intuitionistic modal logic. In particular, we provide a coalgebraic representation of intuitionistic descriptive modal frames and of intuitonistic modal Kripke frames based on image-finite posets.",
-		time: "Accepted at AIML 2024 Proceedings",
-		journal: " ",
-		link: "https://rodrigonalmeida.github.io/papers/papers/A_Coalgebraic_Semantics_for_Intuitionistic_Modal_Logic.pdf"
-	}
-	{
-		title: "Maximality Principles in Modal Logic and the Axiom of Choice",
-		authors: "Rodrigo Nicolau Almeida, Guram Bezhanishvili",
-		abstract: "We investigate the set-theoretic strength of several maximality principles that play an important role in the study of modal and intuitionistic logics. We focus on the well-known Fine and Esakia maximality principles, present two formulations of each, and show that the stronger formulations are equivalent to the Axiom of Choice (AC), while the weaker ones to the Boolean Prime Ideal Theorem (BPI). ",
-		time: "Accepted at Fundamenta Mathematicae",
-		journal: " ",
-		link: "https://arxiv.org/abs/2412.13706"
+{
+		title: "Coalgebraic Semantics for Fischer Servi Intuitionistic Modal Logic",
+		authors: "R.N. Almeida, Nick Bezhanishvili and Sarah Dukic",
+		time: "February 2026",
+		journal: "Accepted at CMCS 2026",
+		link: "/papers/papers/CMCS_Fischer_Servi__camera_ready.pdf"
 	},
-]
+{
+		title: "Belief as an epistemic possibility of knowledge (and its limits)",
+		authors: "M. Tarnowski and R.N. Almeida",
+		time: "June 2026",
+		journal: "Accepted at BTSK 2026."
+},
+];
 
-export const submitted_articles = [
-		{
+export const preprints_notes = [
+	{
+		title: "Medvedev logic is undecidable",
+		authors: "R.N. Almeida and S. B. Knudstorp",
+		time: "Submitted on 11 September 2026 (v1)",
+		journal: " ",
+		link: "https://arxiv.org/abs/2609.13359"
+	},
+	{
+		title: "Structural Completeness in bi-IPC",
+		authors: "R.N. Almeida and Nick Bezhanishvili",
+		time: "August 2025",
+		journal: " ",
+		link: "https://arxiv.org/abs/2508.05682"
+	},
+	{
 		title: "Colimits of Heyting Algebras through Esakia Duality",
-		authors: "Rodrigo Nicolau Almeida",
-		abstract: "We generalize the construction, due to Ghilardi, of the free Heyting algebra generated by a finite distributive lattice, to the case of arbitrary distributive lattices. Categorically, this provides an explicit construction of a left adjoint to the inclusion of Heyting algebras in the category of distributive lattices.",
-		time: "Submitted on 12 Feb 2024 (v1), last revised 13 Nov 2024 (this version, v3)",
+		authors: "R.N. Almeida",
+		time: "Submitted on 11 September 2026 (v1); last revised 2 April 2026 (v6)",
 		journal: " ",
 		link: "https://arxiv.org/abs/2402.08058"
 	}
-]
+];
+
+
+export const submitted_articles = [
+{
+		title: "A topos for étale-finite Heyting algebras",
+		authors: "Marco Abbadini, R.N. Almeida and Igor Arrieta",
+		time: "Submitted on 2 Apr 2026 (v1); last revised 26 June 2026 (v2)",
+		journal: " ",
+		link: "https://arxiv.org/abs/2606.03861"
+	},
+{
+		title: "Fischer-Servi logic does not have interpolation",
+		authors: "R.N. Almeida, Nick Bezhanishvili and Simon Lemal",
+		time: "Submitted on 2 Apr 2026 (v1)",
+		journal: " ",
+		link: "https://arxiv.org/abs/2604.02082"
+	},
+{
+		title: "Superamalgamation for modal lattices via non-distributive dualities",
+		authors: "R.N. Almeida, Nick Bezhanishvili and Simon Lemal",
+		time: "Submitted on 25 Feb 2026 (v1)",
+		journal: " ",
+		link: "https://arxiv.org/abs/2602.20380"
+	}
+];
 
 export const seminars = [
 	{
-	title: "LAC Seminar Milan (08/05/2025): Pitts problem and Higher-Order Uniform Interpolation"
-	link: "https://rodrigonalmeida.github.io/papers/slides/Milan___Pitts_problem_and_Higher_Order_Uniform_Interpolation.pdf"
-	}
+		title: "LLAMA (16/09/2026): On the undecidability of Medvedev logic",
+	link: "/papers/slides/On_the_Undecidability_of_Medvedev_s_logic__slides.pdf"
+	},
 	{
-	title: "Birmimgham (04/04/2025) Heyting algebras one step at a time"
-	link: "https://rodrigonalmeida.github.io/papers/slides/Birmimgham___Heyting_algebras_one_step_at_a_time.pdf"
-	}
+		title: "Workshop on Metalogic (26/08/2026): Interpolation in intuitionistic modal logics",
+	link: "/papers/slides/Workshop_on_Metalogic___Interpolation_and_Fixed_points_in_intuitionistic_modal_logic.pdf"
+	},
+	{
+		title: "TACL (30/07/2026): A topos for étale-finite Heyting algebras",
+	link: "/papers/slides/TACL___A_topos_for_étale_finite_Heyting_algebras___Presentation.pdf"
+	},
+	{
+		title: "TACL (27/07/2026): Interpolation in bi-intuitionistic logics",
+	link: "/papers/slides/TACL___Interpolation_in_bi_intuitionistic_logics___Presentation.pdf"
+	},
+	{
+		title: "AIML (01/07/2026): Uniform local tabularity in intuitionistic logic",
+	link: "/papers/slides/AIML___Uniform_local_tabularity___Presentation.pdf"
+	},
+	{
+		title: "AIML (01/07/2026): Uniform local tabularity in intuitionistic logic",
+	link: "/papers/slides/AIML___Uniform_local_tabularity___Presentation.pdf"
+	},
+	{
+		title: "AIML (29/06/2026): Coequivalence relations and descent in modal logic",
+	link: "/papers/slides/AiML_2026_Coequivalence.pdf"
+	},
+	{
+		title: "TBILLC (23/07/2025): Regular Heyting algebras and Free Heyting extensions of Boolean algebras",
+	link: "/papers/slides/Tbillc___Regular_Heyting_algebras_and_free_Heyting_extensions_of_Boolean_algebras.pdf"
+	},
+	{
+		title: "LATD (22/07/2025): A Dual Proof of Blok's Lemma",
+		link: "/papers/slides/LATD___A_Dual_Proof_of_Blok_s_Lemma.pdf"
+	},
+	{
+		title: "LAC Seminar Milan (08/05/2025): Pitts problem and Higher-Order Uniform Interpolation",
+		link: "/papers/slides/Milan___Pitts_problem_and_Higher_Order_Uniform_Interpolation.pdf"
+	},
+	{
+		title: "Birmimgham (04/04/2025) Heyting algebras one step at a time",
+		link: "/papers/slides/Birmimgham___Heyting_algebras_one_step_at_a_time.pdf"
+	},
 	{
 		title: "LLAMA (06/11/2024) Colimits and Free Constructions of Heyting Algebras Through Esakia Duality",
-		link: "https://rodrigonalmeida.github.io/papers/slides/LLAMA___Colimits_and_Free_Constructions_of_Heyting_Algebras.pdf"
+		link: "/papers/slides/LLAMA___Colimits_and_Free_Constructions_of_Heyting_Algebras.pdf"
 	},
 	{
 		title: "AIML (19/08/2024) Coalgebraic Semantics for Intuitionistic Modal Logic",
-		link: "https://rodrigonalmeida.github.io/papers/slides/AIML___Coalgebraic_Semantics_for_Intuitionistic_Modal_Logic.pdf"
+		link: "/papers/slides/AIML___Coalgebraic_Semantics_for_Intuitionistic_Modal_Logic.pdf"
 	},
 	{
 		title: "AIML (19/08/2024) Unification with Simple Variable Restrictions and Admissibility of Pi2 Rules",
-		link: "https://rodrigonalmeida.github.io/papers/slides/AIML___Unification_with_Simple_Variable_Restrictions_and_Admissibility_of___Pi2_rules.pdf"
+		link: "/papers/slides/AIML___Unification_with_Simple_Variable_Restrictions_and_Admissibility_of___Pi2_rules.pdf"
 	},
 	{
 		title: "TACL (04/07/2024) Colimits of Heyting Algebras Through Esakia Duality",
-		link: "https://rodrigonalmeida.github.io/papers/slides/TACL___Colimits_of_Heyting_Algebras_Through_Esakia_Duality.pdf"
+		link: "/papers/slides/TACL___Colimits_of_Heyting_Algebras_Through_Esakia_Duality.pdf"
 	},
 	{
 		title: "LATD (11/12/2023) Inductive Rule Classes of Goedel Algebras",
-		link: "https://rodrigonalmeida.github.io/papers/slides/LATD___Inductive_Rule_Classes_of_Godel_Algebras.pdf"
+		link: "/papers/slides/LATD___Inductive_Rule_Classes_of_Godel_Algebras.pdf"
 	},
 	{
 		title: "LLAMA (13/04/23) Goldblatt-Translation Revisited",
-		link: "https://rodrigonalmeida.github.io/papers/slides/LLAMA_Presentation___Goldblatt_Translation_Revisited.pdf"
+		link: "/papers/slides/LLAMA_Presentation___Goldblatt_Translation_Revisited.pdf"
 	},
 	{
 		title: "PhD Logic Day (23/06/23) Structural Completeness and bi-IPC",
-		link: "https://rodrigonalmeida.github.io/papers/slides/PhD_Logic_Day___Structural_Completeness_and_bi_IPC.pdf"
+		link: "/papers/slides/PhD_Logic_Day___Structural_Completeness_and_bi_IPC.pdf"
 	},
 	{
 		title: "Infinitary Completeness Theorems and Rasiowa-Sikorski Lemmas",
-		link: "https://rodrigonalmeida.github.io/papers/slides/Infinitary_Completeness_Theorems__Representation_and_Intuitionistic_Logic.pdf"
+		link: "/papers/slides/Infinitary_Completeness_Theorems__Representation_and_Intuitionistic_Logic.pdf"
 	}
-]
+];
 
 export const abstracts = [
 	{
+		title: "TBILLC (2025) Regular Heyting algebras and free Heyting extensions of Boolean algebras",
+		link: "/papers/abstracts/Abstract___TbiLLC___Regular_Heyting_algebras_and_free_Heyting_extensions.pdf"
+	},
+	{
 		title: "LATD (2025) (with N. Bezhanishvili and A. Cleani) A Dual Proof of Blok's Lemma ",
-		link: "https://rodrigonalmeida.github.io/papers/abstracts/LATD2025_paper_53.pdf"
+		link: "/papers/abstracts/LATD2025_paper_53.pdf"
 	},
 	{
 		title: "(TACL 2024) Colimits of Heyting algebras through Esakia duality",
-		link: "https://rodrigonalmeida.github.io/papers/abstracts/TACL_2024_paper_19.pdf"
+		link: "/papers/abstracts/TACL_2024_paper_19.pdf"
 	},
 	{
 		title: "(LATD 2023) Universal and Inductive Rule Classes of Godel Algebras",
-		link: "https://rodrigonalmeida.github.io/papers/abstracts/Abstract___LATD___Universal_and_Inductive_Classes_of_Godel_Algebras.pdf"
+		link: "/papers/abstracts/Abstract___LATD___Universal_and_Inductive_Classes_of_Godel_Algebras.pdf"
 	},
 	{
 		title: "(TBILLC 2023) The Goldblatt Translation Revisisted",
-		link: "https://rodrigonalmeida.github.io/papers/abstracts/Abstract___TbILLC___Goldblatt_Translation_Revisited.pdf"
+		link: "/papers/abstracts/Abstract___TbILLC___Goldblatt_Translation_Revisited.pdf"
+	},
+	{
+		title: "AIML (19/08/2024) Coalgebraic Semantics for Intuitionistic Modal Logic",
+		link: "/papers/slides/AIML___Coalgebraic_Semantics_for_Intuitionistic_Modal_Logic.pdf"
+	},
+	{
+		title: "AIML (19/08/2024) Unification with Simple Variable Restrictions and Admissibility of Pi2 Rules",
+		link: "/papers/slides/AIML___Unification_with_Simple_Variable_Restrictions_and_Admissibility_of___Pi2_rules.pdf"
+	},
+	{
+		title: "TACL (04/07/2024) Colimits of Heyting Algebras Through Esakia Duality",
+		link: "/papers/slides/TACL___Colimits_of_Heyting_Algebras_Through_Esakia_Duality.pdf"
+	},
+	{
+		title: "LATD (11/12/2023) Inductive Rule Classes of Goedel Algebras",
+		link: "/papers/slides/LATD___Inductive_Rule_Classes_of_Godel_Algebras.pdf"
+	},
+	{
+		title: "LLAMA (13/04/23) Goldblatt-Translation Revisited",
+		link: "/papers/slides/LLAMA_Presentation___Goldblatt_Translation_Revisited.pdf"
+	},
+	{
+		title: "PhD Logic Day (23/06/23) Structural Completeness and bi-IPC",
+		link: "/papers/slides/PhD_Logic_Day___Structural_Completeness_and_bi_IPC.pdf"
+	},
+	{
+		title: "Infinitary Completeness Theorems and Rasiowa-Sikorski Lemmas",
+		link: "/papers/slides/Infinitary_Completeness_Theorems__Representation_and_Intuitionistic_Logic.pdf"
 	}
-]
+];
 
 export const teaching = [
 	{
@@ -193,14 +328,14 @@ export const teaching = [
 		position: "Teaching Assistant",
 		collaboration: ""
 	}
-]
+];
 
 export const thesis_supervision = [
 	{
 		title: "Sarah Dukic",
-		student_link: "",
+		student_link: "https://www.universiteitleiden.nl/en/staffmembers/sarah-dukic#tab-1",
 		collaboration: "(co-supervised with Nick Bezhanishvili)",
-		time: "in progress"
+		time: "2025"
 	},
 	{
 		title: "David Quinn Alvarez",
@@ -208,13 +343,12 @@ export const thesis_supervision = [
 		collaboration: "(co-supervised with Nick Bezhanishvili)",
 		time: "2024"
 	}
-]
+];
 
 export const notes = [
-
-] 
-//example to add
-// {
-// title: "Title of Note",
-// link: "url"
-// }
+	{
+		title: "Mathematical Structures in Logic",
+		link: "/projects/MSL_Lecture_Notes/Mathematical_Structures_in_Logic.pdf",
+		time: "2025"
+	}
+]
