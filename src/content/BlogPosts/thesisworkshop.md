@@ -42,7 +42,7 @@ The workshop will take place at F3.20, SP107, Science Park. Click [here](https:/
 |11:00 -- 11:45|Lev Beklemishev| The logic of choice and monotone Gödel-Löb |
 |11:45 -- 12:30|Marco Abbadini| A topos for étale-finite Heyting algebras|
 |12:30 -- 14:00|Lunch|-|
-|14:00 -- 14:45|Luca Carai| Mardaev's theorem via duality |
+|14:00 -- 14:45|Luca Carai| Exploring prelocal tabularity in superintuitionistic logics of width 3 |
 |14:45 -- 15:30|Matteo de Berardinis| An essentially algebraic glance to Kripke semantics: the S5 case|
 |15:30 -- 16:00|Coffee|-|
 |16:00 -- 16:45|Nick Galatos| Knotted substructural logics and their computational complexity |
