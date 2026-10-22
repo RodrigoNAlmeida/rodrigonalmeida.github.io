@@ -112,7 +112,11 @@ Joint work with R. N. Almeida and I. Arrieta.
 <details>
 <summary><strong>Luca Carai</strong>: Exploring prelocal tabularity in superintuitionistic logics of width 3 </summary>
 
-TBA
+A superintuitionistic logic is locally tabular if, up to logical equivalence, there are finitely many formulas in any fixed finite number of variables. It is prelocally tabular if it is not locally tabular but all its proper extensions are. A celebrated result of Mardaev states that there are continuum many prelocally tabular propositional superintuitionistic logics of width 3.
+
+In this talk, we will revisit Mardaev's proof from a duality-theoretic perspective, with the aim of shedding light on the machinery he employed. Our approach is based on an analysis of the behavior of endomorphisms on certain points of the Esakia duals of free finitely generated Heyting algebras. Using tools from automata theory and symbolic dynamics, we will also answer some additional questions concerning the finite axiomatizability and the structure of the canonical frames of the logics considered by Mardaev.
+ 
+Joint work with R. N. Almeida.
 
 </details>
 
@@ -126,7 +130,7 @@ Joint work with S. Ghilardi.
 </details>
 
 <details>
-<summary><strong>Nick Galatos</strong>: Title of the talk</summary>
+<summary><strong>Nick Galatos</strong>: Knotted substructural logics and their computational complexity</summary>
 
 Substructural logics are resource-sensitive generalizations of classical and intuitionistic logic. In particular, they may lack the (structural) properties of exchange, weakening and contraction, so the order and multiplicity of assumptions is important in a derivation. As a result, they are useful, among other things, in studying degrees of truth and settings where various information tokens are received or where the order of formulas is important (non-Abelian groups, sentence structure in linguistics).
 
