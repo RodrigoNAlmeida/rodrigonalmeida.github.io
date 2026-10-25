@@ -114,7 +114,7 @@ Joint work with R. N. Almeida and I. Arrieta.
 
 A superintuitionistic logic is locally tabular if, up to logical equivalence, there are finitely many formulas in any fixed finite number of variables. It is prelocally tabular if it is not locally tabular but all its proper extensions are. A celebrated result of Mardaev states that there are continuum many prelocally tabular propositional superintuitionistic logics of width 3.
 
-In this talk, we will revisit Mardaev's proof from a duality-theoretic perspective, with the aim of shedding light on the machinery he employed. Our approach is based on an analysis of the behavior of endomorphisms on certain points of the Esakia duals of free finitely generated Heyting algebras. Using tools from automata theory and symbolic dynamics, we will also answer some additional questions concerning the finite axiomatizability and the structure of the canonical frames of the logics considered by Mardaev.
+In this talk, we will revisit Mardaev's proof from a duality-theoretic perspective, with the aim of shedding light on the machinery he employed. Our approach is based on an analysis of the behavior of endomorphisms on certain points of the Esakia duals of free finitely generated Heyting algebras.  Using these insights, we will also describe the structure of the canonical frames associated with the logics considered by Mardaev.
  
 Joint work with R. N. Almeida.
 
