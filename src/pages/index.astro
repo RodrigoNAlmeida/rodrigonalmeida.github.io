@@ -9,6 +9,7 @@ import Hero from '@/components/ui/Hero.astro'
 import Grid from '@/components/ui/Grid.astro'
 import ArticleList from '@/components/ui/ArticleList.astro'
 import NewsList from '@/components/ui/NewsList.astro'
+import AtlasPromotion from '@/components/ui/AtlasPromotion.astro'
 
 const { fullName, title, institute, research_areas } = profile
 
@@ -26,6 +27,8 @@ const { fullName, title, institute, research_areas } = profile
 			profilePicture={ProfilePictures}
 		/>
 	</section>
+
+	<AtlasPromotion />
 
 	<section class='py-12 border-t'>
 		<NewsList listTitle='News' listItems={news} ></NewsList>
