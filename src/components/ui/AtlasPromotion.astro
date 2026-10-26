@@ -1,0 +1,20 @@
+---
+import { template } from '@/settings'
+---
+
+<section class="py-10 border-t" aria-labelledby="atlas-heading">
+  <div class="rounded-box border border-secondary/30 bg-secondary/10 p-6 md:p-8">
+    <p class="text-sm font-semibold tracking-wide text-secondary mb-2">Interactive mathematics</p>
+    <h2 id="atlas-heading" class="text-2xl font-bold mb-3">Ordered spaces and frames</h2>
+    <p class="mb-5 max-w-2xl">
+      Explore spaces, frames, their properties, and interactive proofs in an illustrated mathematical atlas.
+    </p>
+    <a
+      href={`${template.base}/atlas/`}
+      class="btn btn-secondary"
+      data-astro-reload
+    >
+      Explore the atlas
+    </a>
+  </div>
+</section>

@@ -1,0 +1,27 @@
+\documentclass[tikz,border=2pt]{standalone}
+\usepackage{amsmath}
+\begin{document}
+\begin{tikzpicture}[x=.45pt,y=-.45pt,line width=.45pt,line cap=round,font=\fontsize{9}{10}\selectfont]
+\path[use as bounding box] (0,10) rectangle (810,300);
+\coordinate (na0) at (90,230);
+\coordinate (na1) at (220,230);
+\coordinate (na2) at (350,230);
+\coordinate (na3) at (480,230);
+\coordinate (nlowerlimit) at (720,230);
+\coordinate (nupperlimit) at (720,80);
+\draw (nlowerlimit) -- (nupperlimit);
+\node at (590,230) {$\cdots$};
+\fill (na0) circle[radius=1.65pt];
+\node[anchor=north,inner sep=0pt,fill=white] at (90,253) {$(0,0)$};
+\fill (na1) circle[radius=1.65pt];
+\node[anchor=north,inner sep=0pt,fill=white] at (220,253) {$(1,0)$};
+\fill (na2) circle[radius=1.65pt];
+\node[anchor=north,inner sep=0pt,fill=white] at (350,253) {$(2,0)$};
+\fill (na3) circle[radius=1.65pt];
+\node[anchor=north,inner sep=0pt,fill=white] at (480,253) {$(3,0)$};
+\fill (nlowerlimit) circle[radius=1.65pt];
+\node[anchor=north,inner sep=0pt,fill=white] at (720,253) {$(\infty,0)$};
+\fill (nupperlimit) circle[radius=1.65pt];
+\node[anchor=south,inner sep=0pt,fill=white] at (720,59) {$(\infty,1)$};
+\end{tikzpicture}
+\end{document}

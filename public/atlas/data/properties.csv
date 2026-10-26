@@ -1,0 +1,18 @@
+id,name,description
+P000000,Priestley space,"Compact Hausdorff space where for each pair of points x,y where x is not below y, there is a clopen upset U where x is in U and y is not in U."
+P000001,Esakia space,Compact Hausdorff Priestley space in which the downset of every clopen set is clopen.
+P000002,At most countable,"The underlying set is finite or countably infinite. This concerns the whole construction, including its limit points, rather than the finite diagram window."
+P000003,Finite,The underlying set has finitely many points. Finite windows used to draw an infinite construction do not make this property true.
+P000004,Rooted,The order has a least element: a point below every point of the space or frame.
+P000005,Noetherian,The order has no infinite strictly ascending chain. A nonisolated least point may have transfinite depth without violating this condition.
+P000006,Finite width,"There is a finite uniform bound on the cardinalities of antichains in the order. For a space or poset, it is assumed only locally: for each rooted upset."
+P000007,Greatest element,The order has a greatest element: a point above every point of the space or frame.
+P000008,Isolated root,The order has a least element and that point is isolated in the topology.
+P000009,Discrete,"The topology is discrete (for posets with no specified topology, this is assumed)."
+P000010,bi-Esakia space,Both the space and its order-dual are Esakia spaces.
+P000011,Finite depth,There is a uniform bound on the cardinality of the chains in the order.
+P000012,Clopen maximum,The maximum of the space is a clopen set.
+P000013,KM space,"For every clopen subset, the maximum of the clopen is again clopen."
+P000014,Extremally order-disconnected,The upset of the closure of a union of clopen upsets is again a clopen upset.
+P000015,Extremally disconnected,Closure of a union of opens is open.
+P000016,Finite incomparability degree,"For every point in the order, there are finitely many points which are incomparable to it."

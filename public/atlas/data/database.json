@@ -1,0 +1,2078 @@
+{
+  "examples": [
+    {
+      "id": "S000001",
+      "key": "rn",
+      "name": "The Rieger–Nishimura ladder",
+      "description": "Rieger and Nishimura introduced this construction to study free Heyting algebras on one generator. In particular, the ladder displayed here is the Esakia dual to this algebra.",
+      "reference_blurb": "Rieger and Nishimura introduced this construction to study free Heyting algebras on one generator. In particular, the ladder displayed here is the Esakia dual to this algebra.",
+      "motivation_html": "<p>Rieger and Nishimura introduced this construction to study free Heyting algebras on one generator. In particular, the ladder displayed here is the Esakia dual to this algebra.</p>",
+      "coming_soon": false,
+      "image": "images/rn.svg",
+      "construction_url": "constructions.html#construction=rn",
+      "reference_url": "references/rieger-nishimura.html"
+    },
+    {
+      "id": "S000002",
+      "key": "fine",
+      "name": "Fine general frame",
+      "description": "K. Fine introduced this frame to study incompleteness of S4 logics. V. Shehtman later adapted it to obtain an incomplete superintuitionistic logic. It has served as a useful source of counterexamples: for instance, G. Bezhanishvili, D. Gabelaia, and M. Jibladze employed it in their negative solution to Kuznetsov’s problem for bi-Heyting algebras.",
+      "reference_blurb": "K. Fine introduced this frame to study incompleteness of S4 logics. V. Shehtman later adapted it to obtain an incomplete superintuitionistic logic. It has served as a useful source of counterexamples: for instance, G. Bezhanishvili, D. Gabelaia, and M. Jibladze employed it in their negative solution to Kuznetsov’s problem for bi-Heyting algebras.",
+      "motivation_html": "<p>K. Fine introduced this frame to study incompleteness of S<sub>4</sub> logics. V. Shehtman later adapted it to obtain an incomplete superintuitionistic logic. It has served as a useful source of counterexamples: for instance, G. Bezhanishvili, D. Gabelaia, and M. Jibladze employed it in their negative solution to Kuznetsov’s problem for bi-Heyting algebras.</p>",
+      "coming_soon": false,
+      "image": "images/fine.svg",
+      "construction_url": "constructions.html#construction=fine",
+      "reference_url": "references/fine.html"
+    },
+    {
+      "id": "S000003",
+      "key": "mardaev",
+      "name": "Mardaev frames",
+      "description": "The dual algebras were introduced to study pre-locally tabular superintuitionistic logics and to prove that there are continuum many of them.",
+      "reference_blurb": "The dual algebras were introduced to study pre-locally tabular superintuitionistic logics and to prove that there are continuum many of them.",
+      "motivation_html": "<p>The dual algebras were introduced to study pre-locally tabular superintuitionistic logics and to prove that there are continuum many of them.</p>",
+      "coming_soon": false,
+      "image": "images/mardaev.svg",
+      "construction_url": "constructions.html#construction=mardaev",
+      "reference_url": "references/mardaev.html"
+    },
+    {
+      "id": "S000004",
+      "key": "wb",
+      "name": "WB graph frame",
+      "description": "This frame was introduced in our studies of pre-local tabularity and local tabularity, seeking a width-bounded locally tabular logic: it is not locally tabular, but all finitely generated algebras of bounded width in its variety are finite. Every finitely generated algebra in this variety is co-Hopfian.",
+      "reference_blurb": "This frame was introduced in our studies of pre-local tabularity and local tabularity, seeking a width-bounded locally tabular logic: it is not locally tabular, but all finitely generated algebras of bounded width in its variety are finite. Every finitely generated algebra in this variety is co-Hopfian.",
+      "motivation_html": "<p>This frame was introduced in our studies of pre-local tabularity and local tabularity, seeking a width-bounded locally tabular logic: it is not locally tabular, but all finitely generated algebras of bounded width in its variety are finite. Every finitely generated algebra in this variety is co-Hopfian.</p>",
+      "coming_soon": false,
+      "image": "images/wb.svg",
+      "construction_url": "constructions.html#construction=wb",
+      "reference_url": "references/wb.html"
+    },
+    {
+      "id": "S000005",
+      "key": "young",
+      "name": "Young lattice Fine frame",
+      "description": "Young's lattice of partitions was introduced by A. Young in the study of integer partitions in combinatorics and number theory. This particular construction models the Fine general frame, and replaces its \"kernel\" (the bottom ascending part) by Young's lattice of partitions, obtaining interesting properties.",
+      "reference_blurb": "This frame arose in our studies of completeness theory, seeking the extent of the Artin-gluing based completion method which was found to work for the Fine general frame.",
+      "motivation_html": "<p> This frame arose in our studies of completeness theory, seeking the extent of the Artin-gluing based completion method which was found to work for the Fine general frame. </p>",
+      "coming_soon": false,
+      "image": "images/young.svg",
+      "construction_url": "constructions.html#construction=young",
+      "reference_url": "references/young-lattice.html"
+    },
+    {
+      "id": "S000006",
+      "key": "localic",
+      "name": "Double omega frame",
+      "description": "Coming soon",
+      "reference_blurb": "",
+      "motivation_html": "",
+      "coming_soon": true,
+      "image": "images/localic.svg",
+      "construction_url": "constructions.html#construction=localic",
+      "reference_url": "references/double-omega.html"
+    },
+    {
+      "id": "S000007",
+      "key": "hmmq",
+      "name": "Hyttinen–Martins–Moraschini–Quadrellaro",
+      "description": "Coming soon",
+      "reference_blurb": "",
+      "motivation_html": "",
+      "coming_soon": true,
+      "image": "images/hmmq.svg",
+      "construction_url": "constructions.html#construction=hmmq",
+      "reference_url": "references/hmmq.html"
+    },
+    {
+      "id": "S000008",
+      "key": "bellissima",
+      "name": "Bellissima’s construction",
+      "description": "Bellissima’s universal model gives a representation of the free Heyting algebra on two generators by building the \"image-finite part\" of the dual space. The construction is recursive, and proceeds by layers, taking into account the structure of successors and the \"colors\" -- the propositional variables satisfied by each point.",
+      "reference_blurb": "Bellissima’s universal model gives a representation of the free Heyting algebra on two generators by building the \"image-finite part\" of the dual space. The construction is recursive, and proceeds by layers, taking into account the structure of successors and the \"colors\" -- the propositional variables satisfied by each point.",
+      "motivation_html": "<p>Bellissima’s universal model gives a representation of the free Heyting algebra on two generators by building the \"image-finite part\" of the dual space. The construction is recursive, and proceeds by layers, taking into account the structure of successors and the \"colors\" -- the propositional variables satisfied by each point.</p><p>Bellissima’s universal model <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>U</mi><mo>(</mo><mn>2</mn><mo>)</mo></mrow></math> is the image-finite part part of <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msub><mi>X</mi><mn>2</mn></msub></mrow></math>. We begin with four maximal points, one of each colour <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>∅</mo></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>{</mo><mi>p</mi><mo>}</mo></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>{</mo><mi>q</mi><mo>}</mo></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>{</mo><mi>p</mi><mo>,</mo><mi>q</mi><mo>}</mo></mrow></math>.</p><p>At each round we build a new layer of <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>U</mi><mo>(</mo><mn>2</mn><mo>)</mo></mrow></math> as follows: pick a finite antichain <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>A</mi></mrow></math> from the existing model, containing at least one point from the preceding layer, and a color <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>C</mi></mrow></math> which is below the color of each point in this antichain; then add a point which has <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>A</mi></mrow></math> as its successors, and is colored <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>C</mi></mrow></math>.</p><p>The interactive display shows the four maximal points, and a selection of 18 points (the layers grow extremely quickly -- at the third layer several hundreds or thousands of points). The color upsets in the end are given by the points sharing the colors <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>p</mi></mrow></math> and <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>q</mi></mrow></math>.</p><p>At the end of the construction, the poset will contain a copy of each (irreducible) 2-generated Kripke model.</p>",
+      "coming_soon": false,
+      "image": "images/bellissima.svg",
+      "construction_url": "constructions.html#construction=bellissima",
+      "reference_url": "references/bellissima.html"
+    },
+    {
+      "id": "S000009",
+      "key": "mrn",
+      "name": "Modified Rieger-Nishimura ladder",
+      "description": "A modified Rieger-Nishimura ladder with an added point on top.",
+      "reference_blurb": "This simple modification of the RN-ladder can be obtained as a p-morphic image of it, and appears recurringly in studies of completeness: in degrees of FMP, pre-local tabularity, amongst other places.",
+      "motivation_html": "",
+      "coming_soon": false,
+      "image": "images/mrn.svg",
+      "construction_url": "",
+      "reference_url": "references/rieger-nishimura.html"
+    },
+    {
+      "id": "S000010",
+      "key": "cfork",
+      "name": "Countable fork",
+      "description": "An order on the space omega+1, placing the compactification point on the bottom. Simple example of Priestley space which is not Esakia.",
+      "reference_blurb": "Infinite fork space.",
+      "motivation_html": "",
+      "coming_soon": false,
+      "image": "images/cfork.svg",
+      "construction_url": "",
+      "reference_url": ""
+    },
+    {
+      "id": "S000011",
+      "key": "ccofork",
+      "name": "Countable co-fork",
+      "description": "An order on the space omega+1, placing the compactification point on the top. An Esakia space which is not bi-Esakia.",
+      "reference_blurb": "Infinite co-fork space.",
+      "motivation_html": "",
+      "coming_soon": false,
+      "image": "images/ccofork.svg",
+      "construction_url": "",
+      "reference_url": ""
+    },
+    {
+      "id": "S000012",
+      "key": "dtopchain",
+      "name": "Deleted top 2-chain space",
+      "description": "The space $\\omega\\times 2_{\\leq}$ with the upper set of isolated points deleted. Another example of a Priestley space that is not Esakia.",
+      "reference_blurb": "The space $\\omega\\times 2_{\\leq}$ with the upper set of isolated points deleted. Another example of a Priestley space that is not Esakia.",
+      "motivation_html": "",
+      "coming_soon": false,
+      "image": "images/dtopchain.svg",
+      "construction_url": "",
+      "reference_url": ""
+    },
+    {
+      "id": "S000013",
+      "key": "dbotchain",
+      "name": "Deleted bottom 2-chain space",
+      "description": "The space $\\omega\\times 2_{\\leq}$ with the lower set of isolated points deleted. An Esakia space that is not bi-Esakia.",
+      "reference_blurb": "The space $\\omega\\times 2_{\\leq}$ with the lower set of isolated points deleted. An Esakia space that is not bi-Esakia.",
+      "motivation_html": "",
+      "coming_soon": false,
+      "image": "images/dbotchain.svg",
+      "construction_url": "",
+      "reference_url": ""
+    }
+  ],
+  "properties": [
+    {
+      "id": "P000000",
+      "name": "Priestley space",
+      "description": "Compact Hausdorff space where for each pair of points x,y where x is not below y, there is a clopen upset U where x is in U and y is not in U."
+    },
+    {
+      "id": "P000001",
+      "name": "Esakia space",
+      "description": "Compact Hausdorff Priestley space in which the downset of every clopen set is clopen."
+    },
+    {
+      "id": "P000002",
+      "name": "At most countable",
+      "description": "The underlying set is finite or countably infinite. This concerns the whole construction, including its limit points, rather than the finite diagram window."
+    },
+    {
+      "id": "P000003",
+      "name": "Finite",
+      "description": "The underlying set has finitely many points. Finite windows used to draw an infinite construction do not make this property true."
+    },
+    {
+      "id": "P000004",
+      "name": "Rooted",
+      "description": "The order has a least element: a point below every point of the space or frame."
+    },
+    {
+      "id": "P000005",
+      "name": "Noetherian",
+      "description": "The order has no infinite strictly ascending chain. A nonisolated least point may have transfinite depth without violating this condition."
+    },
+    {
+      "id": "P000006",
+      "name": "Finite width",
+      "description": "There is a finite uniform bound on the cardinalities of antichains in the order. For a space or poset, it is assumed only locally: for each rooted upset."
+    },
+    {
+      "id": "P000007",
+      "name": "Greatest element",
+      "description": "The order has a greatest element: a point above every point of the space or frame."
+    },
+    {
+      "id": "P000008",
+      "name": "Isolated root",
+      "description": "The order has a least element and that point is isolated in the topology."
+    },
+    {
+      "id": "P000009",
+      "name": "Discrete",
+      "description": "The topology is discrete (for posets with no specified topology, this is assumed)."
+    },
+    {
+      "id": "P000010",
+      "name": "bi-Esakia space",
+      "description": "Both the space and its order-dual are Esakia spaces."
+    },
+    {
+      "id": "P000011",
+      "name": "Finite depth",
+      "description": "There is a uniform bound on the cardinality of the chains in the order."
+    },
+    {
+      "id": "P000012",
+      "name": "Clopen maximum",
+      "description": "The maximum of the space is a clopen set."
+    },
+    {
+      "id": "P000013",
+      "name": "KM space",
+      "description": "For every clopen subset, the maximum of the clopen is again clopen."
+    },
+    {
+      "id": "P000014",
+      "name": "Extremally order-disconnected",
+      "description": "The upset of the closure of a union of clopen upsets is again a clopen upset."
+    },
+    {
+      "id": "P000015",
+      "name": "Extremally disconnected",
+      "description": "Closure of a union of opens is open."
+    },
+    {
+      "id": "P000016",
+      "name": "Finite incomparability degree",
+      "description": "For every point in the order, there are finitely many points which are incomparable to it."
+    }
+  ],
+  "matrix": {
+    "S000001": {
+      "P000000": 1,
+      "P000001": 1,
+      "P000002": 1,
+      "P000003": 0,
+      "P000004": 1,
+      "P000005": 1,
+      "P000006": 1,
+      "P000007": 0,
+      "P000008": 0,
+      "P000009": 0,
+      "P000010": 1,
+      "P000011": 0,
+      "P000012": 1,
+      "P000013": 1,
+      "P000014": 1,
+      "P000015": 0,
+      "P000016": 1
+    },
+    "S000002": {
+      "P000000": 1,
+      "P000001": 1,
+      "P000002": 1,
+      "P000003": 0,
+      "P000004": 1,
+      "P000005": 0,
+      "P000006": 0,
+      "P000007": 0,
+      "P000008": 1,
+      "P000009": 0,
+      "P000010": 1,
+      "P000011": 0,
+      "P000012": 1,
+      "P000013": 1,
+      "P000014": 0,
+      "P000015": 0,
+      "P000016": 0
+    },
+    "S000003": {
+      "P000000": 1,
+      "P000001": 1,
+      "P000002": 1,
+      "P000003": 0,
+      "P000004": 1,
+      "P000005": 1,
+      "P000006": 1,
+      "P000007": 1,
+      "P000008": 0,
+      "P000009": 0,
+      "P000010": 1,
+      "P000011": 0,
+      "P000012": 1,
+      "P000013": 1,
+      "P000014": 1,
+      "P000015": 0,
+      "P000016": 1
+    },
+    "S000004": {
+      "P000000": 1,
+      "P000001": 1,
+      "P000002": 1,
+      "P000003": 0,
+      "P000004": 1,
+      "P000005": 1,
+      "P000006": 0,
+      "P000007": 0,
+      "P000008": 0,
+      "P000009": 0,
+      "P000010": 1,
+      "P000011": 0,
+      "P000012": 1,
+      "P000013": 1,
+      "P000014": 1,
+      "P000015": 0,
+      "P000016": 1
+    },
+    "S000005": {
+      "P000000": 1,
+      "P000001": 1,
+      "P000002": 1,
+      "P000003": 0,
+      "P000004": 1,
+      "P000005": 0,
+      "P000006": 0,
+      "P000007": 0,
+      "P000008": 1,
+      "P000009": 0,
+      "P000010": 0,
+      "P000011": 0,
+      "P000012": 1,
+      "P000013": 0,
+      "P000014": 0,
+      "P000015": 0,
+      "P000016": 0
+    },
+    "S000006": {
+      "P000000": 1,
+      "P000001": 1,
+      "P000002": 1,
+      "P000003": 0,
+      "P000004": 1,
+      "P000005": 0,
+      "P000006": 0,
+      "P000007": 1,
+      "P000008": 1,
+      "P000009": 0,
+      "P000010": 0,
+      "P000011": 0,
+      "P000012": 0,
+      "P000013": 0,
+      "P000014": 0,
+      "P000015": 0,
+      "P000016": 0
+    },
+    "S000007": {
+      "P000000": 1,
+      "P000001": 1,
+      "P000002": 1,
+      "P000003": 0,
+      "P000004": 1,
+      "P000005": 1,
+      "P000006": 1,
+      "P000007": 0,
+      "P000008": 0,
+      "P000009": 0,
+      "P000010": 1,
+      "P000011": 0,
+      "P000012": 1,
+      "P000013": 1,
+      "P000014": 1,
+      "P000015": 0,
+      "P000016": 1
+    },
+    "S000008": {
+      "P000000": 0,
+      "P000001": 0,
+      "P000002": 1,
+      "P000003": 0,
+      "P000004": 0,
+      "P000005": 1,
+      "P000006": 1,
+      "P000007": 0,
+      "P000008": 0,
+      "P000009": 1,
+      "P000010": 0,
+      "P000011": 0,
+      "P000012": 1,
+      "P000013": 1,
+      "P000014": 1,
+      "P000015": 1,
+      "P000016": 0
+    },
+    "S000009": {
+      "P000000": 1,
+      "P000001": 1,
+      "P000002": 1,
+      "P000003": 0,
+      "P000004": 1,
+      "P000005": 1,
+      "P000006": 1,
+      "P000007": 1,
+      "P000008": 0,
+      "P000009": 0,
+      "P000010": 1,
+      "P000011": 0,
+      "P000012": 1,
+      "P000013": 1,
+      "P000014": 1,
+      "P000015": 0,
+      "P000016": 1
+    },
+    "S000010": {
+      "P000000": 1,
+      "P000001": 0,
+      "P000002": 1,
+      "P000003": 0,
+      "P000004": 1,
+      "P000005": 1,
+      "P000006": 0,
+      "P000007": 0,
+      "P000008": 0,
+      "P000009": 0,
+      "P000010": 0,
+      "P000011": 1,
+      "P000012": 0,
+      "P000013": 0,
+      "P000014": 1,
+      "P000015": 0,
+      "P000016": 0
+    },
+    "S000011": {
+      "P000000": 1,
+      "P000001": 1,
+      "P000002": 1,
+      "P000003": 0,
+      "P000004": 0,
+      "P000005": 1,
+      "P000006": 1,
+      "P000007": 1,
+      "P000008": 0,
+      "P000009": 0,
+      "P000010": 0,
+      "P000011": 1,
+      "P000012": 0,
+      "P000013": 0,
+      "P000014": 1,
+      "P000015": 0,
+      "P000016": 0
+    },
+    "S000012": {
+      "P000000": 1,
+      "P000001": 0,
+      "P000002": 1,
+      "P000003": 0,
+      "P000004": 0,
+      "P000005": 1,
+      "P000006": 1,
+      "P000007": 0,
+      "P000008": 0,
+      "P000009": 0,
+      "P000010": 0,
+      "P000011": 1,
+      "P000012": 0,
+      "P000013": 0,
+      "P000014": 0,
+      "P000015": 0,
+      "P000016": 0
+    },
+    "S000013": {
+      "P000000": 1,
+      "P000001": 1,
+      "P000002": 1,
+      "P000003": 0,
+      "P000004": 0,
+      "P000005": 1,
+      "P000006": 1,
+      "P000007": 0,
+      "P000008": 0,
+      "P000009": 0,
+      "P000010": 0,
+      "P000011": 1,
+      "P000012": 1,
+      "P000013": 1,
+      "P000014": 0,
+      "P000015": 0,
+      "P000016": 0
+    }
+  },
+  "evidence": [
+    {
+      "example_id": "S000001",
+      "property_id": "P000000",
+      "reference": "Esakia, Heyting Algebras: Duality Theory (2019).",
+      "reference_url": "https://doi.org/10.1007/978-3-030-12096-2"
+    },
+    {
+      "example_id": "S000001",
+      "property_id": "P000001",
+      "reference": "Esakia, Heyting Algebras: Duality Theory (2019).",
+      "reference_url": "https://doi.org/10.1007/978-3-030-12096-2"
+    },
+    {
+      "example_id": "S000001",
+      "property_id": "P000002",
+      "reference": "By definition",
+      "reference_url": ""
+    },
+    {
+      "example_id": "S000001",
+      "property_id": "P000003",
+      "reference": "By definition",
+      "reference_url": ""
+    },
+    {
+      "example_id": "S000001",
+      "property_id": "P000004",
+      "reference": "By definition",
+      "reference_url": ""
+    },
+    {
+      "example_id": "S000001",
+      "property_id": "P000005",
+      "reference": "By definition",
+      "reference_url": ""
+    },
+    {
+      "example_id": "S000001",
+      "property_id": "P000006",
+      "reference": "By definition",
+      "reference_url": ""
+    },
+    {
+      "example_id": "S000001",
+      "property_id": "P000007",
+      "reference": "By definition",
+      "reference_url": ""
+    },
+    {
+      "example_id": "S000001",
+      "property_id": "P000008",
+      "reference": "By definition",
+      "reference_url": ""
+    },
+    {
+      "example_id": "S000001",
+      "property_id": "P000009",
+      "reference": "By definition",
+      "reference_url": ""
+    },
+    {
+      "example_id": "S000001",
+      "property_id": "P000010",
+      "reference": "Esakia, Heyting Algebras: Duality Theory (2019).",
+      "reference_url": "https://doi.org/10.1007/978-3-030-12096-2"
+    },
+    {
+      "example_id": "S000001",
+      "property_id": "P000011",
+      "reference": "By definition",
+      "reference_url": ""
+    },
+    {
+      "example_id": "S000001",
+      "property_id": "P000012",
+      "reference": "By definition",
+      "reference_url": ""
+    },
+    {
+      "example_id": "S000001",
+      "property_id": "P000013",
+      "reference": "Esakia, Heyting Algebras: Duality Theory (2019).",
+      "reference_url": "https://doi.org/10.1007/978-3-030-12096-2"
+    },
+    {
+      "example_id": "S000001",
+      "property_id": "P000014",
+      "reference": "Esakia, Heyting Algebras: Duality Theory (2019).",
+      "reference_url": "https://doi.org/10.1007/978-3-030-12096-2"
+    },
+    {
+      "example_id": "S000001",
+      "property_id": "P000015",
+      "reference": "By definition",
+      "reference_url": ""
+    },
+    {
+      "example_id": "S000001",
+      "property_id": "P000016",
+      "reference": "By definition",
+      "reference_url": ""
+    },
+    {
+      "example_id": "S000002",
+      "property_id": "P000000",
+      "reference": "Bezhanishvili, Gabelaia and Jibladze (2022).",
+      "reference_url": "https://doi.org/10.1142/S0219061322500131"
+    },
+    {
+      "example_id": "S000002",
+      "property_id": "P000001",
+      "reference": "Bezhanishvili, Gabelaia and Jibladze (2022).",
+      "reference_url": "https://doi.org/10.1142/S0219061322500131"
+    },
+    {
+      "example_id": "S000002",
+      "property_id": "P000002",
+      "reference": "By definition",
+      "reference_url": ""
+    },
+    {
+      "example_id": "S000002",
+      "property_id": "P000003",
+      "reference": "By definition",
+      "reference_url": ""
+    },
+    {
+      "example_id": "S000002",
+      "property_id": "P000004",
+      "reference": "By definition",
+      "reference_url": ""
+    },
+    {
+      "example_id": "S000002",
+      "property_id": "P000005",
+      "reference": "By definition",
+      "reference_url": ""
+    },
+    {
+      "example_id": "S000002",
+      "property_id": "P000006",
+      "reference": "By definition",
+      "reference_url": ""
+    },
+    {
+      "example_id": "S000002",
+      "property_id": "P000007",
+      "reference": "By definition",
+      "reference_url": ""
+    },
+    {
+      "example_id": "S000002",
+      "property_id": "P000008",
+      "reference": "By definition",
+      "reference_url": ""
+    },
+    {
+      "example_id": "S000002",
+      "property_id": "P000009",
+      "reference": "By definition",
+      "reference_url": ""
+    },
+    {
+      "example_id": "S000002",
+      "property_id": "P000010",
+      "reference": "Bezhanishvili, Gabelaia and Jibladze (2022).",
+      "reference_url": "https://doi.org/10.1142/S0219061322500131"
+    },
+    {
+      "example_id": "S000002",
+      "property_id": "P000011",
+      "reference": "By definition",
+      "reference_url": ""
+    },
+    {
+      "example_id": "S000002",
+      "property_id": "P000012",
+      "reference": "By definition",
+      "reference_url": ""
+    },
+    {
+      "example_id": "S000002",
+      "property_id": "P000013",
+      "reference": "Bezhanishvili, Gabelaia and Jibladze (2022).",
+      "reference_url": "https://doi.org/10.1142/S0219061322500131"
+    },
+    {
+      "example_id": "S000002",
+      "property_id": "P000014",
+      "reference": "Bezhanishvili, Gabelaia and Jibladze (2022).",
+      "reference_url": "https://doi.org/10.1142/S0219061322500131"
+    },
+    {
+      "example_id": "S000002",
+      "property_id": "P000015",
+      "reference": "By definition",
+      "reference_url": ""
+    },
+    {
+      "example_id": "S000002",
+      "property_id": "P000016",
+      "reference": "By definition",
+      "reference_url": ""
+    },
+    {
+      "example_id": "S000003",
+      "property_id": "P000000",
+      "reference": "Mardaev (1984); Almeida–Carai, Mardaev’s theorem via duality.",
+      "reference_url": "references/mardaev.html"
+    },
+    {
+      "example_id": "S000003",
+      "property_id": "P000001",
+      "reference": "Mardaev (1984); Almeida–Carai, Mardaev’s theorem via duality.",
+      "reference_url": "references/mardaev.html"
+    },
+    {
+      "example_id": "S000003",
+      "property_id": "P000002",
+      "reference": "By definition",
+      "reference_url": ""
+    },
+    {
+      "example_id": "S000003",
+      "property_id": "P000003",
+      "reference": "By definition",
+      "reference_url": ""
+    },
+    {
+      "example_id": "S000003",
+      "property_id": "P000004",
+      "reference": "By definition",
+      "reference_url": ""
+    },
+    {
+      "example_id": "S000003",
+      "property_id": "P000005",
+      "reference": "By definition",
+      "reference_url": ""
+    },
+    {
+      "example_id": "S000003",
+      "property_id": "P000006",
+      "reference": "By definition",
+      "reference_url": ""
+    },
+    {
+      "example_id": "S000003",
+      "property_id": "P000007",
+      "reference": "By definition",
+      "reference_url": ""
+    },
+    {
+      "example_id": "S000003",
+      "property_id": "P000008",
+      "reference": "By definition",
+      "reference_url": ""
+    },
+    {
+      "example_id": "S000003",
+      "property_id": "P000009",
+      "reference": "By definition",
+      "reference_url": ""
+    },
+    {
+      "example_id": "S000003",
+      "property_id": "P000010",
+      "reference": "Mardaev (1984); Almeida–Carai, Mardaev’s theorem via duality.",
+      "reference_url": "references/mardaev.html"
+    },
+    {
+      "example_id": "S000003",
+      "property_id": "P000011",
+      "reference": "By definition",
+      "reference_url": ""
+    },
+    {
+      "example_id": "S000003",
+      "property_id": "P000012",
+      "reference": "By definition",
+      "reference_url": ""
+    },
+    {
+      "example_id": "S000003",
+      "property_id": "P000013",
+      "reference": "Mardaev (1984); Almeida–Carai, Mardaev’s theorem via duality.",
+      "reference_url": "references/mardaev.html"
+    },
+    {
+      "example_id": "S000003",
+      "property_id": "P000014",
+      "reference": "Mardaev (1984); Almeida–Carai, Mardaev’s theorem via duality.",
+      "reference_url": "references/mardaev.html"
+    },
+    {
+      "example_id": "S000003",
+      "property_id": "P000015",
+      "reference": "By definition",
+      "reference_url": ""
+    },
+    {
+      "example_id": "S000003",
+      "property_id": "P000016",
+      "reference": "By definition",
+      "reference_url": ""
+    },
+    {
+      "example_id": "S000004",
+      "property_id": "P000000",
+      "reference": "By definition",
+      "reference_url": ""
+    },
+    {
+      "example_id": "S000004",
+      "property_id": "P000001",
+      "reference": "By definition",
+      "reference_url": ""
+    },
+    {
+      "example_id": "S000004",
+      "property_id": "P000002",
+      "reference": "By definition",
+      "reference_url": ""
+    },
+    {
+      "example_id": "S000004",
+      "property_id": "P000003",
+      "reference": "By definition",
+      "reference_url": ""
+    },
+    {
+      "example_id": "S000004",
+      "property_id": "P000004",
+      "reference": "By definition",
+      "reference_url": ""
+    },
+    {
+      "example_id": "S000004",
+      "property_id": "P000005",
+      "reference": "By definition",
+      "reference_url": ""
+    },
+    {
+      "example_id": "S000004",
+      "property_id": "P000006",
+      "reference": "By definition",
+      "reference_url": ""
+    },
+    {
+      "example_id": "S000004",
+      "property_id": "P000007",
+      "reference": "By definition",
+      "reference_url": ""
+    },
+    {
+      "example_id": "S000004",
+      "property_id": "P000008",
+      "reference": "By definition",
+      "reference_url": ""
+    },
+    {
+      "example_id": "S000004",
+      "property_id": "P000009",
+      "reference": "By definition",
+      "reference_url": ""
+    },
+    {
+      "example_id": "S000004",
+      "property_id": "P000010",
+      "reference": "By definition",
+      "reference_url": ""
+    },
+    {
+      "example_id": "S000004",
+      "property_id": "P000011",
+      "reference": "By definition",
+      "reference_url": ""
+    },
+    {
+      "example_id": "S000004",
+      "property_id": "P000012",
+      "reference": "By definition",
+      "reference_url": ""
+    },
+    {
+      "example_id": "S000004",
+      "property_id": "P000013",
+      "reference": "By definition",
+      "reference_url": ""
+    },
+    {
+      "example_id": "S000004",
+      "property_id": "P000014",
+      "reference": "By definition",
+      "reference_url": ""
+    },
+    {
+      "example_id": "S000004",
+      "property_id": "P000015",
+      "reference": "By definition",
+      "reference_url": ""
+    },
+    {
+      "example_id": "S000004",
+      "property_id": "P000016",
+      "reference": "By definition",
+      "reference_url": ""
+    },
+    {
+      "example_id": "S000005",
+      "property_id": "P000000",
+      "reference": "Construction definition",
+      "reference_url": "constructions.html#construction=young"
+    },
+    {
+      "example_id": "S000005",
+      "property_id": "P000001",
+      "reference": "Construction definition",
+      "reference_url": "constructions.html#construction=young"
+    },
+    {
+      "example_id": "S000005",
+      "property_id": "P000002",
+      "reference": "By definition",
+      "reference_url": ""
+    },
+    {
+      "example_id": "S000005",
+      "property_id": "P000003",
+      "reference": "By definition",
+      "reference_url": ""
+    },
+    {
+      "example_id": "S000005",
+      "property_id": "P000004",
+      "reference": "By definition",
+      "reference_url": ""
+    },
+    {
+      "example_id": "S000005",
+      "property_id": "P000005",
+      "reference": "By definition",
+      "reference_url": ""
+    },
+    {
+      "example_id": "S000005",
+      "property_id": "P000006",
+      "reference": "By definition",
+      "reference_url": ""
+    },
+    {
+      "example_id": "S000005",
+      "property_id": "P000007",
+      "reference": "By definition",
+      "reference_url": ""
+    },
+    {
+      "example_id": "S000005",
+      "property_id": "P000008",
+      "reference": "By definition",
+      "reference_url": ""
+    },
+    {
+      "example_id": "S000005",
+      "property_id": "P000009",
+      "reference": "By definition",
+      "reference_url": ""
+    },
+    {
+      "example_id": "S000005",
+      "property_id": "P000010",
+      "reference": "Construction definition",
+      "reference_url": "constructions.html#construction=young"
+    },
+    {
+      "example_id": "S000005",
+      "property_id": "P000011",
+      "reference": "By definition",
+      "reference_url": ""
+    },
+    {
+      "example_id": "S000005",
+      "property_id": "P000012",
+      "reference": "By definition",
+      "reference_url": ""
+    },
+    {
+      "example_id": "S000005",
+      "property_id": "P000013",
+      "reference": "Construction definition",
+      "reference_url": "constructions.html#construction=young"
+    },
+    {
+      "example_id": "S000005",
+      "property_id": "P000014",
+      "reference": "Construction definition",
+      "reference_url": "constructions.html#construction=young"
+    },
+    {
+      "example_id": "S000005",
+      "property_id": "P000015",
+      "reference": "By definition",
+      "reference_url": ""
+    },
+    {
+      "example_id": "S000005",
+      "property_id": "P000016",
+      "reference": "By definition",
+      "reference_url": ""
+    },
+    {
+      "example_id": "S000006",
+      "property_id": "P000000",
+      "reference": "Construction definition",
+      "reference_url": "constructions.html#construction=localic"
+    },
+    {
+      "example_id": "S000006",
+      "property_id": "P000001",
+      "reference": "Construction definition",
+      "reference_url": "constructions.html#construction=localic"
+    },
+    {
+      "example_id": "S000006",
+      "property_id": "P000002",
+      "reference": "By definition",
+      "reference_url": ""
+    },
+    {
+      "example_id": "S000006",
+      "property_id": "P000003",
+      "reference": "By definition",
+      "reference_url": ""
+    },
+    {
+      "example_id": "S000006",
+      "property_id": "P000004",
+      "reference": "By definition",
+      "reference_url": ""
+    },
+    {
+      "example_id": "S000006",
+      "property_id": "P000005",
+      "reference": "By definition",
+      "reference_url": ""
+    },
+    {
+      "example_id": "S000006",
+      "property_id": "P000006",
+      "reference": "By definition",
+      "reference_url": ""
+    },
+    {
+      "example_id": "S000006",
+      "property_id": "P000007",
+      "reference": "By definition",
+      "reference_url": ""
+    },
+    {
+      "example_id": "S000006",
+      "property_id": "P000008",
+      "reference": "By definition",
+      "reference_url": ""
+    },
+    {
+      "example_id": "S000006",
+      "property_id": "P000009",
+      "reference": "By definition",
+      "reference_url": ""
+    },
+    {
+      "example_id": "S000006",
+      "property_id": "P000010",
+      "reference": "Construction definition",
+      "reference_url": "constructions.html#construction=localic"
+    },
+    {
+      "example_id": "S000006",
+      "property_id": "P000011",
+      "reference": "By definition",
+      "reference_url": ""
+    },
+    {
+      "example_id": "S000006",
+      "property_id": "P000012",
+      "reference": "By definition",
+      "reference_url": ""
+    },
+    {
+      "example_id": "S000006",
+      "property_id": "P000013",
+      "reference": "Construction definition",
+      "reference_url": "constructions.html#construction=localic"
+    },
+    {
+      "example_id": "S000006",
+      "property_id": "P000014",
+      "reference": "Construction definition",
+      "reference_url": "constructions.html#construction=localic"
+    },
+    {
+      "example_id": "S000006",
+      "property_id": "P000015",
+      "reference": "By definition",
+      "reference_url": ""
+    },
+    {
+      "example_id": "S000006",
+      "property_id": "P000016",
+      "reference": "By definition",
+      "reference_url": ""
+    },
+    {
+      "example_id": "S000007",
+      "property_id": "P000000",
+      "reference": "Hyttinen, Martins, Moraschini and Quadrellaro (2026), Definition 4.1.",
+      "reference_url": "https://doi.org/10.1017/jsl.2024.48"
+    },
+    {
+      "example_id": "S000007",
+      "property_id": "P000001",
+      "reference": "Hyttinen, Martins, Moraschini and Quadrellaro (2026), Definition 4.1.",
+      "reference_url": "https://doi.org/10.1017/jsl.2024.48"
+    },
+    {
+      "example_id": "S000007",
+      "property_id": "P000002",
+      "reference": "By definition",
+      "reference_url": ""
+    },
+    {
+      "example_id": "S000007",
+      "property_id": "P000003",
+      "reference": "By definition",
+      "reference_url": ""
+    },
+    {
+      "example_id": "S000007",
+      "property_id": "P000004",
+      "reference": "By definition",
+      "reference_url": ""
+    },
+    {
+      "example_id": "S000007",
+      "property_id": "P000005",
+      "reference": "By definition",
+      "reference_url": ""
+    },
+    {
+      "example_id": "S000007",
+      "property_id": "P000006",
+      "reference": "By definition",
+      "reference_url": ""
+    },
+    {
+      "example_id": "S000007",
+      "property_id": "P000007",
+      "reference": "By definition",
+      "reference_url": ""
+    },
+    {
+      "example_id": "S000007",
+      "property_id": "P000008",
+      "reference": "By definition",
+      "reference_url": ""
+    },
+    {
+      "example_id": "S000007",
+      "property_id": "P000009",
+      "reference": "By definition",
+      "reference_url": ""
+    },
+    {
+      "example_id": "S000007",
+      "property_id": "P000010",
+      "reference": "Hyttinen, Martins, Moraschini and Quadrellaro (2026), Definition 4.1.",
+      "reference_url": "https://doi.org/10.1017/jsl.2024.48"
+    },
+    {
+      "example_id": "S000007",
+      "property_id": "P000011",
+      "reference": "By definition",
+      "reference_url": ""
+    },
+    {
+      "example_id": "S000007",
+      "property_id": "P000012",
+      "reference": "By definition",
+      "reference_url": ""
+    },
+    {
+      "example_id": "S000007",
+      "property_id": "P000013",
+      "reference": "Hyttinen, Martins, Moraschini and Quadrellaro (2026), Definition 4.1.",
+      "reference_url": "https://doi.org/10.1017/jsl.2024.48"
+    },
+    {
+      "example_id": "S000007",
+      "property_id": "P000014",
+      "reference": "Hyttinen, Martins, Moraschini and Quadrellaro (2026), Definition 4.1.",
+      "reference_url": "https://doi.org/10.1017/jsl.2024.48"
+    },
+    {
+      "example_id": "S000007",
+      "property_id": "P000015",
+      "reference": "By definition",
+      "reference_url": ""
+    },
+    {
+      "example_id": "S000007",
+      "property_id": "P000016",
+      "reference": "By definition",
+      "reference_url": ""
+    },
+    {
+      "example_id": "S000008",
+      "property_id": "P000000",
+      "reference": "Bellissima, Finitely generated free Heyting algebras (1986).",
+      "reference_url": "https://doi.org/10.2307/2273952"
+    },
+    {
+      "example_id": "S000008",
+      "property_id": "P000001",
+      "reference": "Bellissima, Finitely generated free Heyting algebras (1986).",
+      "reference_url": "https://doi.org/10.2307/2273952"
+    },
+    {
+      "example_id": "S000008",
+      "property_id": "P000002",
+      "reference": "By definition",
+      "reference_url": ""
+    },
+    {
+      "example_id": "S000008",
+      "property_id": "P000003",
+      "reference": "By definition",
+      "reference_url": ""
+    },
+    {
+      "example_id": "S000008",
+      "property_id": "P000004",
+      "reference": "By definition",
+      "reference_url": ""
+    },
+    {
+      "example_id": "S000008",
+      "property_id": "P000005",
+      "reference": "By definition",
+      "reference_url": ""
+    },
+    {
+      "example_id": "S000008",
+      "property_id": "P000006",
+      "reference": "By definition",
+      "reference_url": ""
+    },
+    {
+      "example_id": "S000008",
+      "property_id": "P000007",
+      "reference": "By definition",
+      "reference_url": ""
+    },
+    {
+      "example_id": "S000008",
+      "property_id": "P000008",
+      "reference": "By definition",
+      "reference_url": ""
+    },
+    {
+      "example_id": "S000008",
+      "property_id": "P000009",
+      "reference": "By definition",
+      "reference_url": ""
+    },
+    {
+      "example_id": "S000008",
+      "property_id": "P000010",
+      "reference": "Bellissima, Finitely generated free Heyting algebras (1986).",
+      "reference_url": "https://doi.org/10.2307/2273952"
+    },
+    {
+      "example_id": "S000008",
+      "property_id": "P000011",
+      "reference": "By definition",
+      "reference_url": ""
+    },
+    {
+      "example_id": "S000008",
+      "property_id": "P000012",
+      "reference": "By definition",
+      "reference_url": ""
+    },
+    {
+      "example_id": "S000008",
+      "property_id": "P000013",
+      "reference": "Bellissima, Finitely generated free Heyting algebras (1986).",
+      "reference_url": "https://doi.org/10.2307/2273952"
+    },
+    {
+      "example_id": "S000008",
+      "property_id": "P000014",
+      "reference": "Bellissima, Finitely generated free Heyting algebras (1986).",
+      "reference_url": "https://doi.org/10.2307/2273952"
+    },
+    {
+      "example_id": "S000008",
+      "property_id": "P000015",
+      "reference": "By definition",
+      "reference_url": ""
+    },
+    {
+      "example_id": "S000008",
+      "property_id": "P000016",
+      "reference": "By definition",
+      "reference_url": ""
+    },
+    {
+      "example_id": "S000009",
+      "property_id": "P000000",
+      "reference": "Esakia, Heyting Algebras: Duality Theory (2019).",
+      "reference_url": "https://doi.org/10.1007/978-3-030-12096-2"
+    },
+    {
+      "example_id": "S000009",
+      "property_id": "P000001",
+      "reference": "Esakia, Heyting Algebras: Duality Theory (2019).",
+      "reference_url": "https://doi.org/10.1007/978-3-030-12096-2"
+    },
+    {
+      "example_id": "S000009",
+      "property_id": "P000002",
+      "reference": "By definition",
+      "reference_url": ""
+    },
+    {
+      "example_id": "S000009",
+      "property_id": "P000003",
+      "reference": "By definition",
+      "reference_url": ""
+    },
+    {
+      "example_id": "S000009",
+      "property_id": "P000004",
+      "reference": "By definition",
+      "reference_url": ""
+    },
+    {
+      "example_id": "S000009",
+      "property_id": "P000005",
+      "reference": "By definition",
+      "reference_url": ""
+    },
+    {
+      "example_id": "S000009",
+      "property_id": "P000006",
+      "reference": "By definition",
+      "reference_url": ""
+    },
+    {
+      "example_id": "S000009",
+      "property_id": "P000007",
+      "reference": "By definition",
+      "reference_url": ""
+    },
+    {
+      "example_id": "S000009",
+      "property_id": "P000008",
+      "reference": "By definition",
+      "reference_url": ""
+    },
+    {
+      "example_id": "S000009",
+      "property_id": "P000009",
+      "reference": "By definition",
+      "reference_url": ""
+    },
+    {
+      "example_id": "S000009",
+      "property_id": "P000010",
+      "reference": "Esakia, Heyting Algebras: Duality Theory (2019).",
+      "reference_url": "https://doi.org/10.1007/978-3-030-12096-2"
+    },
+    {
+      "example_id": "S000009",
+      "property_id": "P000011",
+      "reference": "By definition",
+      "reference_url": ""
+    },
+    {
+      "example_id": "S000009",
+      "property_id": "P000012",
+      "reference": "By definition",
+      "reference_url": ""
+    },
+    {
+      "example_id": "S000009",
+      "property_id": "P000013",
+      "reference": "Esakia, Heyting Algebras: Duality Theory (2019).",
+      "reference_url": "https://doi.org/10.1007/978-3-030-12096-2"
+    },
+    {
+      "example_id": "S000009",
+      "property_id": "P000014",
+      "reference": "Esakia, Heyting Algebras: Duality Theory (2019).",
+      "reference_url": "https://doi.org/10.1007/978-3-030-12096-2"
+    },
+    {
+      "example_id": "S000009",
+      "property_id": "P000015",
+      "reference": "By definition",
+      "reference_url": ""
+    },
+    {
+      "example_id": "S000009",
+      "property_id": "P000016",
+      "reference": "By definition",
+      "reference_url": ""
+    },
+    {
+      "example_id": "S000010",
+      "property_id": "P000000",
+      "reference": "By definition",
+      "reference_url": ""
+    },
+    {
+      "example_id": "S000010",
+      "property_id": "P000001",
+      "reference": "By definition",
+      "reference_url": ""
+    },
+    {
+      "example_id": "S000010",
+      "property_id": "P000002",
+      "reference": "By definition",
+      "reference_url": ""
+    },
+    {
+      "example_id": "S000010",
+      "property_id": "P000003",
+      "reference": "By definition",
+      "reference_url": ""
+    },
+    {
+      "example_id": "S000010",
+      "property_id": "P000004",
+      "reference": "By definition",
+      "reference_url": ""
+    },
+    {
+      "example_id": "S000010",
+      "property_id": "P000005",
+      "reference": "By definition",
+      "reference_url": ""
+    },
+    {
+      "example_id": "S000010",
+      "property_id": "P000006",
+      "reference": "By definition",
+      "reference_url": ""
+    },
+    {
+      "example_id": "S000010",
+      "property_id": "P000007",
+      "reference": "By definition",
+      "reference_url": ""
+    },
+    {
+      "example_id": "S000010",
+      "property_id": "P000008",
+      "reference": "By definition",
+      "reference_url": ""
+    },
+    {
+      "example_id": "S000010",
+      "property_id": "P000009",
+      "reference": "By definition",
+      "reference_url": ""
+    },
+    {
+      "example_id": "S000010",
+      "property_id": "P000010",
+      "reference": "By definition",
+      "reference_url": ""
+    },
+    {
+      "example_id": "S000010",
+      "property_id": "P000011",
+      "reference": "By definition",
+      "reference_url": ""
+    },
+    {
+      "example_id": "S000010",
+      "property_id": "P000012",
+      "reference": "By definition",
+      "reference_url": ""
+    },
+    {
+      "example_id": "S000010",
+      "property_id": "P000013",
+      "reference": "By definition",
+      "reference_url": ""
+    },
+    {
+      "example_id": "S000010",
+      "property_id": "P000014",
+      "reference": "By definition",
+      "reference_url": ""
+    },
+    {
+      "example_id": "S000010",
+      "property_id": "P000015",
+      "reference": "By definition",
+      "reference_url": ""
+    },
+    {
+      "example_id": "S000010",
+      "property_id": "P000016",
+      "reference": "By definition",
+      "reference_url": ""
+    },
+    {
+      "example_id": "S000011",
+      "property_id": "P000000",
+      "reference": "By definition",
+      "reference_url": ""
+    },
+    {
+      "example_id": "S000011",
+      "property_id": "P000001",
+      "reference": "By definition",
+      "reference_url": ""
+    },
+    {
+      "example_id": "S000011",
+      "property_id": "P000002",
+      "reference": "By definition",
+      "reference_url": ""
+    },
+    {
+      "example_id": "S000011",
+      "property_id": "P000003",
+      "reference": "By definition",
+      "reference_url": ""
+    },
+    {
+      "example_id": "S000011",
+      "property_id": "P000004",
+      "reference": "By definition",
+      "reference_url": ""
+    },
+    {
+      "example_id": "S000011",
+      "property_id": "P000005",
+      "reference": "By definition",
+      "reference_url": ""
+    },
+    {
+      "example_id": "S000011",
+      "property_id": "P000006",
+      "reference": "By definition",
+      "reference_url": ""
+    },
+    {
+      "example_id": "S000011",
+      "property_id": "P000007",
+      "reference": "By definition",
+      "reference_url": ""
+    },
+    {
+      "example_id": "S000011",
+      "property_id": "P000008",
+      "reference": "By definition",
+      "reference_url": ""
+    },
+    {
+      "example_id": "S000011",
+      "property_id": "P000009",
+      "reference": "By definition",
+      "reference_url": ""
+    },
+    {
+      "example_id": "S000011",
+      "property_id": "P000010",
+      "reference": "By definition",
+      "reference_url": ""
+    },
+    {
+      "example_id": "S000011",
+      "property_id": "P000011",
+      "reference": "By definition",
+      "reference_url": ""
+    },
+    {
+      "example_id": "S000011",
+      "property_id": "P000012",
+      "reference": "By definition",
+      "reference_url": ""
+    },
+    {
+      "example_id": "S000011",
+      "property_id": "P000013",
+      "reference": "By definition",
+      "reference_url": ""
+    },
+    {
+      "example_id": "S000011",
+      "property_id": "P000014",
+      "reference": "By definition",
+      "reference_url": ""
+    },
+    {
+      "example_id": "S000011",
+      "property_id": "P000015",
+      "reference": "By definition",
+      "reference_url": ""
+    },
+    {
+      "example_id": "S000011",
+      "property_id": "P000016",
+      "reference": "By definition",
+      "reference_url": ""
+    },
+    {
+      "example_id": "S000012",
+      "property_id": "P000000",
+      "reference": "By definition",
+      "reference_url": ""
+    },
+    {
+      "example_id": "S000012",
+      "property_id": "P000001",
+      "reference": "By definition",
+      "reference_url": ""
+    },
+    {
+      "example_id": "S000012",
+      "property_id": "P000002",
+      "reference": "By definition",
+      "reference_url": ""
+    },
+    {
+      "example_id": "S000012",
+      "property_id": "P000003",
+      "reference": "By definition",
+      "reference_url": ""
+    },
+    {
+      "example_id": "S000012",
+      "property_id": "P000004",
+      "reference": "By definition",
+      "reference_url": ""
+    },
+    {
+      "example_id": "S000012",
+      "property_id": "P000005",
+      "reference": "By definition",
+      "reference_url": ""
+    },
+    {
+      "example_id": "S000012",
+      "property_id": "P000006",
+      "reference": "By definition",
+      "reference_url": ""
+    },
+    {
+      "example_id": "S000012",
+      "property_id": "P000007",
+      "reference": "By definition",
+      "reference_url": ""
+    },
+    {
+      "example_id": "S000012",
+      "property_id": "P000008",
+      "reference": "By definition",
+      "reference_url": ""
+    },
+    {
+      "example_id": "S000012",
+      "property_id": "P000009",
+      "reference": "By definition",
+      "reference_url": ""
+    },
+    {
+      "example_id": "S000012",
+      "property_id": "P000010",
+      "reference": "By definition",
+      "reference_url": ""
+    },
+    {
+      "example_id": "S000012",
+      "property_id": "P000011",
+      "reference": "By definition",
+      "reference_url": ""
+    },
+    {
+      "example_id": "S000012",
+      "property_id": "P000012",
+      "reference": "By definition",
+      "reference_url": ""
+    },
+    {
+      "example_id": "S000012",
+      "property_id": "P000013",
+      "reference": "By definition",
+      "reference_url": ""
+    },
+    {
+      "example_id": "S000012",
+      "property_id": "P000014",
+      "reference": "By definition",
+      "reference_url": ""
+    },
+    {
+      "example_id": "S000012",
+      "property_id": "P000015",
+      "reference": "By definition",
+      "reference_url": ""
+    },
+    {
+      "example_id": "S000012",
+      "property_id": "P000016",
+      "reference": "By definition",
+      "reference_url": ""
+    },
+    {
+      "example_id": "S000013",
+      "property_id": "P000000",
+      "reference": "By definition",
+      "reference_url": ""
+    },
+    {
+      "example_id": "S000013",
+      "property_id": "P000001",
+      "reference": "By definition",
+      "reference_url": ""
+    },
+    {
+      "example_id": "S000013",
+      "property_id": "P000002",
+      "reference": "By definition",
+      "reference_url": ""
+    },
+    {
+      "example_id": "S000013",
+      "property_id": "P000003",
+      "reference": "By definition",
+      "reference_url": ""
+    },
+    {
+      "example_id": "S000013",
+      "property_id": "P000004",
+      "reference": "By definition",
+      "reference_url": ""
+    },
+    {
+      "example_id": "S000013",
+      "property_id": "P000005",
+      "reference": "By definition",
+      "reference_url": ""
+    },
+    {
+      "example_id": "S000013",
+      "property_id": "P000006",
+      "reference": "By definition",
+      "reference_url": ""
+    },
+    {
+      "example_id": "S000013",
+      "property_id": "P000007",
+      "reference": "By definition",
+      "reference_url": ""
+    },
+    {
+      "example_id": "S000013",
+      "property_id": "P000008",
+      "reference": "By definition",
+      "reference_url": ""
+    },
+    {
+      "example_id": "S000013",
+      "property_id": "P000009",
+      "reference": "By definition",
+      "reference_url": ""
+    },
+    {
+      "example_id": "S000013",
+      "property_id": "P000010",
+      "reference": "By definition",
+      "reference_url": ""
+    },
+    {
+      "example_id": "S000013",
+      "property_id": "P000011",
+      "reference": "By definition",
+      "reference_url": ""
+    },
+    {
+      "example_id": "S000013",
+      "property_id": "P000012",
+      "reference": "By definition",
+      "reference_url": ""
+    },
+    {
+      "example_id": "S000013",
+      "property_id": "P000013",
+      "reference": "By definition",
+      "reference_url": ""
+    },
+    {
+      "example_id": "S000013",
+      "property_id": "P000014",
+      "reference": "By definition",
+      "reference_url": ""
+    },
+    {
+      "example_id": "S000013",
+      "property_id": "P000015",
+      "reference": "By definition",
+      "reference_url": ""
+    },
+    {
+      "example_id": "S000013",
+      "property_id": "P000016",
+      "reference": "By definition",
+      "reference_url": ""
+    }
+  ],
+  "implications": [
+    {
+      "id": "T000001",
+      "premises": [
+        {
+          "property_id": "P000003",
+          "value": 1
+        }
+      ],
+      "conclusion": {
+        "property_id": "P000002",
+        "value": 1
+      },
+      "reference": "By definition",
+      "reference_url": ""
+    },
+    {
+      "id": "T000002",
+      "premises": [
+        {
+          "property_id": "P000003",
+          "value": 1
+        }
+      ],
+      "conclusion": {
+        "property_id": "P000005",
+        "value": 1
+      },
+      "reference": "By definition",
+      "reference_url": ""
+    },
+    {
+      "id": "T000003",
+      "premises": [
+        {
+          "property_id": "P000003",
+          "value": 1
+        }
+      ],
+      "conclusion": {
+        "property_id": "P000006",
+        "value": 1
+      },
+      "reference": "By definition",
+      "reference_url": ""
+    },
+    {
+      "id": "T000004",
+      "premises": [
+        {
+          "property_id": "P000008",
+          "value": 1
+        }
+      ],
+      "conclusion": {
+        "property_id": "P000004",
+        "value": 1
+      },
+      "reference": "By definition",
+      "reference_url": ""
+    },
+    {
+      "id": "T000005",
+      "premises": [
+        {
+          "property_id": "P000001",
+          "value": 1
+        }
+      ],
+      "conclusion": {
+        "property_id": "P000000",
+        "value": 1
+      },
+      "reference": "By definition",
+      "reference_url": ""
+    },
+    {
+      "id": "T000006",
+      "premises": [
+        {
+          "property_id": "P000010",
+          "value": 1
+        }
+      ],
+      "conclusion": {
+        "property_id": "P000001",
+        "value": 1
+      },
+      "reference": "By definition",
+      "reference_url": ""
+    },
+    {
+      "id": "T000007",
+      "premises": [
+        {
+          "property_id": "P000013",
+          "value": 1
+        }
+      ],
+      "conclusion": {
+        "property_id": "P000012",
+        "value": 1
+      },
+      "reference": "By definition",
+      "reference_url": ""
+    },
+    {
+      "id": "T000008",
+      "premises": [
+        {
+          "property_id": "P000003",
+          "value": 1
+        }
+      ],
+      "conclusion": {
+        "property_id": "P000011",
+        "value": 1
+      },
+      "reference": "By definition",
+      "reference_url": ""
+    },
+    {
+      "id": "T000009",
+      "premises": [
+        {
+          "property_id": "P000003",
+          "value": 1
+        }
+      ],
+      "conclusion": {
+        "property_id": "P000016",
+        "value": 1
+      },
+      "reference": "By definition",
+      "reference_url": ""
+    },
+    {
+      "id": "T000010",
+      "premises": [
+        {
+          "property_id": "P000009",
+          "value": 1
+        },
+        {
+          "property_id": "P000000",
+          "value": 1
+        }
+      ],
+      "conclusion": {
+        "property_id": "P000003",
+        "value": 1
+      },
+      "reference": "By definition",
+      "reference_url": ""
+    },
+    {
+      "id": "T000011",
+      "premises": [
+        {
+          "property_id": "P000003",
+          "value": 1
+        },
+        {
+          "property_id": "P000000",
+          "value": 1
+        }
+      ],
+      "conclusion": {
+        "property_id": "P000009",
+        "value": 1
+      },
+      "reference": "By definition",
+      "reference_url": ""
+    },
+    {
+      "id": "T000012",
+      "premises": [
+        {
+          "property_id": "P000009",
+          "value": 1
+        }
+      ],
+      "conclusion": {
+        "property_id": "P000013",
+        "value": 1
+      },
+      "reference": "By definition",
+      "reference_url": ""
+    },
+    {
+      "id": "T000013",
+      "premises": [
+        {
+          "property_id": "P000009",
+          "value": 1
+        }
+      ],
+      "conclusion": {
+        "property_id": "P000015",
+        "value": 1
+      },
+      "reference": "By definition",
+      "reference_url": ""
+    },
+    {
+      "id": "T000014",
+      "premises": [
+        {
+          "property_id": "P000003",
+          "value": 1
+        },
+        {
+          "property_id": "P000000",
+          "value": 1
+        }
+      ],
+      "conclusion": {
+        "property_id": "P000010",
+        "value": 1
+      },
+      "reference": "By definition",
+      "reference_url": ""
+    },
+    {
+      "id": "T000015",
+      "premises": [
+        {
+          "property_id": "P000011",
+          "value": 1
+        }
+      ],
+      "conclusion": {
+        "property_id": "P000005",
+        "value": 1
+      },
+      "reference": "By definition",
+      "reference_url": ""
+    },
+    {
+      "id": "T000016",
+      "premises": [
+        {
+          "property_id": "P000009",
+          "value": 1
+        }
+      ],
+      "conclusion": {
+        "property_id": "P000014",
+        "value": 1
+      },
+      "reference": "By definition",
+      "reference_url": ""
+    }
+  ]
+}

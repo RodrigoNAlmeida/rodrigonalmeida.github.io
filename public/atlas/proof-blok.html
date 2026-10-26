@@ -1,0 +1,391 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="color-scheme" content="light"><meta name="description" content="A dual proof of Blok’s lemma with interactive illustrations."><title>A DUAL PROOF OF BLOK’S LEMMA · Ordered spaces and frames</title><link rel="icon" href="favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="styles.css"><link rel="stylesheet" href="theme.css"><link rel="stylesheet" href="catalog.css"></head>
+<body class="reading-page proof-page"><a class="skip-link" href="#page-content">Skip to content</a><header><a class="brand" href="index.html" ><span class="brand-mark" aria-hidden="true">ℰ</span><span class="brand-title">Ordered spaces and frames</span></a><div class="header-right"><nav aria-label="Main navigation"><a href="database.html" >Database explorer</a><a href="interactive-proofs.html" aria-current="page">Interactive proofs</a><a href="references.html" >References</a><a href="about.html" >About</a><button type="button" class="nav-glossary" data-atlas-glossary aria-haspopup="dialog">Glossary and notation</button></nav></div></header><main id="page-content" tabindex="-1"><link rel="stylesheet" href="blok-proof.css"><a class="breadcrumb" href="interactive-proofs.html">← Interactive proofs</a><div class="proof-title"><div><h1>A DUAL PROOF OF BLOK’S LEMMA</h1><p class="proof-authors">RODRIGO NICOLAU ALMEIDA AND NICK BEZHANISHVILI AND ANTONIO M. CLEANI</p></div><a class="quiet-link proof-source-pdf" href="proofs/blok/abstract.pdf" target="_blank" rel="noreferrer">Original abstract and bibliography ↗</a></div><div class="proof-navigation" aria-label="Proof navigation"><button type="button" id="proof-previous" class="proof-nav-button" aria-label="Previous source slide">← Previous</button><label class="proof-slide-selector"><span class="sr-only">Source slide</span><select id="proof-slide-select"><option value="context">1. Blok-Esakia Theorem</option><option value="contribution">2. The dual proof</option><option value="sigma-rho">3. The Boolean envelope and open elements</option><option value="dual">4. The dual maps</option><option value="blok">5. Blok’s Lemma</option><option value="embedding">6. The embedding lemma</option><option value="stable">7. Stable maps and surjections</option><option value="equivalence">8. Equivalent formulations</option><option value="one-step-algebra">9. One algebraic step</option><option value="algebra-chain">10. The finite algebra chain</option><option value="grz-choice">11. Where Grz is used</option><option value="passive">12. Passive points</option><option value="collapse">13. Cluster reduction</option><option value="one-step-dual">14. One dual step</option><option value="recursive-procedure">15. The recursive procedure</option><option value="conclusion">16. Iterate and conclude</option></select></label><span id="proof-slide-count" class="proof-slide-count" role="status" aria-live="polite">1 of 16</span><button type="button" id="proof-next" class="proof-nav-button" aria-label="Next source slide">Next →</button></div><progress id="proof-progress" class="proof-progress" value="1" max="16" aria-label="Progress through source slides"></progress><div class="proof-workspace"><section class="proof-source-panel" aria-label="Source text"><article class="proof-slide" id="source-context" data-proof-slide="context" ><div class="proof-source-meta"><span>Source text</span><span>Page 1</span></div><div class="proof-source-html"><h2 id="blok-esakia-theorem">1. Blok-Esakia Theorem</h2>
+<p>A modal companion of a superintuitionistic (si) logic
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>L</mi><annotation encoding="application/x-tex">L</annotation></semantics></math>
+is any normal modal logic above
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>S</mi><mn>4</mn></mrow><annotation encoding="application/x-tex">S4</annotation></semantics></math>
+in which
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>L</mi><annotation encoding="application/x-tex">L</annotation></semantics></math>
+fully and faithfully embeds via the Gödel translation. The notion of a
+modal companion has a rich theory [6, 8, 10, 7, 4, 12, 3], culminating
+in a result known as the Blok-Esakia theorem [7, 2]. The latter states
+that the lattice si logics is completely isomorphic to the lattice of
+normal extensions of
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>G</mi><mi>r</mi><mi>z</mi></mrow><annotation encoding="application/x-tex">Grz</annotation></semantics></math>,
+via the mapping that sends a si logic
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>L</mi><annotation encoding="application/x-tex">L</annotation></semantics></math>
+to the least normal extension of
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>G</mi><mi>r</mi><mi>z</mi></mrow><annotation encoding="application/x-tex">Grz</annotation></semantics></math>
+containing the Gödel translations of all theorems of
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>L</mi><annotation encoding="application/x-tex">L</annotation></semantics></math>.</p></div></article><article class="proof-slide" id="source-contribution" data-proof-slide="contribution" hidden><div class="proof-source-meta"><span>Source text</span><span>Page 1</span></div><div class="proof-source-html"><p>The literature contains several proofs of the Blok-Esakia theorem.
+Blok’s original proof [2] is algebraic and notoriously involved (see
+also [11]). Esakia appears to have given a dual proof, which remains
+unpublished. Zacharyaschev later gave a proof using the machinery of
+canonical formulas [13], which Jeřábek [9] later extended to rule
+systems using canonical rules. More recently, Bezhanishvili and Cleani
+[1] (see also [5]) offered an alternative proof based on stable
+canonical rules, which are algebra-based rules that are to filtration
+what Jerabek’s canonical rules are to selective filtration.</p>
+<p>Our contribution is to show that the proof by Bezhanishvili and
+Cleani can be carried out without the machinery of stable canonical
+rules. Moreover, the key idea of that proof can be adapted to obtain a
+dual, order-topological proof that resembles Blok’s original algebraic
+one, and gives some intuitions on it.</p></div></article><article class="proof-slide" id="source-sigma-rho" data-proof-slide="sigma-rho" hidden><div class="proof-source-meta"><span>Source text</span><span>Page 1</span></div><div class="proof-source-html"><h2 id="bloks-lemma">2. Blok’s Lemma</h2>
+<p>We begin with some preliminary definitions. Let
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>H</mi><annotation encoding="application/x-tex">H</annotation></semantics></math>
+be a Heyting algebra. The modal algebra
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>σ</mi><mi>H</mi></mrow><annotation encoding="application/x-tex">\sigma H</annotation></semantics></math>
+is constructed by expanding the free Boolean extension
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>B</mi><mrow><mo stretchy="true" form="prefix">(</mo><mi>H</mi><mo stretchy="true" form="postfix">)</mo></mrow></mrow><annotation encoding="application/x-tex">B(H)</annotation></semantics></math>
+of
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>H</mi><annotation encoding="application/x-tex">H</annotation></semantics></math>
+with the operator</p>
+<p><math display="block" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo data-modal-box="true" mathvariant="normal">□</mo><mi>a</mi><mo>:=</mo><mo>⋁</mo><mo stretchy="false" form="prefix">{</mo><mi>b</mi><mo>∈</mo><mi>H</mi><mo>:</mo><mi>b</mi><mo>≤</mo><mi>a</mi><mo stretchy="false" form="postfix">}</mo><mi>.</mi></mrow><annotation encoding="application/x-tex">\square a := \bigvee\{b\in H:b\leq a\}.</annotation></semantics></math></p>
+<p>It is well known that
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>σ</mi><mi>H</mi></mrow><annotation encoding="application/x-tex">\sigma H</annotation></semantics></math>
+is always a
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>G</mi><mi>r</mi><mi>z</mi></mrow><annotation encoding="application/x-tex">Grz</annotation></semantics></math>-algebra.</p>
+<p>Conversely, given an
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>S</mi><mn>4</mn></mrow><annotation encoding="application/x-tex">S4</annotation></semantics></math>-algebra
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>M</mi><annotation encoding="application/x-tex">M</annotation></semantics></math>,
+the skeleton
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>ρ</mi><mi>M</mi></mrow><annotation encoding="application/x-tex">\rho M</annotation></semantics></math>
+of
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>M</mi><annotation encoding="application/x-tex">M</annotation></semantics></math>
+is simply the Heyting algebra of open elements of
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>M</mi><annotation encoding="application/x-tex">M</annotation></semantics></math>.
+We recall that an element
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>a</mi><annotation encoding="application/x-tex">a</annotation></semantics></math>
+of
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>M</mi><annotation encoding="application/x-tex">M</annotation></semantics></math>
+is open when
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo data-modal-box="true" mathvariant="normal">□</mo><mi>a</mi><mo>=</mo><mi>a</mi></mrow><annotation encoding="application/x-tex">\square a=a</annotation></semantics></math>,
+and that the Heyting implication of
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>ρ</mi><mi>M</mi></mrow><annotation encoding="application/x-tex">\rho M</annotation></semantics></math>
+is given by
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>a</mi><mo>→</mo><mi>b</mi><mo>:=</mo><mo data-modal-box="true" mathvariant="normal">□</mo><mrow><mo stretchy="true" form="prefix">(</mo><mi>a</mi><mo>→</mo><mi>b</mi><mo stretchy="true" form="postfix">)</mo></mrow></mrow><annotation encoding="application/x-tex">a\to b:=\square(a\to b)</annotation></semantics></math>.</p>
+<p>It is well-known that
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>ρ</mi><annotation encoding="application/x-tex">\rho</annotation></semantics></math>
+commutes with all variety operations. Sigma commutes with subalgebras
+and homomorphic images, and also finite products, but not with arbitrary
+products in general.</p></div></article><article class="proof-slide" id="source-dual" data-proof-slide="dual" hidden><div class="proof-source-meta"><span>Source text</span><span>Page 1</span></div><div class="proof-source-html"><p>Dually, when
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>X</mi><annotation encoding="application/x-tex">X</annotation></semantics></math>
+is an Esakia space we let
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>σ</mi><mi>X</mi><mo>:=</mo><mi>X</mi></mrow><annotation encoding="application/x-tex">\sigma X:=X</annotation></semantics></math>.
+Conversely, when
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>Y</mi><annotation encoding="application/x-tex">Y</annotation></semantics></math>
+is an
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>S</mi><mn>4</mn></mrow><annotation encoding="application/x-tex">S4</annotation></semantics></math>-space,
+we let
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>ρ</mi><mi>Y</mi></mrow><annotation encoding="application/x-tex">\rho Y</annotation></semantics></math>
+be the Esakia space that results from
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>Y</mi><annotation encoding="application/x-tex">Y</annotation></semantics></math>
+by collapsing all clusters, and endowing the result with the quotient
+topology under the cluster collapse mapping. The algebraic and
+topological versions of the mappings
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>σ</mi><mo>,</mo><mi>ρ</mi></mrow><annotation encoding="application/x-tex">\sigma,\rho</annotation></semantics></math>
+are dual to one another.</p></div></article><article class="proof-slide" id="source-blok" data-proof-slide="blok" hidden><div class="proof-source-meta"><span>Source text</span><span>Page 1</span></div><div class="proof-source-html"><p>A
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>G</mi><mi>r</mi><mi>z</mi></mrow><annotation encoding="application/x-tex">Grz</annotation></semantics></math>-algebra
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>M</mi><annotation encoding="application/x-tex">M</annotation></semantics></math>
+is called skeletal when it is isomorphic to
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>σ</mi><mi>ρ</mi><mi>M</mi></mrow><annotation encoding="application/x-tex">\sigma\rho M</annotation></semantics></math>.
+Blok derives the Blok-Esakia theorem as a consequence of the following
+Lemma, now widely known as Blok’s Lemma.</p>
+<p><strong>Lemma 1 (Blok’s Lemma).</strong> Let
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>M</mi><annotation encoding="application/x-tex">M</annotation></semantics></math>
+be a
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>G</mi><mi>r</mi><mi>z</mi></mrow><annotation encoding="application/x-tex">Grz</annotation></semantics></math>-algebra.
+Then
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>M</mi><mo>∈</mo><mrow><mi mathvariant="normal">I</mi><mi mathvariant="normal">S</mi></mrow><msub><mi mathvariant="normal">P</mi><mi mathvariant="normal">U</mi></msub><mrow><mo stretchy="true" form="prefix">(</mo><mi>σ</mi><mi>ρ</mi><mi>M</mi><mo stretchy="true" form="postfix">)</mo></mrow></mrow><annotation encoding="application/x-tex">M\in\mathrm{IS}\mathrm{P}_{\mathrm{U}}(\sigma\rho M)</annotation></semantics></math>.</p>
+<p>Our goal in this work is to provide a different, more geometric,
+proof of the same fact.</p></div></article><article class="proof-slide" id="source-embedding" data-proof-slide="embedding" hidden><div class="proof-source-meta"><span>Source text</span><span>Page 2</span></div><div class="proof-source-html"><p>Let
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>M</mi><mo>,</mo><mi>N</mi></mrow><annotation encoding="application/x-tex">M,N</annotation></semantics></math>
+be modal algebras and let
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>A</mi><mo>,</mo><mi>B</mi></mrow><annotation encoding="application/x-tex">A,B</annotation></semantics></math>
+be Boolean subalgebras of
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>M</mi><mo>,</mo><mi>N</mi></mrow><annotation encoding="application/x-tex">M,N</annotation></semantics></math>
+respectively. A mapping
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>h</mi><mo>:</mo><mi>A</mi><mo>→</mo><mi>B</mi></mrow><annotation encoding="application/x-tex">h:A\to B</annotation></semantics></math>
+is called a
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mo data-modal-box="true" mathvariant="normal">□</mo><annotation encoding="application/x-tex">\square</annotation></semantics></math>-homomorphism
+when it is a Boolean homomorphism and
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>h</mi><mrow><mo stretchy="true" form="prefix">(</mo><mo data-modal-box="true" mathvariant="normal">□</mo><mi>a</mi><mo stretchy="true" form="postfix">)</mo></mrow><mo>=</mo><mo data-modal-box="true" mathvariant="normal">□</mo><mi>h</mi><mrow><mo stretchy="true" form="prefix">(</mo><mi>a</mi><mo stretchy="true" form="postfix">)</mo></mrow></mrow><annotation encoding="application/x-tex">h(\square a)=\square h(a)</annotation></semantics></math>
+whenever
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo data-modal-box="true" mathvariant="normal">□</mo><mi>a</mi><mo>∈</mo><mi>A</mi></mrow><annotation encoding="application/x-tex">\square a\in A</annotation></semantics></math>.
+The key step in Blok’s proof of Lemma 1 is the following result.</p>
+<p><strong>Lemma 2 (Algebraic embedding lemma).</strong> Let
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>M</mi><annotation encoding="application/x-tex">M</annotation></semantics></math>
+be a
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>G</mi><mi>r</mi><mi>z</mi></mrow><annotation encoding="application/x-tex">Grz</annotation></semantics></math>-algebra
+and let
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>N</mi><annotation encoding="application/x-tex">N</annotation></semantics></math>
+be a finite Boolean subalgebra of
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>M</mi><annotation encoding="application/x-tex">M</annotation></semantics></math>.
+Then there is a
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mo data-modal-box="true" mathvariant="normal">□</mo><annotation encoding="application/x-tex">\square</annotation></semantics></math>-embedding
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>h</mi><mo>:</mo><mi>N</mi><mo>→</mo><mi>σ</mi><mi>ρ</mi><mi>M</mi></mrow><annotation encoding="application/x-tex">h:N\to\sigma\rho M</annotation></semantics></math>.</p></div></article><article class="proof-slide" id="source-stable" data-proof-slide="stable" hidden><div class="proof-source-meta"><span>Source text</span><span>Page 2</span></div><div class="proof-source-html"><p>The proof given in [1], in turn, makes use of stable maps between
+modal spaces:</p>
+<p><strong>Definition 3.</strong> Given modal spaces
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>X</mi><mo>=</mo><mrow><mo stretchy="true" form="prefix">(</mo><mi>X</mi><mo>,</mo><mi>R</mi><mo stretchy="true" form="postfix">)</mo></mrow></mrow><annotation encoding="application/x-tex">X=(X,R)</annotation></semantics></math>
+and
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>Y</mi><mo>=</mo><mrow><mo stretchy="true" form="prefix">(</mo><mi>Y</mi><mo>,</mo><mi>R</mi><mo stretchy="true" form="postfix">)</mo></mrow></mrow><annotation encoding="application/x-tex">Y=(Y,R)</annotation></semantics></math>,
+a continuous function
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>f</mi><mo>:</mo><mi>X</mi><mo>→</mo><mi>Y</mi></mrow><annotation encoding="application/x-tex">f:X\to Y</annotation></semantics></math>
+is said to be stable if
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>f</mi><mrow><mo stretchy="true" form="prefix">(</mo><mi>x</mi><mo stretchy="true" form="postfix">)</mo></mrow><mi>R</mi><mi>f</mi><mrow><mo stretchy="true" form="prefix">(</mo><mi>y</mi><mo stretchy="true" form="postfix">)</mo></mrow></mrow><annotation encoding="application/x-tex">f(x)Rf(y)</annotation></semantics></math>
+holds whenever
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>x</mi><mi>R</mi><mi>y</mi></mrow><annotation encoding="application/x-tex">xRy</annotation></semantics></math>.
+Given
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>D</mi><mo>⊆</mo><mrow><mi mathvariant="normal">C</mi><mi mathvariant="normal">l</mi><mi mathvariant="normal">o</mi><mi mathvariant="normal">p</mi></mrow><mrow><mo stretchy="true" form="prefix">(</mo><mi>Y</mi><mo stretchy="true" form="postfix">)</mo></mrow></mrow><annotation encoding="application/x-tex">D\subseteq\mathrm{Clop}(Y)</annotation></semantics></math>
+we say that
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>f</mi><annotation encoding="application/x-tex">f</annotation></semantics></math>
+satisfies the bounded domain condition (BDC) with respect to
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>D</mi><annotation encoding="application/x-tex">D</annotation></semantics></math>
+if for all
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>U</mi><mo>∈</mo><mi>D</mi></mrow><annotation encoding="application/x-tex">U\in D</annotation></semantics></math>,
+if
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>f</mi><mrow><mo stretchy="true" form="prefix">(</mo><mi>x</mi><mo stretchy="true" form="postfix">)</mo></mrow><mi>R</mi><mi>y</mi></mrow><annotation encoding="application/x-tex">f(x)Ry</annotation></semantics></math>
+and
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>y</mi><mo>∈</mo><mi>U</mi></mrow><annotation encoding="application/x-tex">y\in U</annotation></semantics></math>,
+then there is some
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>x</mi><mi>′</mi></mrow><annotation encoding="application/x-tex">x&#39;</annotation></semantics></math>
+such that
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>x</mi><mi>R</mi><mi>x</mi><mi>′</mi></mrow><annotation encoding="application/x-tex">xRx&#39;</annotation></semantics></math>
+and
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>f</mi><mrow><mo stretchy="true" form="prefix">(</mo><mi>x</mi><mi>′</mi><mo stretchy="true" form="postfix">)</mo></mrow><mo>∈</mo><mi>U</mi></mrow><annotation encoding="application/x-tex">f(x&#39;)\in U</annotation></semantics></math>.</p>
+<p>Given
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>Y</mi><annotation encoding="application/x-tex">Y</annotation></semantics></math>
+a finite
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>S</mi><mn>4</mn></mrow><annotation encoding="application/x-tex">S4</annotation></semantics></math>-space,
+and
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>D</mi><annotation encoding="application/x-tex">D</annotation></semantics></math>
+a domain,
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>𝒥</mi><mrow><mo stretchy="true" form="prefix">(</mo><mi>Y</mi><mo>,</mo><mi>D</mi><mo stretchy="true" form="postfix">)</mo></mrow></mrow><annotation encoding="application/x-tex">\mathcal{J}(Y,D)</annotation></semantics></math>
+denotes the stable canonical rule. Bezhanishvili and Cleani show that
+for a
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>G</mi><mi>r</mi><mi>z</mi></mrow><annotation encoding="application/x-tex">Grz</annotation></semantics></math>-space
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>X</mi><annotation encoding="application/x-tex">X</annotation></semantics></math>,
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>X</mi><mo>⊮</mo><mi>𝒥</mi><mrow><mo stretchy="true" form="prefix">(</mo><mi>Y</mi><mo>,</mo><mi>D</mi><mo stretchy="true" form="postfix">)</mo></mrow></mrow><annotation encoding="application/x-tex">X\nVdash\mathcal{J}(Y,D)</annotation></semantics></math>
+implies
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>ρ</mi><mi>X</mi><mo>⊮</mo><mi>𝒥</mi><mrow><mo stretchy="true" form="prefix">(</mo><mi>Y</mi><mo>,</mo><mi>D</mi><mo stretchy="true" form="postfix">)</mo></mrow></mrow><annotation encoding="application/x-tex">\rho X\nVdash\mathcal{J}(Y,D)</annotation></semantics></math>,
+which amounts to showing the following lemma:</p>
+<p><strong>Lemma 4.</strong> Given a
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>G</mi><mi>r</mi><mi>z</mi></mrow><annotation encoding="application/x-tex">Grz</annotation></semantics></math>-space
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>X</mi><mo>=</mo><mrow><mo stretchy="true" form="prefix">(</mo><mi>X</mi><mo>,</mo><mi>R</mi><mo stretchy="true" form="postfix">)</mo></mrow></mrow><annotation encoding="application/x-tex">X=(X,R)</annotation></semantics></math>,
+a finite
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>S</mi><mn>4</mn></mrow><annotation encoding="application/x-tex">S4</annotation></semantics></math>-space
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>Y</mi><mo>=</mo><mrow><mo stretchy="true" form="prefix">(</mo><mi>Y</mi><mo>,</mo><mi>R</mi><mo stretchy="true" form="postfix">)</mo></mrow></mrow><annotation encoding="application/x-tex">Y=(Y,R)</annotation></semantics></math>,
+and a surjective stable map
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>p</mi><mo>:</mo><mi>X</mi><mo>→</mo><mi>Y</mi></mrow><annotation encoding="application/x-tex">p:X\to Y</annotation></semantics></math>
+satisfying the BDC for a domain
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>D</mi><annotation encoding="application/x-tex">D</annotation></semantics></math>,
+there is a stable surjection
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>p</mi><mi>′</mi><mo>:</mo><mi>ρ</mi><mi>X</mi><mo>→</mo><mi>Y</mi></mrow><annotation encoding="application/x-tex">p&#39;:\rho X\to Y</annotation></semantics></math>
+satisfying the BDC for the domain
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>D</mi><annotation encoding="application/x-tex">D</annotation></semantics></math>.</p></div></article><article class="proof-slide" id="source-equivalence" data-proof-slide="equivalence" hidden><div class="proof-source-meta"><span>Source text</span><span>Page 2</span></div><div class="proof-source-html"><p>One can then show the following:</p>
+<p><strong>Proposition 5.</strong> The following statements are
+equivalent:</p>
+<ol type="1">
+<li>Blok’s Lemma;</li>
+<li>The algebraic stable embedding lemma;</li>
+<li>The stable surjection lemma.</li>
+</ol></div><details class="proof-proposition-proof"><summary>Proof</summary><div class="proof-source-html proof-expanded-proof"><p>The equivalence of (2-3) follows strictly from duality. Given the
+algebraic stable embedding lemma, one can obtain Blok’s lemma by model
+theoretic reasoning: to show that
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>M</mi><annotation encoding="application/x-tex">M</annotation></semantics></math>
+embeds into an ultrapower of
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>σ</mi><mi>ρ</mi><mrow><mo stretchy="true" form="prefix">(</mo><mi>M</mi><mo stretchy="true" form="postfix">)</mo></mrow></mrow><annotation encoding="application/x-tex">\sigma\rho(M)</annotation></semantics></math>,
+pick a finite collection of elements from
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>M</mi><annotation encoding="application/x-tex">M</annotation></semantics></math>.
+Form a finite Boolean subalgebra of
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>M</mi><annotation encoding="application/x-tex">M</annotation></semantics></math>
+with these elements, say
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>N</mi><annotation encoding="application/x-tex">N</annotation></semantics></math>;
+note that
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>N</mi><annotation encoding="application/x-tex">N</annotation></semantics></math>
+then is a partial modal algebra. Using the algebraic stable embedding
+lemma, we find a
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mo data-modal-box="true" mathvariant="normal">□</mo><annotation encoding="application/x-tex">\Box</annotation></semantics></math>-preserving
+injection to
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>σ</mi><mi>ρ</mi><mrow><mo stretchy="true" form="prefix">(</mo><mi>M</mi><mo stretchy="true" form="postfix">)</mo></mrow></mrow><annotation encoding="application/x-tex">\sigma\rho(M)</annotation></semantics></math>.
+This ensures that the finite diagram can be realized. By classical model
+theory results, this shows that
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>M</mi><annotation encoding="application/x-tex">M</annotation></semantics></math>
+embeds into an ultrapower of
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>σ</mi><mi>ρ</mi><mrow><mo stretchy="true" form="prefix">(</mo><mi>M</mi><mo stretchy="true" form="postfix">)</mo></mrow></mrow><annotation encoding="application/x-tex">\sigma\rho(M)</annotation></semantics></math>.</p>
+<p>For the converse, assume Blok’s lemma. It is known that satisfying
+the same universal class means that each finite diagram embeds into an
+algebra in the target, which yields the algebraic stable embedding
+lemma.</p></div></details></article><article class="proof-slide" id="source-one-step-algebra" data-proof-slide="one-step-algebra" hidden><div class="proof-source-meta"><span>Source text</span><span>Page 2</span></div><div class="proof-source-html"><h2 id="step-by-step-proofs-of-bloks-lemma">3. Step-by-Step Proofs of
+Blok’s Lemma</h2>
+<p>By considering the specifics of the algebraic proof of Blok’s lemma
+and the order-topological one of [1], we will obtain a new dual proof
+which closely mirrors the original one of Blok. This starts with the
+following:</p>
+<p><strong>Lemma 6 (Algebraic one-step embedding).</strong> Let
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>M</mi><annotation encoding="application/x-tex">M</annotation></semantics></math>
+be a
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>G</mi><mi>r</mi><mi>z</mi></mrow><annotation encoding="application/x-tex">Grz</annotation></semantics></math>-algebra
+and let
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>N</mi><annotation encoding="application/x-tex">N</annotation></semantics></math>
+be a finite Boolean subalgebra, such that
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>h</mi><mo>:</mo><mi>N</mi><mo>→</mo><mi>σ</mi><mi>ρ</mi><mi>M</mi></mrow><annotation encoding="application/x-tex">h:N\to\sigma\rho M</annotation></semantics></math>
+is a
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mo data-modal-box="true" mathvariant="normal">□</mo><annotation encoding="application/x-tex">\square</annotation></semantics></math>-embedding
+fixing all open elements. If
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>x</mi><mo>∈</mo><mi>M</mi></mrow><annotation encoding="application/x-tex">x\in M</annotation></semantics></math>
+is arbitrary, then there are finitely many open elements
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>C</mi><annotation encoding="application/x-tex">C</annotation></semantics></math>,
+and a
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mo data-modal-box="true" mathvariant="normal">□</mo><annotation encoding="application/x-tex">\square</annotation></semantics></math>-embedding
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>h</mi><mi>′</mi><mo>:</mo><mo stretchy="false" form="prefix">⟨</mo><mi>N</mi><mo>∪</mo><mo stretchy="false" form="prefix">{</mo><mi>x</mi><mo stretchy="false" form="postfix">}</mo><mo>∪</mo><mi>C</mi><mo stretchy="false" form="postfix">⟩</mo><mo>→</mo><mi>σ</mi><mi>ρ</mi><mi>M</mi></mrow><annotation encoding="application/x-tex">h&#39;:\langle N\cup\{x\}\cup C\rangle\to\sigma\rho M</annotation></semantics></math>
+such that
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>h</mi><mi>′</mi><msub><mo>↾</mo><mi>N</mi></msub><mo>=</mo><mi>h</mi></mrow><annotation encoding="application/x-tex">h&#39;\upharpoonright_N=h</annotation></semantics></math>.</p></div></article><article class="proof-slide" id="source-algebra-chain" data-proof-slide="algebra-chain" hidden><div class="proof-source-meta"><span>Source text</span><span>Page 2</span></div><div class="proof-source-html"><p>Indeed, having this lemma, and an arbitrary finite Boolean subalgebra
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>N</mi><annotation encoding="application/x-tex">N</annotation></semantics></math>,
+one enumerates
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>N</mi><mo>=</mo><msub><mi>N</mi><mrow><mi>o</mi><mi>p</mi></mrow></msub><mo>∪</mo><mo stretchy="false" form="prefix">{</mo><msub><mi>x</mi><mn>1</mn></msub><mo>,</mo><mi>.</mi><mi>.</mi><mi>.</mi><mo>,</mo><msub><mi>x</mi><mi>n</mi></msub><mo stretchy="false" form="postfix">}</mo></mrow><annotation encoding="application/x-tex">N=N_{op}\cup\{x_1,...,x_n\}</annotation></semantics></math>
+where
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>N</mi><mrow><mi>o</mi><mi>p</mi></mrow></msub><mo>=</mo><mo stretchy="false" form="prefix">⟨</mo><mo stretchy="false" form="prefix">{</mo><mo data-modal-box="true" mathvariant="normal">□</mo><mi>a</mi><mo>:</mo><mo data-modal-box="true" mathvariant="normal">□</mo><mi>a</mi><mo>∈</mo><mi>N</mi><mo stretchy="false" form="postfix">}</mo><mo stretchy="false" form="postfix">⟩</mo></mrow><annotation encoding="application/x-tex">N_{op}=\langle\{\square a:\square a\in N\}\rangle</annotation></semantics></math>.
+Then one sets
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>N</mi><mn>0</mn></msub><mo>=</mo><msub><mi>N</mi><mrow><mi>o</mi><mi>p</mi></mrow></msub></mrow><annotation encoding="application/x-tex">N_0=N_{op}</annotation></semantics></math>,
+and successively adds one element, creating a sequence of algebras:</p>
+<p><math display="block" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>N</mi><mn>0</mn></msub><mo>→</mo><msub><mi>N</mi><mn>1</mn></msub><mo>→</mo><mi>.</mi><mi>.</mi><mi>.</mi><mo>→</mo><msub><mi>N</mi><mi>n</mi></msub></mrow><annotation encoding="application/x-tex">N_0\to N_1\to...\to N_n</annotation></semantics></math></p></div></article><article class="proof-slide" id="source-grz-choice" data-proof-slide="grz-choice" hidden><div class="proof-source-meta"><span>Source text</span><span>Page 2</span></div><div class="proof-source-html"><p>where
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>N</mi><mo>⊆</mo><msub><mi>N</mi><mi>n</mi></msub></mrow><annotation encoding="application/x-tex">N\subseteq N_n</annotation></semantics></math>.
+Having a
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mo data-modal-box="true" mathvariant="normal">□</mo><annotation encoding="application/x-tex">\square</annotation></semantics></math>-embedding
+of the latter algebra gives us a
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mo data-modal-box="true" mathvariant="normal">□</mo><annotation encoding="application/x-tex">\square</annotation></semantics></math>-embedding
+of
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>N</mi><annotation encoding="application/x-tex">N</annotation></semantics></math>.
+It is the way that such elements are picked which demands the Grz-axiom:
+given
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msub><mi>N</mi><mi>k</mi></msub><annotation encoding="application/x-tex">N_k</annotation></semantics></math>,
+to extend the embedding to
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo stretchy="false" form="prefix">⟨</mo><msub><mi>N</mi><mi>k</mi></msub><mo>∪</mo><mo stretchy="false" form="prefix">{</mo><msub><mi>x</mi><mrow><mi>k</mi><mo>+</mo><mn>1</mn></mrow></msub><mo stretchy="false" form="postfix">}</mo><mo stretchy="false" form="postfix">⟩</mo></mrow><annotation encoding="application/x-tex">\langle N_k\cup\{x_{k+1}\}\rangle</annotation></semantics></math>
+one needs only define the image of
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msub><mi>x</mi><mrow><mi>k</mi><mo>+</mo><mn>1</mn></mrow></msub><annotation encoding="application/x-tex">x_{k+1}</annotation></semantics></math>.
+This is done by picking, for each
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>c</mi><mo>∈</mo><msub><mi>N</mi><mi>k</mi></msub></mrow><annotation encoding="application/x-tex">c\in N_k</annotation></semantics></math>,
+an element element
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msub><mi>w</mi><mi>c</mi></msub><annotation encoding="application/x-tex">w_c</annotation></semantics></math>
+which is defined, by letting
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>u</mi><mi>c</mi></msub><mo>=</mo><mo>¬</mo><msub><mi>x</mi><mrow><mi>k</mi><mo>+</mo><mn>1</mn></mrow></msub><mo>∨</mo><mi>c</mi></mrow><annotation encoding="application/x-tex">u_c=\neg x_{k+1}\lor c</annotation></semantics></math>
+as:</p>
+<p><math display="block" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>w</mi><mi>c</mi></msub><mo>:=</mo><mo>¬</mo><mrow><mo stretchy="true" form="prefix">(</mo><mo data-modal-box="true" mathvariant="normal">□</mo><mrow><mo stretchy="true" form="prefix">(</mo><mi>u</mi><mo>→</mo><mo data-modal-box="true" mathvariant="normal">□</mo><mi>u</mi><mo stretchy="true" form="postfix">)</mo></mrow><mo>→</mo><mo data-modal-box="true" mathvariant="normal">□</mo><mi>u</mi><mo stretchy="true" form="postfix">)</mo></mrow><mi>.</mi></mrow><annotation encoding="application/x-tex">w_c:=\neg(\square(u\to\square u)\to\square u).</annotation></semantics></math></p></div></article><article class="proof-slide" id="source-passive" data-proof-slide="passive" hidden><div class="proof-source-meta"><span>Source text</span><span>Page 3</span></div><div class="proof-source-html"><p>The use of the Grz-axiom lies in ensuring that
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo data-modal-box="true" mathvariant="normal">□</mo><mrow><mo stretchy="true" form="prefix">(</mo><mo data-modal-box="true" mathvariant="normal">□</mo><mrow><mo stretchy="true" form="prefix">(</mo><mi>u</mi><mo>→</mo><mo data-modal-box="true" mathvariant="normal">□</mo><mi>u</mi><mo stretchy="true" form="postfix">)</mo></mrow><mo>→</mo><mo data-modal-box="true" mathvariant="normal">□</mo><mi>u</mi><mo stretchy="true" form="postfix">)</mo></mrow><mo>≤</mo><mi>u</mi></mrow><annotation encoding="application/x-tex">\square(\square(u\to\square u)\to\square u)\leq u</annotation></semantics></math>;
+dually, this follows if:</p>
+<p><math display="block" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>u</mi><mo>≤</mo><mo>◇</mo><mi>π</mi><mi>u</mi></mrow><annotation encoding="application/x-tex">u\leq\Diamond\pi u</annotation></semantics></math></p>
+<p>where
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>π</mi><mi>u</mi><mo>=</mo><mi>u</mi><mo>∧</mo><mo>¬</mo><mo>◇</mo><mrow><mo stretchy="true" form="prefix">(</mo><mo>◇</mo><mi>u</mi><mo>∧</mo><mo>¬</mo><mi>u</mi><mo stretchy="true" form="postfix">)</mo></mrow></mrow><annotation encoding="application/x-tex">\pi u=u\land\neg\Diamond(\Diamond u\land\neg u)</annotation></semantics></math>.
+This is called by Esakia the rest of
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>u</mi><annotation encoding="application/x-tex">u</annotation></semantics></math>;
+dually, given a clopen
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>U</mi><annotation encoding="application/x-tex">U</annotation></semantics></math>,
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>π</mi><mi>U</mi></mrow><annotation encoding="application/x-tex">\pi U</annotation></semantics></math>
+is called the set of passive points of
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>U</mi><annotation encoding="application/x-tex">U</annotation></semantics></math>,
+and it is known that the Grz-axiom corresponds to every point in
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>U</mi><annotation encoding="application/x-tex">U</annotation></semantics></math>
+being below a passive point.</p>
+<p>The picture on the right illustrates how the Grz axiom is used.</p></div></article><article class="proof-slide" id="source-collapse" data-proof-slide="collapse" hidden><div class="proof-source-meta"><span>Source text</span><span>Page 3</span></div><div class="proof-source-html"><p>Applying the key idea of the proof of [1, Main Lemma], one can obtain
+a dual step-by-step proof of Blok’s lemma. Given a space
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>X</mi><annotation encoding="application/x-tex">X</annotation></semantics></math>,
+let
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>ρ</mi><mo>:</mo><mi>X</mi><mo>→</mo><mi>ρ</mi><mi>X</mi></mrow><annotation encoding="application/x-tex">\rho:X\to\rho X</annotation></semantics></math>
+be the cluster collapse continuous map. Moreover, a surjection
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo>𝜚</mo><mo>:</mo><mi>X</mi><mo>→</mo><mi>Y</mi></mrow><annotation encoding="application/x-tex">\varrho:X\to Y</annotation></semantics></math>
+is called a cluster-reducing map when it is the quotient map induced by
+some equivalence relation on
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>Y</mi><annotation encoding="application/x-tex">Y</annotation></semantics></math>
+that never relates points belonging to different clusters in
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>X</mi><annotation encoding="application/x-tex">X</annotation></semantics></math>.</p></div></article><article class="proof-slide" id="source-one-step-dual" data-proof-slide="one-step-dual" hidden><div class="proof-source-meta"><span>Source text</span><span>Page 3</span></div><div class="proof-source-html"><p><strong>Lemma 7 (Dual one-step surjection).</strong> Let
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>X</mi><mo>=</mo><mrow><mo stretchy="true" form="prefix">(</mo><mi>X</mi><mo>,</mo><mi>R</mi><mo stretchy="true" form="postfix">)</mo></mrow><mo>,</mo><mi>Y</mi><mo>=</mo><mrow><mo stretchy="true" form="prefix">(</mo><mi>Y</mi><mo>,</mo><mi>R</mi><mo stretchy="true" form="postfix">)</mo></mrow></mrow><annotation encoding="application/x-tex">X=(X,R),Y=(Y,R)</annotation></semantics></math>
+and
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>Y</mi><mi>′</mi><mo>=</mo><mrow><mo stretchy="true" form="prefix">(</mo><mi>Y</mi><mi>′</mi><mo>,</mo><mi>R</mi><mo stretchy="true" form="postfix">)</mo></mrow></mrow><annotation encoding="application/x-tex">Y&#39;=(Y&#39;,R)</annotation></semantics></math>
+be
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>S</mi><mn>4</mn></mrow><annotation encoding="application/x-tex">S4</annotation></semantics></math>
+spaces with the following properties.</p>
+<ul>
+<li><math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>X</mi><mo>=</mo><mrow><mo stretchy="true" form="prefix">(</mo><mi>X</mi><mo>,</mo><mi>R</mi><mo stretchy="true" form="postfix">)</mo></mrow></mrow><annotation encoding="application/x-tex">X=(X,R)</annotation></semantics></math>
+is a Grz space;</li>
+<li><math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>Y</mi><mi>′</mi><mo>=</mo><mi>Y</mi><mo>⊔</mo><mo stretchy="false" form="prefix">{</mo><mo>•</mo><mo stretchy="false" form="postfix">}</mo></mrow><annotation encoding="application/x-tex">Y&#39;=Y\sqcup\{\bullet\}</annotation></semantics></math>
+and there is a cluster-reducing map
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo>𝜚</mo><mo>:</mo><mi>Y</mi><mi>′</mi><mo>→</mo><mi>Y</mi></mrow><annotation encoding="application/x-tex">\varrho:Y&#39;\to Y</annotation></semantics></math>
+which identifies
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mo>•</mo><annotation encoding="application/x-tex">\bullet</annotation></semantics></math>
+with some point in its cluster, but does not identify any other
+points;</li>
+<li>There is a stable surjection
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>f</mi><mo>:</mo><mi>X</mi><mo>→</mo><mi>Y</mi><mi>′</mi></mrow><annotation encoding="application/x-tex">f:X\to Y&#39;</annotation></semantics></math>
+satisfying the BDC for some
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>D</mi><mo>⊆</mo><mi>Y</mi><mi>′</mi></mrow><annotation encoding="application/x-tex">D\subseteq Y&#39;</annotation></semantics></math>;</li>
+<li>There is a stable surjection
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>g</mi><mo>:</mo><mi>σ</mi><mi>ρ</mi><mi>X</mi><mo>→</mo><mi>Y</mi></mrow><annotation encoding="application/x-tex">g:\sigma\rho X\to Y</annotation></semantics></math>
+satisfying the BDC for
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo>𝜚</mo><mrow><mo stretchy="true" form="prefix">[</mo><mi>D</mi><mo stretchy="true" form="postfix">]</mo></mrow></mrow><annotation encoding="application/x-tex">\varrho[D]</annotation></semantics></math>.</li>
+</ul>
+<p>Then there is a stable map
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>h</mi><mo>:</mo><mi>σ</mi><mi>ρ</mi><mi>X</mi><mo>→</mo><mi>Y</mi><mi>′</mi></mrow><annotation encoding="application/x-tex">h:\sigma\rho X\to Y&#39;</annotation></semantics></math>
+satisfying the BDC for
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>D</mi><annotation encoding="application/x-tex">D</annotation></semantics></math>.</p></div></article><article class="proof-slide" id="source-recursive-procedure" data-proof-slide="recursive-procedure" hidden><div class="proof-source-meta"><span>Source text</span><span>Page 3</span></div><div class="proof-procedure-buttons" role="group" aria-label="Procedure steps"><button type="button" data-proof-segment="0" data-proof-owner="recursive-procedure" aria-controls="procedure-recursive-procedure-0" aria-pressed="true">Take maximal points</button><button type="button" data-proof-segment="1" data-proof-owner="recursive-procedure" aria-controls="procedure-recursive-procedure-1" aria-pressed="false">Pass to closed images</button><button type="button" data-proof-segment="2" data-proof-owner="recursive-procedure" aria-controls="procedure-recursive-procedure-2" aria-pressed="false">Separate by clopens</button><button type="button" data-proof-segment="3" data-proof-owner="recursive-procedure" aria-controls="procedure-recursive-procedure-3" aria-pressed="false">Define the new map</button></div><div class="proof-source-html"><section class="proof-procedure-segment" id="procedure-recursive-procedure-0" data-proof-segment-panel="0" data-proof-owner="recursive-procedure" ><p>Note
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo>max</mo><mrow><mo stretchy="true" form="prefix">(</mo><msup><mi>f</mi><mrow><mo>−</mo><mn>1</mn></mrow></msup><mrow><mo stretchy="true" form="prefix">[</mo><mo>•</mo><mo stretchy="true" form="postfix">]</mo></mrow><mo stretchy="true" form="postfix">)</mo></mrow></mrow><annotation encoding="application/x-tex">\max(f^{-1}[\bullet])</annotation></semantics></math>
+and
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo>max</mo><mrow><mo stretchy="true" form="prefix">(</mo><msup><mi>f</mi><mrow><mo>−</mo><mn>1</mn></mrow></msup><mrow><mo stretchy="true" form="prefix">[</mo><mi>x</mi><mo stretchy="true" form="postfix">]</mo></mrow><mo stretchy="true" form="postfix">)</mo></mrow></mrow><annotation encoding="application/x-tex">\max(f^{-1}[x])</annotation></semantics></math>
+are disjoint and closed. Moreover, because
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>X</mi><annotation encoding="application/x-tex">X</annotation></semantics></math>
+is a Grz-space, both these sets consist entirely of passive
+elements.</p></section><section class="proof-procedure-segment" id="procedure-recursive-procedure-1" data-proof-segment-panel="1" data-proof-owner="recursive-procedure" hidden><p>Consequently, their images
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>U</mi><mo>•</mo></msub><mo>:=</mo><mi>ρ</mi><mrow><mo stretchy="true" form="prefix">[</mo><mo>max</mo><mrow><mo stretchy="true" form="prefix">(</mo><msup><mi>f</mi><mrow><mo>−</mo><mn>1</mn></mrow></msup><mrow><mo stretchy="true" form="prefix">[</mo><mo>•</mo><mo stretchy="true" form="postfix">]</mo></mrow><mo stretchy="true" form="postfix">)</mo></mrow><mo stretchy="true" form="postfix">]</mo></mrow></mrow><annotation encoding="application/x-tex">U_{\bullet}:=\rho[\max(f^{-1}[\bullet])]</annotation></semantics></math>
+and
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>U</mi><mi>x</mi></msub><mo>:=</mo><mi>ρ</mi><mrow><mo stretchy="true" form="prefix">[</mo><mo>max</mo><mrow><mo stretchy="true" form="prefix">(</mo><msup><mi>f</mi><mrow><mo>−</mo><mn>1</mn></mrow></msup><mrow><mo stretchy="true" form="prefix">[</mo><mi>x</mi><mo stretchy="true" form="postfix">]</mo></mrow><mo stretchy="true" form="postfix">)</mo></mrow><mo stretchy="true" form="postfix">]</mo></mrow></mrow><annotation encoding="application/x-tex">U_x:=\rho[\max(f^{-1}[x])]</annotation></semantics></math>
+are closed in
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>σ</mi><mi>ρ</mi><mi>X</mi></mrow><annotation encoding="application/x-tex">\sigma\rho X</annotation></semantics></math>.</p></section><section class="proof-procedure-segment" id="procedure-recursive-procedure-2" data-proof-segment-panel="2" data-proof-owner="recursive-procedure" hidden><p>Now,
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msub><mi>U</mi><mo>•</mo></msub><annotation encoding="application/x-tex">U_{\bullet}</annotation></semantics></math>
+and
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msub><mi>U</mi><mi>x</mi></msub><annotation encoding="application/x-tex">U_x</annotation></semantics></math>
+are contained in the clopen
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>U</mi><mo>:=</mo><mi>ρ</mi><mrow><mo stretchy="true" form="prefix">(</mo><msup><mi>f</mi><mrow><mo>−</mo><mn>1</mn></mrow></msup><mo stretchy="false" form="prefix">{</mo><mi>x</mi><mo>,</mo><mo>•</mo><mo stretchy="false" form="postfix">}</mo><mo stretchy="true" form="postfix">)</mo></mrow></mrow><annotation encoding="application/x-tex">U:=\rho(f^{-1}\{x,\bullet\})</annotation></semantics></math>,
+thus we can partition
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>U</mi><annotation encoding="application/x-tex">U</annotation></semantics></math>
+in two clopens
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>V</mi><mi>x</mi></msub><mo>⊇</mo><msub><mi>U</mi><mi>x</mi></msub></mrow><annotation encoding="application/x-tex">V_x\supseteq U_x</annotation></semantics></math>
+and
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>V</mi><mo>•</mo></msub><mo>⊇</mo><msub><mi>U</mi><mo>•</mo></msub></mrow><annotation encoding="application/x-tex">V_{\bullet}\supseteq U_{\bullet}</annotation></semantics></math>.</p></section><section class="proof-procedure-segment" id="procedure-recursive-procedure-3" data-proof-segment-panel="3" data-proof-owner="recursive-procedure" hidden><p>We then put
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msup><mi>h</mi><mrow><mo>−</mo><mn>1</mn></mrow></msup><mrow><mo stretchy="true" form="prefix">(</mo><mi>x</mi><mo stretchy="true" form="postfix">)</mo></mrow><mo>=</mo><msub><mi>V</mi><mi>x</mi></msub></mrow><annotation encoding="application/x-tex">h^{-1}(x)=V_x</annotation></semantics></math>
+and
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msup><mi>h</mi><mrow><mo>−</mo><mn>1</mn></mrow></msup><mrow><mo stretchy="true" form="prefix">(</mo><mo>•</mo><mo stretchy="true" form="postfix">)</mo></mrow><mo>=</mo><msub><mi>V</mi><mo>•</mo></msub></mrow><annotation encoding="application/x-tex">h^{-1}(\bullet)=V_{\bullet}</annotation></semantics></math>.
+So
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>h</mi><annotation encoding="application/x-tex">h</annotation></semantics></math>
+is a stable surjection that satisfies the BDC for
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>D</mi><annotation encoding="application/x-tex">D</annotation></semantics></math>,
+as desired.</p>
+<p>For a more detailed description of this procedure see</p>
+<p>N. Bezhanishvili and A. M. Cleani, <a
+href="https://doi.org/10.1017/jsl.2025.10126"><em>Blok–Esakia theorems
+via stable canonical rules</em></a>, The Journal of Symbolic Logic
+<strong>91</strong>(1) (2026), 68–104.</p></section></div></article><article class="proof-slide" id="source-conclusion" data-proof-slide="conclusion" hidden><div class="proof-source-meta"><span>Source text</span><span>Page 3</span></div><div class="proof-source-html"><p>Having obtained Lemma 7, we prove Blok’s lemma following the
+algebraic proof strategy. Given a finite
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>S</mi><mn>4</mn></mrow><annotation encoding="application/x-tex">S4</annotation></semantics></math>-space
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>Y</mi><mo>=</mo><mrow><mo stretchy="true" form="prefix">(</mo><mi>Y</mi><mo>,</mo><mi>R</mi><mo stretchy="true" form="postfix">)</mo></mrow></mrow><annotation encoding="application/x-tex">Y=(Y,R)</annotation></semantics></math>,
+we set
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>Y</mi><mn>0</mn></msub><mo>=</mo><mi>σ</mi><mi>ρ</mi><mi>Y</mi></mrow><annotation encoding="application/x-tex">Y_0=\sigma\rho Y</annotation></semantics></math>
+and form the inverse chain</p>
+<p><math display="block" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>Y</mi><mn>0</mn></msub><mo>←</mo><msub><mi>Y</mi><mn>1</mn></msub><mo>←</mo><mi>.</mi><mi>.</mi><mi>.</mi><mo>←</mo><msub><mi>Y</mi><mi>n</mi></msub></mrow><annotation encoding="application/x-tex">Y_0\leftarrow Y_1\leftarrow...\leftarrow Y_n</annotation></semantics></math></p>
+<p>where
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>Y</mi><mi>n</mi></msub><mo>=</mo><mi>Y</mi></mrow><annotation encoding="application/x-tex">Y_n=Y</annotation></semantics></math>,
+and
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msub><mi>Y</mi><mrow><mi>i</mi><mo>+</mo><mn>1</mn></mrow></msub><annotation encoding="application/x-tex">Y_{i+1}</annotation></semantics></math>
+is obtained as some cluster-expansion of
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msub><mi>Y</mi><mi>i</mi></msub><annotation encoding="application/x-tex">Y_i</annotation></semantics></math>
+by one additional element; the existence of the surjections in the chain
+being guaranteed by Lemma 7. The algebra
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msub><mi>N</mi><mn>0</mn></msub><annotation encoding="application/x-tex">N_0</annotation></semantics></math>
+is the dual of
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msub><mi>Y</mi><mn>0</mn></msub><annotation encoding="application/x-tex">Y_0</annotation></semantics></math>,
+and the posets
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msub><mi>Y</mi><mi>k</mi></msub><annotation encoding="application/x-tex">Y_k</annotation></semantics></math>
+– whilst not being isomorphic to the dual of
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msub><mi>N</mi><mi>k</mi></msub><annotation encoding="application/x-tex">N_k</annotation></semantics></math>
+– can be seen as refinements of the decomposition given by the algebraic
+construction.</p></div></article></section><section class="proof-visual-panel" aria-label="Illustrations"><div class="proof-visual-heading"><button type="button" class="proof-inline-button" data-proof-popup="source-notes">Source notes</button></div><div id="proof-visual" class="proof-visual" aria-label="Illustration for the selected source slide"></div><p id="proof-visual-caption" class="proof-visual-caption" aria-live="polite"></p><div class="proof-animation-controls"><div class="proof-animation-buttons"><button type="button" id="proof-reveal" class="proof-nav-button">Reveal next step</button><button type="button" id="proof-restart" class="proof-inline-button">Restart</button><span id="proof-animation-count" class="proof-animation-count"></span></div></div></section></div><dialog id="proof-popup" class="proof-popup" aria-labelledby="proof-popup-title"><div class="proof-popup-heading"><h2 id="proof-popup-title"></h2><button type="button" id="proof-popup-close" aria-label="Close explanation">×</button></div><div id="proof-popup-body"></div></dialog><script id="proof-slide-data" type="application/json">[{"id":"context","title":"Blok-Esakia Theorem","scene":"adjunction","sourcePage":1,"initialStep":0},{"id":"contribution","title":"The dual proof","scene":"adjunction","sourcePage":1,"initialStep":0},{"id":"sigma-rho","title":"The Boolean envelope and open elements","scene":"operations","sourcePage":1,"initialStep":0},{"id":"dual","title":"The dual maps","scene":"dual","sourcePage":1,"initialStep":0},{"id":"blok","title":"Blok’s Lemma","scene":"none","sourcePage":1,"initialStep":0},{"id":"embedding","title":"The embedding lemma","scene":"embedding","sourcePage":2,"initialStep":0},{"id":"stable","title":"Stable maps and surjections","scene":"stable","sourcePage":2,"initialStep":0},{"id":"equivalence","title":"Equivalent formulations","scene":"equivalence","sourcePage":2,"initialStep":0},{"id":"one-step-algebra","title":"One algebraic step","scene":"embedding","sourcePage":2,"initialStep":0},{"id":"algebra-chain","title":"The finite algebra chain","scene":"embedding","sourcePage":2,"initialStep":0},{"id":"grz-choice","title":"Where Grz is used","scene":"terms","sourcePage":2,"initialStep":0},{"id":"passive","title":"Passive points","scene":"passive","sourcePage":3,"initialStep":0},{"id":"collapse","title":"Cluster reduction","scene":"dual","sourcePage":3,"initialStep":0},{"id":"one-step-dual","title":"One dual step","scene":"recursive","sourcePage":3,"initialStep":0},{"id":"recursive-procedure","title":"The recursive procedure","scene":"recursive","sourcePage":3,"initialStep":3,"segments":[{"label":"Take maximal points","visualStep":3},{"label":"Pass to closed images","visualStep":4},{"label":"Separate by clopens","visualStep":5},{"label":"Define the new map","visualStep":6}]},{"id":"conclusion","title":"Iterate and conclude","scene":"conclusion","sourcePage":3,"initialStep":0}]</script><script id="proof-route-aliases" type="application/json">{"sigma":"sigma-rho","rho":"sigma-rho","surjection":"stable","choose-map":"one-step-dual","maximal-fibres":"recursive-procedure","closed-images":"recursive-procedure","clopen-partition":"recursive-procedure","define-h":"recursive-procedure"}</script><script type="module" src="blok-proof.mjs"></script><noscript><style>.proof-slide[hidden],.proof-procedure-segment[hidden]{display:block!important}.proof-slide{margin-bottom:45px}.proof-visual-panel,.proof-navigation,.proof-progress,.proof-procedure-buttons{display:none!important}.proof-workspace{display:block!important}.proof-source-panel{max-height:none!important;overflow:visible!important}</style></noscript></main><script type="module" src="atlas-shell.mjs"></script></body></html>
